@@ -1,0 +1,785 @@
+{
+ "titel": "Strategiekompass",
+ "richtungen": [
+  {
+   "id": "vorbereiten",
+   "titel": "Vorbereiten",
+   "untertitel": "Aufgabe verstehen, Ziele setzen, planen",
+   "bg": "#23b2c6",
+   "fg": "#1c1c1c"
+  },
+  {
+   "id": "verarbeiten",
+   "titel": "Verarbeiten",
+   "untertitel": "Inhalte aufnehmen, ordnen und verstehen",
+   "bg": "#fbb900",
+   "fg": "#1c1c1c"
+  },
+  {
+   "id": "festigen",
+   "titel": "Festigen",
+   "untertitel": "Einprägen, üben, abrufen",
+   "bg": "#6169af",
+   "fg": "#ffffff"
+  },
+  {
+   "id": "steuern",
+   "titel": "Steuern",
+   "untertitel": "Konzentration, Motivation und Durchhalten",
+   "bg": "#ed6a69",
+   "fg": "#1c1c1c"
+  },
+  {
+   "id": "reflektieren",
+   "titel": "Reflektieren",
+   "untertitel": "Rückblick, Einschätzen, nächste Schritte",
+   "bg": "#167a8c",
+   "fg": "#ffffff"
+  },
+  {
+   "id": "zusammenarbeiten",
+   "titel": "Zusammenarbeiten",
+   "untertitel": "Voneinander lernen, sich austauschen",
+   "bg": "#3a3a3a",
+   "fg": "#ffffff"
+  }
+ ],
+ "situationen": [
+  {
+   "id": "start",
+   "titel": "Lernende kommen nicht in Gang"
+  },
+  {
+   "id": "verstehen",
+   "titel": "Lernende verstehen den Stoff nicht richtig"
+  },
+  {
+   "id": "behalten",
+   "titel": "Gelerntes bleibt nicht hängen"
+  },
+  {
+   "id": "ablenkung",
+   "titel": "Lernende lassen sich ablenken"
+  },
+  {
+   "id": "ueberblick",
+   "titel": "Lernende verlieren den Überblick"
+  },
+  {
+   "id": "stecken",
+   "titel": "Lernende bleiben stecken oder geben auf"
+  },
+  {
+   "id": "standort",
+   "titel": "Lernende wissen nicht, wo sie stehen"
+  },
+  {
+   "id": "mitlernen",
+   "titel": "Lernende arbeiten allein vor sich hin"
+  }
+ ],
+ "strategien": [
+  {
+   "id": "auftrag-wiedergeben",
+   "richtung": "vorbereiten",
+   "name": "Auftrag in eigenen Worten wiedergeben",
+   "kurz": "Die Lernenden sagen mit eigenen Worten, was das Ziel ist, welches Produkt entstehen soll und was dafür gefragt ist.",
+   "wann": "Wenn Lernende losarbeiten, ohne den Auftrag verstanden zu haben, oder wenn Sätze fallen wie «Ich weiss nicht, was ich machen soll».",
+   "warum": "Wer den Auftrag in eigene Worte fasst, merkt früh, was unklar ist, und kann passende Strategien und Ziele wählen.",
+   "einfuehren": "Fasse einen Auftrag laut denkend in zwei, drei Sätzen zusammen (Ziel, Produkt, Hilfsmittel). Lass danach zu zweit einen neuen Auftrag wiedergeben, bevor gestartet wird.",
+   "stolpersteine": "Prüfe zuerst deine Aufgabenstellung: Ist sie selbst klar? Sonst hilft auch die beste Strategie nicht.",
+   "situationen": [
+    "start",
+    "stecken"
+   ]
+  },
+  {
+   "id": "lernziel-formulieren",
+   "richtung": "vorbereiten",
+   "name": "Eigenes Lernziel formulieren",
+   "kurz": "Die Lernenden schreiben ein konkretes, überprüfbares Ziel auf, zum Beispiel «Bis Freitag kann ich ...».",
+   "wann": "Wenn Ziele vage bleiben («Ich will besser werden») oder Lernende das Ziel der Lehrperson nur übernehmen.",
+   "warum": "Ein klares eigenes Ziel gibt Richtung und macht später sichtbar, ob das Lernen gelungen ist.",
+   "einfuehren": "Zeige an einem Beispiel, wie ein vages Ziel («besser rechnen») zu einem konkreten wird («Ich löse fünf Textaufgaben ohne Hilfe»). Lass jede Person ein Ziel zur kommenden Einheit notieren.",
+   "stolpersteine": "Zu grosse oder zu viele Ziele überfordern. Starte mit einem einzigen Ziel pro Einheit.",
+   "situationen": [
+    "start",
+    "standort"
+   ]
+  },
+  {
+   "id": "vorwissen-aktivieren",
+   "richtung": "vorbereiten",
+   "name": "Vorwissen aktivieren",
+   "kurz": "Vor einem neuen Thema notieren die Lernenden, was sie schon wissen, was sie interessiert und was sie herausfinden möchten.",
+   "wann": "Zu Beginn eines neuen Themas, besonders wenn Lernende Mühe haben, Neues an Bekanntes anzuknüpfen.",
+   "warum": "Vorwissen erleichtert das Verstehen, und die eigenen Fragen machen das Thema persönlich bedeutsam.",
+   "einfuehren": "Gib drei Spalten vor (Das weiss ich / Das interessiert mich / Das möchte ich herausfinden). Fülle eine Zeile selbst an einem Beispiel aus, dann arbeiten die Lernenden allein oder zu zweit.",
+   "stolpersteine": "Falsches Vorwissen taucht ebenfalls auf. Das ist wertvoll, es braucht aber Zeit, es im Verlauf zu klären.",
+   "situationen": [
+    "start",
+    "verstehen"
+   ]
+  },
+  {
+   "id": "arbeitsplan",
+   "richtung": "vorbereiten",
+   "name": "Arbeitsplan erstellen",
+   "kurz": "Eine grössere Aufgabe wird in Teilschritte zerlegt, in eine Reihenfolge gebracht und mit Zeitangaben versehen.",
+   "wann": "Bei mehrteiligen Aufgaben, Projekten und Wochenplänen, wenn Lernende den Überblick verlieren oder zu spät beginnen.",
+   "warum": "Ein Plan macht den Weg überschaubar und hilft, die Zeit einzuteilen und den Fortschritt zu prüfen.",
+   "einfuehren": "Plane vor der Klasse eine Aufgabe laut denkend: Was muss alles getan werden? Was zuerst? Wie lange etwa? Danach erstellen die Lernenden ihren eigenen Plan und dürfen ihn später anpassen.",
+   "stolpersteine": "Pläne scheitern oft an unrealistischen Zeitschätzungen. Plane gemeinsam Pufferzeit ein und erlaube Änderungen.",
+   "situationen": [
+    "ueberblick",
+    "start"
+   ]
+  },
+  {
+   "id": "wenn-dann-plan",
+   "richtung": "vorbereiten",
+   "name": "Wenn-dann-Plan",
+   "kurz": "Die Lernenden legen im Voraus fest, was sie tun, wenn ein bestimmtes Problem auftritt: «Wenn ich nicht weiterkomme, dann ...».",
+   "wann": "Wenn Lernende bei Schwierigkeiten sofort stecken bleiben oder sich ablenken lassen.",
+   "warum": "Ein vorab gefasster Plan nimmt die Entscheidung im schwierigen Moment ab und macht ein Handeln wahrscheinlicher.",
+   "einfuehren": "Sammle mit der Klasse typische Hürden und mögliche Reaktionen (Strategiekarte lesen, Partner fragen, Aufgabe überspringen). Die Lernenden formulieren dazu eigene Wenn-dann-Sätze.",
+   "stolpersteine": "Allgemeine Sätze («Dann konzentriere ich mich») nützen wenig. Der Plan muss konkret und machbar sein.",
+   "situationen": [
+    "stecken",
+    "ablenkung"
+   ]
+  },
+  {
+   "id": "arbeitsplatz-vorbereiten",
+   "richtung": "vorbereiten",
+   "name": "Material und Arbeitsplatz vorbereiten",
+   "kurz": "Vor dem Start legen die Lernenden Material und Hilfsmittel bereit und gestalten ihren Arbeitsplatz so, dass er das Arbeiten unterstützt.",
+   "wann": "Wenn viel Zeit mit Suchen verloren geht oder der Platz ablenkt.",
+   "warum": "Wer gut vorbereitet startet, verliert weniger Konzentration durch Unterbrechungen.",
+   "einfuehren": "Erstelle mit der Klasse eine Checkliste (Material, Hilfsmittel, Handy weg, Wasser). Lass sie vor der nächsten Arbeitsphase kurz abhaken.",
+   "stolpersteine": "Der Ablauf darf nicht zum Selbstzweck werden. Halte die Checkliste kurz.",
+   "situationen": [
+    "ablenkung",
+    "start"
+   ]
+  },
+  {
+   "id": "strategie-waehlen",
+   "richtung": "vorbereiten",
+   "name": "Passende Strategie auswählen",
+   "kurz": "Vor einer Aufgabe überlegen die Lernenden, welche Strategie passt und warum.",
+   "wann": "Wenn mehrere Strategien bekannt sind, aber immer die gleiche oder keine eingesetzt wird.",
+   "warum": "Wer Strategien bewusst auswählt, baut Strategiewissen auf und merkt, dass nicht jede Strategie überall gleich gut passt.",
+   "einfuehren": "Zeige an zwei verschiedenen Aufgaben, welche Strategie du wählst und warum. Die Lernenden begründen anschliessend ihre eigene Wahl mit den Fragen: Was, wann, wie, warum?",
+   "stolpersteine": "Die Wahl soll begründet werden. «Das mache ich immer so» genügt noch nicht.",
+   "situationen": [
+    "stecken",
+    "verstehen"
+   ]
+  },
+  {
+   "id": "erfolgskriterien",
+   "richtung": "vorbereiten",
+   "name": "Erfolgskriterien klären",
+   "kurz": "Die Lernenden halten vorab fest, woran sie erkennen, dass die Aufgabe gelungen ist. Idealerweise legen sie die Kriterien mit fest.",
+   "wann": "Wenn unklar ist, was gute Arbeit ausmacht, oder Lernende ihr Produkt kaum einschätzen können.",
+   "warum": "Klare Kriterien machen Erwartungen transparent und erleichtern die Einschätzung des eigenen Lernens.",
+   "einfuehren": "Sammle gemeinsam Merkmale eines guten Produkts, zum Beispiel auf einer Kriterienkarte. Nach der Arbeit schätzen die Lernenden ihr Ergebnis mit denselben Kriterien ein.",
+   "stolpersteine": "Zu viele Kriterien verwässern. Drei bis vier gut formulierte Kriterien reichen.",
+   "situationen": [
+    "standort",
+    "start"
+   ]
+  },
+  {
+   "id": "sq3r",
+   "richtung": "verarbeiten",
+   "name": "SQ3R-Lesemethode",
+   "kurz": "Fünfschrittige Lesestrategie: Überblick gewinnen, Fragen stellen, gründlich lesen, Wichtiges wiedergeben, Gelesenes wiederholen.",
+   "wann": "Beim Erarbeiten längerer Sachtexte, wenn Lernende bloss durchlesen und danach wenig behalten.",
+   "warum": "Die Methode macht aus passivem Lesen aktives Verarbeiten: Vorwissen und Fragen werden eingebunden und das Gelesene wird abgerufen.",
+   "einfuehren": "Kündige die Strategie an (was, wann, wie, warum). Zeige an einem kurzen Text jeden Schritt laut denkend vor. Die Lernenden üben ihn dann an einem ähnlichen Text mit einer Schrittkarte.",
+   "stolpersteine": "Fünf Schritte wirken am Anfang aufwendig. Plane Zeit zum Üben ein und erkläre, dass es zuerst anstrengend ist.",
+   "situationen": [
+    "verstehen",
+    "behalten"
+   ]
+  },
+  {
+   "id": "gezielt-markieren",
+   "richtung": "verarbeiten",
+   "name": "Gezielt markieren",
+   "kurz": "Nur Schlüsselstellen werden markiert, danach in eigenen Worten festgehalten.",
+   "wann": "Wenn Lernende ganze Seiten bunt anmalen, ohne das Wesentliche zu erfassen.",
+   "warum": "Wer auswählen muss, setzt sich mit dem Inhalt auseinander. Markieren allein genügt allerdings noch nicht.",
+   "einfuehren": "Zeige an einem Absatz, wie du entscheidest, was wichtig ist. Begrenze die Menge («Höchstens ein Satz pro Absatz») und lass die Lernenden das Markierte anschliessend in eigenen Worten notieren.",
+   "stolpersteine": "Markieren fühlt sich nach Arbeit an, bringt aber wenig, wenn danach nichts damit gemacht wird.",
+   "situationen": [
+    "verstehen",
+    "ueberblick"
+   ]
+  },
+  {
+   "id": "zusammenfassen",
+   "richtung": "verarbeiten",
+   "name": "In eigenen Worten zusammenfassen",
+   "kurz": "Kernaussagen werden kurz und in eigenen Worten festgehalten.",
+   "wann": "Wenn Inhalte verdichtet werden sollen oder Lernende lange Passagen abschreiben.",
+   "warum": "Zusammenfassen zwingt zum Verstehen und Gewichten.",
+   "einfuehren": "Gib eine Vorgabe (zum Beispiel drei Sätze oder 30 Wörter). Zeige vor, wie du von einem Text auf die Kernaussage kommst, und lass die Lernenden Zusammenfassungen vergleichen.",
+   "stolpersteine": "Ohne Längenvorgabe werden Zusammenfassungen oft zu lang oder bestehen nur aus Abgeschriebenem.",
+   "situationen": [
+    "verstehen",
+    "ueberblick"
+   ]
+  },
+  {
+   "id": "concept-map",
+   "richtung": "verarbeiten",
+   "name": "Concept-Map",
+   "kurz": "Begriffe werden als Netz dargestellt: Pfeile mit Beschriftung zeigen, wie die Begriffe zusammenhängen.",
+   "wann": "Wenn Zusammenhänge im Fach wichtig sind, zum Beispiel in Biologie, Geschichte oder Geografie.",
+   "warum": "Beziehungen müssen aktiv benannt werden, dadurch entsteht ein tieferes Verständnis als bei einer reinen Aufzählung.",
+   "einfuehren": "Baue eine kleine Concept-Map zu einem bekannten Thema laut denkend auf. Gib anfangs Schlüsselbegriffe vor. Später vergleichen die Lernenden ihre Maps untereinander oder mit einer Musterlösung.",
+   "stolpersteine": "Pfeile ohne Beschriftung sind wenig aussagekräftig. Verlange zu jedem Pfeil ein Verb oder eine kurze Beziehung.",
+   "situationen": [
+    "verstehen",
+    "ueberblick"
+   ]
+  },
+  {
+   "id": "mindmap",
+   "richtung": "verarbeiten",
+   "name": "Mindmap",
+   "kurz": "Ein Thema steht in der Mitte, Hauptäste und Unteräste gliedern die Gedanken.",
+   "wann": "Beim Sammeln von Ideen oder wenn ein Thema in Teilbereiche gegliedert werden soll.",
+   "warum": "Die räumliche Anordnung macht Struktur sichtbar und lädt zum Ergänzen ein.",
+   "einfuehren": "Starte mit einem vertrauten Thema, zum Beispiel «Meine Woche». Zeige, wie Oberbegriffe und Unterpunkte entstehen, bevor ein Fachthema folgt.",
+   "stolpersteine": "Mindmaps eignen sich weniger für Verfahren oder Abläufe. Bei Zusammenhängen ist die Concept-Map oft besser.",
+   "situationen": [
+    "ueberblick",
+    "start"
+   ]
+  },
+  {
+   "id": "gliedern",
+   "richtung": "verarbeiten",
+   "name": "Gliedern und Strukturieren",
+   "kurz": "Inhalte werden in Oberbegriffe und Unterpunkte geordnet, als Tabelle, Schema oder Gliederung.",
+   "wann": "Wenn viel Stoff ungeordnet vorliegt und Lernende den roten Faden nicht erkennen.",
+   "warum": "Eine eigene Ordnung hilft, den Stoff zu überblicken und sich später daran zu erinnern.",
+   "einfuehren": "Sortiere vor der Klasse durcheinander gewürfelte Begriffe in eine Struktur und begründe dein Vorgehen. Lass die Lernenden anschliessend ihre eigene Struktur erstellen.",
+   "stolpersteine": "Gib nicht gleich die fertige Ordnung vor, sonst fehlt die eigene Denkarbeit.",
+   "situationen": [
+    "ueberblick",
+    "verstehen"
+   ]
+  },
+  {
+   "id": "notizzettel-ordnen",
+   "richtung": "verarbeiten",
+   "name": "Notizzettel ordnen",
+   "kurz": "Einzelne Gedanken werden auf Zettel geschrieben und auf dem Tisch oder an der Wand zu einer Ordnung gelegt.",
+   "wann": "Beim Vorbereiten eines Textes oder Vortrags, wenn die Gedanken noch durcheinander sind.",
+   "warum": "Verschiebbare Zettel erlauben es, die Ordnung auszuprobieren, ohne etwas neu schreiben zu müssen.",
+   "einfuehren": "Zeige, wie du Gedanken sammelst, gruppierst und umstellst. Lass die Lernenden eine Aufgabe damit bearbeiten und zum Schluss beschreiben, was ihnen die Ordnung gebracht hat.",
+   "stolpersteine": "Ein Zettel enthält nur einen Gedanken. Mehrere Gedanken pro Zettel lassen sich schlecht ordnen.",
+   "situationen": [
+    "ueberblick",
+    "start"
+   ]
+  },
+  {
+   "id": "sich-selbst-erklaeren",
+   "richtung": "verarbeiten",
+   "name": "Sich selbst erklären",
+   "kurz": "Ein Inhalt wird laut oder schriftlich erklärt, als würde man ihn jemandem beibringen.",
+   "wann": "Wenn geprüft werden soll, ob etwas wirklich verstanden wurde.",
+   "warum": "Beim Erklären fallen Lücken auf, die beim blossen Lesen verborgen bleiben.",
+   "einfuehren": "Erkläre selbst einen Inhalt vor und lasse bewusst eine Lücke auffallen. Die Lernenden erklären dann einer Partnerin oder einem Partner, oder auch einem Gegenstand.",
+   "stolpersteine": "Wenn nur nachgesprochen wird, ist es keine Erklärung. Ermuntere zu «Das heisst, dass ...» und «Weil ...».",
+   "situationen": [
+    "verstehen",
+    "behalten"
+   ]
+  },
+  {
+   "id": "warum-fragen",
+   "richtung": "verarbeiten",
+   "name": "Warum-Fragen stellen",
+   "kurz": "Bei jeder Aussage wird gefragt: Warum stimmt das? Warum gilt das hier, aber nicht dort?",
+   "wann": "Wenn Fakten nur auswendig gelernt werden und das Verständnis fehlt.",
+   "warum": "Wer begründet, verknüpft Neues mit Bekanntem und erkennt Zusammenhänge.",
+   "einfuehren": "Modelliere vor, wie du zu einer Aussage Warum-Fragen stellst und beantwortest. Lass die Lernenden bei einem Text mindestens drei Warum-Fragen formulieren und beantworten.",
+   "stolpersteine": "Ohne passendes Vorwissen laufen Warum-Fragen ins Leere. Stelle Material bereit, in dem Antworten zu finden sind.",
+   "situationen": [
+    "verstehen"
+   ]
+  },
+  {
+   "id": "beispiele-finden",
+   "richtung": "verarbeiten",
+   "name": "Beispiele und Gegenbeispiele suchen",
+   "kurz": "Zu einem Begriff werden eigene Beispiele gesucht, ebenso Fälle, die nicht dazu passen.",
+   "wann": "Bei abstrakten Begriffen und Regeln.",
+   "warum": "Beispiele machen Abstraktes greifbar, Gegenbeispiele schärfen die Abgrenzung.",
+   "einfuehren": "Zeige an einem Begriff, wie du ein typisches und ein Gegenbeispiel findest. Die Lernenden sammeln Beispiele zu neuen Begriffen und tauschen sie aus.",
+   "stolpersteine": "Beispiele nur aus dem Lehrmittel wiederholen Bekanntes. Verlange eigene.",
+   "situationen": [
+    "verstehen"
+   ]
+  },
+  {
+   "id": "alltagsbezug",
+   "richtung": "verarbeiten",
+   "name": "Verbindung zum Alltag herstellen",
+   "kurz": "Die Lernenden fragen sich: Was hat das mit mir zu tun? Wo begegne ich dem Thema im Alltag?",
+   "wann": "Wenn ein Thema als fern oder uninteressant erlebt wird.",
+   "warum": "Persönliche Bedeutsamkeit steigert Interesse und Bereitschaft, Strategien einzusetzen.",
+   "einfuehren": "Beginne ein Thema mit einer Frage wie «Wo begegnet euch das?». Lass die Lernenden Bezüge sammeln, zum Beispiel in den Spalten Ich, Thema und Welt.",
+   "stolpersteine": "Gezwungene Bezüge wirken künstlich. Greife auf, was die Lernenden tatsächlich nennen.",
+   "situationen": [
+    "start",
+    "verstehen"
+   ]
+  },
+  {
+   "id": "analogien-bilder",
+   "richtung": "verarbeiten",
+   "name": "Analogien und Bilder nutzen",
+   "kurz": "Etwas Neues wird mit Bekanntem verglichen oder gezeichnet.",
+   "wann": "Wenn ein Konzept schwer vorstellbar ist.",
+   "warum": "Vergleiche und Skizzen knüpfen an Vorstellungen an, die schon vorhanden sind.",
+   "einfuehren": "Erkläre ein Konzept mit einem Vergleich und zeige, wo er endet. Die Lernenden erfinden eigene Bilder und diskutieren, wo sie passen und wo nicht.",
+   "stolpersteine": "Jede Analogie hinkt. Benenne ausdrücklich, wo das Bild nicht mehr stimmt.",
+   "situationen": [
+    "verstehen"
+   ]
+  },
+  {
+   "id": "loesungsbeispiele",
+   "richtung": "verarbeiten",
+   "name": "Gelöste Beispiele studieren",
+   "kurz": "Ein ausgearbeitetes Lösungsbeispiel wird Schritt für Schritt nachvollzogen, danach folgt eine ähnliche Aufgabe.",
+   "wann": "Beim Einführen neuer Verfahren, etwa in Mathematik oder Naturwissenschaften.",
+   "warum": "Das gelöste Beispiel entlastet das Arbeitsgedächtnis und zeigt, wie ein Vorgehen aufgebaut ist.",
+   "einfuehren": "Löse ein Beispiel laut denkend und begründe jeden Schritt. Gib danach ein gleichartiges Beispiel mit einer Lücke, dann eine eigene Aufgabe.",
+   "stolpersteine": "Das Beispiel muss wirklich verstanden werden. Frage nach dem Warum jedes Schritts.",
+   "situationen": [
+    "verstehen",
+    "stecken"
+   ]
+  },
+  {
+   "id": "laut-denken",
+   "richtung": "verarbeiten",
+   "name": "Laut denken",
+   "kurz": "Das eigene Vorgehen beim Lösen einer Aufgabe wird Schritt für Schritt ausgesprochen.",
+   "wann": "Wenn Denkwege sichtbar gemacht werden sollen oder Lernende nicht erklären können, wie sie vorgegangen sind.",
+   "warum": "Das Aussprechen macht Entscheidungen und Fehler greifbar und lässt sich von anderen nachvollziehen.",
+   "einfuehren": "Mache es zuerst selbst vor, auch mit Zögern, Umwegen und Korrekturen. Dann denken die Lernenden zu zweit abwechselnd laut, während die andere Person zuhört.",
+   "stolpersteine": "Wenn du nur fehlerfreie Lösungen vorführst, lernen die Lernenden Rezepte. Zeige auch, wie du dich verbesserst.",
+   "situationen": [
+    "verstehen",
+    "stecken"
+   ]
+  },
+  {
+   "id": "abrufen",
+   "richtung": "festigen",
+   "name": "Abrufen statt Wiederlesen",
+   "kurz": "Die Lernenden fragen sich selbst ab, ohne ins Material zu schauen, und vergleichen danach mit der Vorlage.",
+   "wann": "Bei Vorbereitung auf Tests und wenn Lernende viel Zeit mit Durchlesen verbringen.",
+   "warum": "Das Abrufen aus dem Gedächtnis stärkt das Behalten stärker als erneutes Lesen.",
+   "einfuehren": "Zeige den Unterschied: Lies einen Abschnitt, decke ihn zu und schreibe auf, was du noch weisst. Lass die Lernenden dasselbe tun und die Lücken markieren.",
+   "stolpersteine": "Abrufen fühlt sich schwerer an als Wiederlesen. Erkläre, dass genau diese Anstrengung nützt.",
+   "situationen": [
+    "behalten"
+   ]
+  },
+  {
+   "id": "lernkaertchen",
+   "richtung": "festigen",
+   "name": "Lernkärtchen",
+   "kurz": "Die Frage steht auf der Vorderseite, die Antwort auf der Rückseite. Die Kärtchen werden wiederholt abgefragt.",
+   "wann": "Bei Vokabeln, Begriffen, Formeln und Jahreszahlen.",
+   "warum": "Kärtchen erlauben aktives Abrufen und lassen sich nach Schwierigkeit sortieren.",
+   "einfuehren": "Erstelle vor der Klasse drei Karten und zeige, wie du sie in Stapel sortierst. Die Lernenden erstellen eigene Karten und üben zu zweit.",
+   "stolpersteine": "Für das Verstehen von Zusammenhängen eignen sich Kärtchen weniger. Mache das mit den Lernenden bewusst zum Thema.",
+   "situationen": [
+    "behalten"
+   ]
+  },
+  {
+   "id": "verteilt-lernen",
+   "richtung": "festigen",
+   "name": "Verteilt lernen",
+   "kurz": "Das Üben wird auf mehrere Tage verteilt, statt alles kurz vor dem Test zu lernen.",
+   "wann": "Vor Prüfungen und bei Stoff, der langfristig behalten werden soll.",
+   "warum": "Mit Pausen zwischen den Lerneinheiten bleibt Gelerntes länger im Gedächtnis.",
+   "einfuehren": "Zeige an einem Kalender, wie sich 30 Minuten pro Tag über eine Woche verteilen. Lass die Lernenden eine kleine Planung für den nächsten Test machen.",
+   "stolpersteine": "Verteiltes Lernen braucht Planung und beginnt früh. Plane es im Unterricht ein, zum Beispiel mit kurzen Wiederholungen.",
+   "situationen": [
+    "behalten",
+    "ueberblick"
+   ]
+  },
+  {
+   "id": "gemischt-ueben",
+   "richtung": "festigen",
+   "name": "Gemischt üben",
+   "kurz": "Aufgabentypen werden abgewechselt, statt einen Typ nach dem anderen zu üben.",
+   "wann": "Wenn Lernende ein Verfahren in einer Übungsreihe können, es in einer Mischung aber nicht mehr erkennen.",
+   "warum": "Beim Mischen muss man jedes Mal neu entscheiden, welches Verfahren passt.",
+   "einfuehren": "Stelle bewusst Aufgaben verschiedener Typen zusammen. Zeige, wie du bei jeder Aufgabe zuerst fragst: Was für ein Typ ist das?",
+   "stolpersteine": "Gemischtes Üben fühlt sich schwerer an und führt anfangs zu mehr Fehlern. Kündige das an.",
+   "situationen": [
+    "behalten",
+    "stecken"
+   ]
+  },
+  {
+   "id": "eselsbruecken",
+   "richtung": "festigen",
+   "name": "Eselsbrücken",
+   "kurz": "Merkhilfen, Reime oder Bilder helfen, Reihenfolgen oder Listen zu behalten.",
+   "wann": "Bei Listen, Reihenfolgen und Regeln, die sich nicht herleiten lassen.",
+   "warum": "Eine eigene Verknüpfung macht Unzusammenhängendes leichter abrufbar.",
+   "einfuehren": "Erfinde mit der Klasse eine Eselsbrücke zu einem Merkstoff. Die Lernenden dürfen eigene, auch witzige, erfinden und vergleichen.",
+   "stolpersteine": "Eselsbrücken ersetzen kein Verstehen. Setze sie nur dort ein, wo Auswendiglernen sinnvoll ist.",
+   "situationen": [
+    "behalten"
+   ]
+  },
+  {
+   "id": "uebungsaufgaben-erstellen",
+   "richtung": "festigen",
+   "name": "Übungsaufgaben selbst erstellen",
+   "kurz": "Die Lernenden formulieren eigene Test- oder Prüfungsfragen und beantworten sie.",
+   "wann": "Bei der Prüfungsvorbereitung und beim Wiederholen.",
+   "warum": "Wer Fragen stellt, überlegt, was wichtig ist, und prüft sein Verständnis.",
+   "einfuehren": "Zeige, wie du aus einem Text gute Fragen ableitest, zum Beispiel Warum- und Wie-Fragen. Die Lernenden tauschen ihre Fragen aus und beantworten sie gegenseitig.",
+   "stolpersteine": "Reine Faktenfragen reichen nicht. Bitte auch um Fragen, die ein Verstehen verlangen.",
+   "situationen": [
+    "behalten",
+    "verstehen"
+   ]
+  },
+  {
+   "id": "fehleranalyse",
+   "richtung": "festigen",
+   "name": "Fehleranalyse",
+   "kurz": "Fehler werden gesammelt, die Ursache wird benannt und der nächste Schritt festgelegt.",
+   "wann": "Wenn dieselben Fehler wiederholt auftreten.",
+   "warum": "Fehler liefern Informationen über das eigene Lernen. Wer die Ursache kennt, kann gezielt üben.",
+   "einfuehren": "Analysiere einen eigenen Fehler vor der Klasse mit den Fragen: Was ist passiert? Warum? Was mache ich nächstes Mal anders? Lass die Lernenden das an einem eigenen Fehler tun.",
+   "stolpersteine": "Ohne eine sichere Fehlerkultur zeigt niemand gern Fehler. Gehe selbst mit gutem Beispiel voran.",
+   "situationen": [
+    "stecken",
+    "behalten"
+   ]
+  },
+  {
+   "id": "zwischenkontrolle",
+   "richtung": "steuern",
+   "name": "Zwischenkontrolle (Monitoring)",
+   "kurz": "Während der Arbeit halten die Lernenden an und fragen sich: Bin ich noch auf dem richtigen Weg?",
+   "wann": "Wenn Lernende lange am Falschen arbeiten oder vom Ziel abkommen.",
+   "warum": "Wer sein Vorgehen zwischendurch prüft, bemerkt Probleme früh und kann gegensteuern.",
+   "einfuehren": "Vereinbare feste Haltepunkte (zum Beispiel ein Signal nach 10 Minuten) mit zwei Fragen: Wo stehe ich? Was ist mein nächster Schritt? Mache die Haltepunkte zuerst selbst vor.",
+   "stolpersteine": "Zu häufige Unterbrechungen stören. Wähle Zeitpunkte, die zur Aufgabe passen.",
+   "situationen": [
+    "stecken",
+    "standort"
+   ]
+  },
+  {
+   "id": "pomodoro",
+   "richtung": "steuern",
+   "name": "Pomodoro-Technik",
+   "kurz": "In kurzen Blöcken wird konzentriert gearbeitet, zum Beispiel 25 Minuten, danach folgt eine kurze Pause.",
+   "wann": "Wenn Lernende bei längeren Arbeitsphasen die Konzentration verlieren.",
+   "warum": "Ein überschaubarer Zeitblock und regelmässige Pausen erleichtern es, am Ball zu bleiben.",
+   "einfuehren": "Probiere die Technik gemeinsam in der Klasse mit einem Timer aus. Lass die Lernenden danach beurteilen, ob sie ihnen hilft, und die Blocklänge anpassen.",
+   "stolpersteine": "Die ideale Blocklänge hängt von Alter und Aufgabe ab. Beginne eher kürzer.",
+   "situationen": [
+    "ablenkung",
+    "stecken"
+   ]
+  },
+  {
+   "id": "ablenkung-reduzieren",
+   "richtung": "steuern",
+   "name": "Ablenkungen reduzieren",
+   "kurz": "Störquellen wie Handy oder Lärm werden bewusst ausgeschaltet oder ferngehalten, ein ruhiger Arbeitsplatz wird gewählt.",
+   "wann": "Wenn äussere Reize die Arbeit immer wieder unterbrechen.",
+   "warum": "Weniger Ablenkung bedeutet mehr Kapazität für die eigentliche Aufgabe.",
+   "einfuehren": "Sammle gemeinsam Ablenkungen und Gegenmittel. Lass die Lernenden eine Massnahme wählen, ausprobieren und später berichten, ob sie gewirkt hat.",
+   "stolpersteine": "Ablenkung ist nicht nur äusserlich. Auch Gedanken und Gefühle können stören, daher ergänze Selbstgespräche und Emotionen benennen.",
+   "situationen": [
+    "ablenkung"
+   ]
+  },
+  {
+   "id": "selbstgespraeche",
+   "richtung": "steuern",
+   "name": "Selbstgespräche",
+   "kurz": "Die Lernenden leiten sich mit ermutigenden oder lenkenden Sätzen an, zum Beispiel «Ein Schritt nach dem anderen».",
+   "wann": "Bei Zweifeln, Frust oder Nervosität vor einer Aufgabe.",
+   "warum": "Innere Sprache kann Gedanken lenken und die Stimmung beeinflussen.",
+   "einfuehren": "Zeige, wie du dir selbst einen Satz sagst, wenn du an einer Aufgabe hängst. Lass die Lernenden hilfreiche Sätze sammeln und einen persönlichen auswählen.",
+   "stolpersteine": "Gegenüber Jugendlichen darf der Satz nicht aufgesetzt klingen. Die Lernenden sollen ihn in ihren eigenen Worten formulieren.",
+   "situationen": [
+    "stecken",
+    "start"
+   ]
+  },
+  {
+   "id": "kleine-schritte",
+   "richtung": "steuern",
+   "name": "In kleine Schritte teilen",
+   "kurz": "Es wird nur der nächste Schritt in den Blick genommen, statt die ganze Aufgabe zu überschauen.",
+   "wann": "Wenn eine Aufgabe zu gross wirkt und Lernende nicht anfangen.",
+   "warum": "Kleine Schritte sind besser zu bewältigen und machen Fortschritte sichtbar.",
+   "einfuehren": "Nimm eine grosse Aufgabe und teile sie sichtbar in Teilschritte. Frage: Was ist der allerkleinste erste Schritt?",
+   "stolpersteine": "Wenn jeder Schritt vorgegeben wird, wird die Aufgabe zur Anleitung. Lass die Lernenden selbst teilen.",
+   "situationen": [
+    "start",
+    "ueberblick"
+   ]
+  },
+  {
+   "id": "belohnung",
+   "richtung": "steuern",
+   "name": "Belohnung einplanen",
+   "kurz": "Nach einem Etappenziel gönnen sich die Lernenden etwas Angenehmes.",
+   "wann": "Wenn das Dranbleiben schwerfällt.",
+   "warum": "Eine angenehme Aussicht kann helfen, auch mühsame Phasen durchzuhalten.",
+   "einfuehren": "Besprich, was als Belohnung taugt (Pause, Musik, kurzer Spaziergang). Lass die Lernenden eine Etappe und eine Belohnung festlegen.",
+   "stolpersteine": "Die Belohnung darf die Konzentration nicht abbrechen. Eine Stunde Spielkonsole ist keine kleine Pause.",
+   "situationen": [
+    "stecken",
+    "start"
+   ]
+  },
+  {
+   "id": "pausen-bewegung",
+   "richtung": "steuern",
+   "name": "Pausen und Bewegung",
+   "kurz": "Kurze, bewusst gestaltete Pausen mit Bewegung, Trinken oder frischer Luft.",
+   "wann": "Bei Müdigkeit, Unruhe oder nachlassender Konzentration.",
+   "warum": "Erholung hilft, die Aufmerksamkeit wieder aufzubauen.",
+   "einfuehren": "Mache die Pause gemeinsam vor und beschreibe, was du in der Pause tust und was du vermeidest. Die Lernenden probieren verschiedene Pausen aus und vergleichen.",
+   "stolpersteine": "Eine Pause am Handy erholt oft nicht. Besprich Pausen, die tatsächlich erholen.",
+   "situationen": [
+    "ablenkung",
+    "stecken"
+   ]
+  },
+  {
+   "id": "hilfe-holen",
+   "richtung": "steuern",
+   "name": "Hilfe holen",
+   "kurz": "Die Lernenden holen gezielt Unterstützung, zum Beispiel bei einer Partnerin, einem Hilfefenster oder in einer Strategiebox.",
+   "wann": "Wenn Lernende nicht mehr weiterkommen und warten oder aufgeben.",
+   "warum": "Hilfe zu suchen ist eine Strategie. Mit klaren Abläufen fällt es leichter und ist weniger heikel.",
+   "einfuehren": "Etabliere einen Ablauf (zuerst Aufgabe nochmals lesen, dann Hilfekarte, dann Partner, dann Lehrperson). Betone, dass Hilfeholen eine Stärke ist, und zeige es an dir selbst.",
+   "stolpersteine": "Wenn Hilfeholen als Schwäche gilt, fragt niemand. Das Klima in der Klasse ist entscheidend.",
+   "situationen": [
+    "stecken",
+    "standort"
+   ]
+  },
+  {
+   "id": "strategie-wechseln",
+   "richtung": "steuern",
+   "name": "Strategie wechseln",
+   "kurz": "Wenn etwas nicht funktioniert, probieren die Lernenden bewusst eine andere Strategie aus.",
+   "wann": "Wenn Lernende bei der gleichen Methode bleiben, obwohl sie nicht zum Ziel führt.",
+   "warum": "Flexibilität im Vorgehen ist ein Merkmal selbstregulierten Lernens.",
+   "einfuehren": "Zeige an einem Beispiel, wie du merkst, dass eine Strategie nicht passt, und wie du die Strategie wechselst. Führe in der Klasse eine «Plan-B-Liste».",
+   "stolpersteine": "Zu schnelles Wechseln verhindert, dass Strategien eingeübt werden. Erst genügend ausprobieren, dann wechseln.",
+   "situationen": [
+    "stecken"
+   ]
+  },
+  {
+   "id": "emotionen-benennen",
+   "richtung": "steuern",
+   "name": "Emotionen wahrnehmen und benennen",
+   "kurz": "Die Lernenden benennen, wie es ihnen geht, und überlegen, was jetzt helfen könnte.",
+   "wann": "Bei Stress, Prüfungsangst oder Frust, wenn Gefühle das Arbeiten blockieren.",
+   "warum": "Wer Gefühle erkennt und benennt, kann eher mit ihnen umgehen.",
+   "einfuehren": "Führe einen kurzen Check-in ein (Wie geht es mir mit dem Lernen heute?), zum Beispiel mit Skala oder Wetterbild. Sprich ruhig über eigene Gefühle bei Aufgaben.",
+   "stolpersteine": "Der Check-in bleibt freiwillig. Niemand soll sich zu Privatem äussern müssen.",
+   "situationen": [
+    "ablenkung",
+    "stecken"
+   ]
+  },
+  {
+   "id": "selbsteinschaetzung",
+   "richtung": "reflektieren",
+   "name": "Selbsteinschätzung",
+   "kurz": "Die Lernenden schätzen ein, was sie schon können und was noch nicht, zum Beispiel mit einer Skala oder Ampel.",
+   "wann": "Wenn Lernende ihren Stand schlecht kennen oder über- bzw. unterschätzen.",
+   "warum": "Wer seinen Stand kennt, kann das Lernen gezielt anpassen.",
+   "einfuehren": "Zeige, wie du dich selbst einschätzt, und begründe deine Einschätzung mit einem Beleg. Vergleiche später Selbst- und Fremdeinschätzung im Gespräch.",
+   "stolpersteine": "Einschätzungen sind anfangs oft ungenau. Das ist normal. Das Ziel ist das Gespräch darüber.",
+   "situationen": [
+    "standort"
+   ]
+  },
+  {
+   "id": "lernjournal",
+   "richtung": "reflektieren",
+   "name": "Lernjournal",
+   "kurz": "Die Lernenden halten regelmässig fest, was gelungen ist, was schwierig war und was als Nächstes folgt.",
+   "wann": "Wenn Lernwege sichtbar gemacht und über längere Zeit verfolgt werden sollen.",
+   "warum": "Schreiben macht Gedanken fassbar und zeigt Entwicklung über die Zeit.",
+   "einfuehren": "Gib eine feste Struktur mit wenigen Leitfragen vor. Schreibe zu Beginn einige Einträge gemeinsam und gib Rückmeldungen auf die Einträge.",
+   "stolpersteine": "Ohne Rückmeldung verliert das Journal an Reiz. Plane Zeit ein, es zu lesen oder darüber zu sprechen.",
+   "situationen": [
+    "standort",
+    "stecken"
+   ]
+  },
+  {
+   "id": "reflexionsfragen",
+   "richtung": "reflektieren",
+   "name": "Reflexionsfragen",
+   "kurz": "Leitfragen regen dazu an, über Vorgehen und Strategieeinsatz nachzudenken.",
+   "wann": "Nach Aufgaben, bei Fehlern oder wenn Lernende ihr Vorgehen nicht erklären können.",
+   "warum": "Gezielte Fragen führen zum Nachdenken über das eigene Lernen und stärken das Strategiewissen.",
+   "einfuehren": "Nutze zuerst Fragen wie: Wie bist du vorgegangen? Wo trat die erste Schwierigkeit auf? Was hilft dir nächstes Mal? Mit der Zeit formulierst du offener.",
+   "stolpersteine": "Oberflächliche Antworten («Gut») zeigen, dass Fragen zu allgemein sind oder die Zeit fehlt. Formuliere konkreter.",
+   "situationen": [
+    "standort",
+    "stecken"
+   ]
+  },
+  {
+   "id": "wochenrueckblick",
+   "richtung": "reflektieren",
+   "name": "Wochenrückblick",
+   "kurz": "Eine feste Zeit pro Woche dient dem Rückblick: Highlight, Erfolge, Schwierigkeiten, Ziel für die nächste Woche.",
+   "wann": "Wenn Reflexion zur Routine werden soll.",
+   "warum": "Regelmässigkeit macht aus einmaligen Gedanken eine Gewohnheit.",
+   "einfuehren": "Lege einen festen Zeitpunkt fest (zum Beispiel Freitag, letzte Lektion) und gib eine einfache Vorlage. Mache die ersten Wochen vor.",
+   "stolpersteine": "Wenn der Rückblick oft ausfällt, wird er nicht zur Routine. Plane ihn fest ein.",
+   "situationen": [
+    "standort"
+   ]
+  },
+  {
+   "id": "vorher-nachher",
+   "richtung": "reflektieren",
+   "name": "Vorher-nachher-Vergleich",
+   "kurz": "Der eigene Stand wird mit einem früheren verglichen, etwa mit einer Lernfortschrittslinie.",
+   "wann": "Wenn Lernende ihre Fortschritte nicht sehen oder sich mit anderen vergleichen.",
+   "warum": "Der Blick auf die eigene Entwicklung stärkt die Selbstwirksamkeit.",
+   "einfuehren": "Sammle Arbeiten aus verschiedenen Zeitpunkten und zeige, woran man Fortschritte erkennt. Lass die Lernenden eine Linie zeichnen.",
+   "stolpersteine": "Der Vergleich gilt dem eigenen früheren Stand, nicht den Mitlernenden.",
+   "situationen": [
+    "standort"
+   ]
+  },
+  {
+   "id": "lernmoment",
+   "richtung": "reflektieren",
+   "name": "Lernmoment der Woche",
+   "kurz": "Die Lernenden notieren einen Moment, in dem sie durch eigenes Handeln etwas geschafft haben.",
+   "wann": "Wenn Erfolgserlebnisse im Alltag untergehen.",
+   "warum": "Wer Erfolge benennt, erkennt den Zusammenhang zwischen eigenem Handeln und Ergebnis.",
+   "einfuehren": "Schreibe selbst deinen Lernmoment auf und teile ihn. Die Lernenden notieren jede Woche einen Moment und tauschen sich darüber aus.",
+   "stolpersteine": "Zwinge niemanden zu grossen Momenten. Auch Kleines zählt.",
+   "situationen": [
+    "standort"
+   ]
+  },
+  {
+   "id": "ziel-anpassen",
+   "richtung": "reflektieren",
+   "name": "Nächsten Schritt ableiten",
+   "kurz": "Aus der Reflexion folgt ein konkreter nächster Schritt oder ein angepasstes Ziel.",
+   "wann": "Wenn Reflexion folgenlos bleibt.",
+   "warum": "Erst die Verbindung zur nächsten Handlung macht Reflexion wirksam.",
+   "einfuehren": "Beende jede Reflexion mit der Frage: Was mache ich nächstes Mal anders oder gleich? Zeige selbst, wie du aus einer Reflexion einen Vorsatz machst.",
+   "stolpersteine": "Zu viele Vorsätze werden nicht umgesetzt. Beschränke dich auf einen.",
+   "situationen": [
+    "standort",
+    "start"
+   ]
+  },
+  {
+   "id": "lerntandem",
+   "richtung": "zusammenarbeiten",
+   "name": "Lerntandem",
+   "kurz": "Zu zweit arbeiten, mit klarer Rollenverteilung, zum Beispiel Erklärer:in und Frager:in.",
+   "wann": "Wenn Verständnis geprüft und Strategien ausgetauscht werden sollen.",
+   "warum": "Durch Erklären und Nachfragen wird das Verständnis geprüft und vertieft.",
+   "einfuehren": "Gib die Rollen vor und zeige eine Runde mit einer Schülerin oder einem Schüler vor. Wechselt nach einer festen Zeit die Rollen.",
+   "stolpersteine": "Ohne klare Rollen plaudert das Tandem. Gib einen Ablauf und einen Zeitrahmen vor.",
+   "situationen": [
+    "mitlernen",
+    "verstehen"
+   ]
+  },
+  {
+   "id": "strategieinterview",
+   "richtung": "zusammenarbeiten",
+   "name": "Strategieinterview",
+   "kurz": "Die Lernenden befragen sich gegenseitig zu Vorgehen und Strategien: Wie bereitest du dich vor? Was hilft dir beim Verstehen?",
+   "wann": "Wenn Lernende von den Strategien anderer lernen sollen.",
+   "warum": "Der Austausch zeigt neue Strategien und regt zum Nachdenken über das eigene Vorgehen an.",
+   "einfuehren": "Gib drei bis vier Leitfragen vor und lass sie in Paaren interviewen. Sammle danach in der Klasse neue Ideen.",
+   "stolpersteine": "Zu wenig Zeit führt zu oberflächlichen Antworten. Plane mindestens fünf Minuten pro Person.",
+   "situationen": [
+    "mitlernen",
+    "standort"
+   ]
+  },
+  {
+   "id": "peer-feedback",
+   "richtung": "zusammenarbeiten",
+   "name": "Peer-Feedback",
+   "kurz": "Die Lernenden geben sich gegenseitig Rückmeldung zu Vorgehen, Strategieeinsatz oder Ergebnis.",
+   "wann": "Wenn Kriterien bekannt sind und der Blick von aussen weiterhelfen soll.",
+   "warum": "Rückmeldungen von Peers zeigen andere Perspektiven und schärfen den Blick für die eigene Arbeit.",
+   "einfuehren": "Gib Satzanfänge vor («Mir hat gefallen, dass ...», «Ich frage mich, ...»). Übe eine Feedbackrunde gemeinsam und zeige, was gutes Feedback ausmacht.",
+   "stolpersteine": "Ohne Kriterien bleiben Rückmeldungen beliebig. Gib sie vor.",
+   "situationen": [
+    "mitlernen",
+    "standort"
+   ]
+  },
+  {
+   "id": "vergleichen",
+   "richtung": "zusammenarbeiten",
+   "name": "Gemeinsam vergleichen",
+   "kurz": "Lösungen, Maps oder Zusammenfassungen werden miteinander oder mit einer Musterlösung verglichen.",
+   "wann": "Wenn die Anwendung einer Strategie überprüft werden soll.",
+   "warum": "Der Vergleich zeigt Unterschiede, Lücken und alternative Wege.",
+   "einfuehren": "Lass zwei Lösungen vergleichen und frage: Was ist ähnlich, was verschieden, was nehme ich mit? Besprich auch, warum verschiedene Wege zum Ziel führen können.",
+   "stolpersteine": "Nicht jeder Unterschied ist ein Fehler. Unterscheide zwischen falsch und anders.",
+   "situationen": [
+    "mitlernen",
+    "verstehen"
+   ]
+  },
+  {
+   "id": "lerngruppe",
+   "richtung": "zusammenarbeiten",
+   "name": "Lerngruppe bilden",
+   "kurz": "Mehrere Lernende erklären sich regelmässig Inhalte und fragen sich gegenseitig ab.",
+   "wann": "Bei grösseren Stoffgebieten und Prüfungsvorbereitung.",
+   "warum": "In der Gruppe entstehen unterschiedliche Sichtweisen und gegenseitige Unterstützung.",
+   "einfuehren": "Besprich, wie eine gute Lerngruppe arbeitet (Ziele, Rollen, Regeln, Zeit) und lass die Gruppen sich einen Plan machen. Zeige zu Beginn selbst ein Beispiel.",
+   "stolpersteine": "Lerngruppen können ins Plaudern geraten. Lege Ziele und Regeln fest und besprich sie regelmässig.",
+   "situationen": [
+    "mitlernen",
+    "behalten"
+   ]
+  }
+ ]
+}
