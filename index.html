@@ -106,23 +106,25 @@ details.how li b{font-weight:800}
 #detail{padding-bottom:calc(var(--pad-b) + 2.4rem)}
 .dhead{display:flex;align-items:center;gap:.8rem;flex-wrap:wrap;margin-bottom:1rem}
 .dhead .sp{flex:1}
-.dhead .count2{opacity:.65;font-weight:800;letter-spacing:.08em;font-variant-numeric:tabular-nums}
 .stage{flex:1 0 auto;max-width:60rem;width:100%;margin:0 auto;display:flex;flex-direction:column;gap:1.3rem}
 .accent{width:clamp(3.5rem,14vw,9rem);height:max(7px,1.1vh);border-radius:99px;background:var(--fg);flex:none;transition:background .55s ease}
-.dtitle{margin:0;font-weight:800;line-height:1.08;letter-spacing:-.012em;text-wrap:balance;font-size:clamp(1.8rem,min(8vw,7vh),4.2rem);overflow-wrap:anywhere}
+.dtitle{margin:0;font-weight:800;line-height:1.08;letter-spacing:-.012em;text-wrap:balance;font-size:clamp(1.8rem,min(8vw,7vh),3.4rem);overflow-wrap:anywhere}
 .dkurz{margin:0;font-size:clamp(1.15rem,4.4vw,1.7rem);max-width:46rem}
-.sections{display:grid;grid-template-columns:1fr;gap:1.2rem 2.4rem;padding-top:.6rem;border-top:2px solid var(--line)}
-.sec{display:flex;flex-direction:column;gap:.4rem}
-.sec p{margin:0;font-size:clamp(1.02rem,3.8vw,1.2rem);line-height:1.42;font-weight:600}
-.sec.wide{grid-column:1/-1}
-.sitwrap{display:flex;flex-wrap:wrap;gap:.5rem;align-items:center}
-.tag{border:.12em solid var(--fg);border-radius:99px;padding:.25em .8em;font-size:.82rem;font-weight:700;transition:border-color .55s ease}
-.nav{display:flex;gap:.8rem;margin-top:.6rem}
-.nav .btn{flex:1}
-
-@media (min-width:760px){.sections{grid-template-columns:1fr 1fr}}
+.sections{display:flex;flex-direction:column;border-top:2px solid var(--line);margin-top:.4rem}
+.sec{display:grid;grid-template-columns:1fr;gap:.45rem 2rem;padding:1.15rem 0;border-bottom:2px solid var(--line)}
+.sec .kicker{opacity:.9}
+.sec p{margin:0;font-size:clamp(1.08rem,3.9vw,1.25rem);line-height:1.6;font-weight:400;max-width:42rem}
+.similar{display:flex;flex-direction:column;gap:.5rem;max-width:42rem}
+.sim{display:flex;align-items:center;gap:.9rem;width:100%;min-height:52px;padding:.55rem .9rem;text-align:left;cursor:pointer;
+  background:transparent;border:.14em solid var(--fg);border-radius:.6rem;transition:background .2s ease,color .2s ease,border-color .55s ease}
+.sim:hover{background:var(--fg);color:var(--bg)}
+.sim:hover .num{border-color:var(--bg)}
+.sim .sname{flex:1;font-weight:800;text-transform:uppercase;letter-spacing:.02em;font-size:clamp(.92rem,3.5vw,1.05rem);line-height:1.15}
+.sim .stag{font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;opacity:.7}
+.foot2{display:flex;margin-top:1.4rem}
+@media (min-width:760px){.sec{grid-template-columns:12rem 1fr}.sec .kicker{padding-top:.35rem}}
 @media (min-width:900px) and (min-aspect-ratio:5/4){
-  .dtitle{font-size:min(4.6vw,9vh)}
+  .dtitle{font-size:min(3.8vw,7vh)}
   .btn{font-size:clamp(.9rem,1.2vw,1.2rem)}
 }
 </style>
@@ -181,7 +183,6 @@ details.how li b{font-weight:800}
       <span class="sp"></span>
       <span class="num" id="dnum"></span>
       <span class="kicker" id="dkicker"></span>
-      <span class="count2" id="dcount"></span>
     </div>
     <div class="accent"></div>
     <h2 class="dtitle" id="dtitle"></h2>
@@ -189,14 +190,11 @@ details.how li b{font-weight:800}
     <div class="sections">
       <div class="sec"><div class="kicker">Wann sie hilft</div><p id="dwann"></p></div>
       <div class="sec"><div class="kicker">Warum sie wirkt</div><p id="dwarum"></p></div>
-      <div class="sec wide"><div class="kicker">So führst du sie ein</div><p id="deinf"></p></div>
-      <div class="sec wide"><div class="kicker">Stolpersteine</div><p id="dstolp"></p></div>
-      <div class="sec wide"><div class="kicker">Passt, wenn ...</div><div class="sitwrap" id="dsit"></div></div>
+      <div class="sec"><div class="kicker">So führst du sie ein</div><p id="deinf"></p></div>
+      <div class="sec"><div class="kicker">Stolpersteine</div><p id="dstolp"></p></div>
+      <div class="sec" id="secSim"><div class="kicker">Ähnliche Strategien</div><div class="similar" id="dsim"></div></div>
     </div>
-    <div class="nav">
-      <button id="prev" class="btn alt" type="button">← Zurück</button>
-      <button id="next" class="btn" type="button">Weiter →</button>
-    </div>
+    <div class="foot2"><button id="back2" class="btn alt" type="button">← Übersicht</button></div>
   </div>
 </section>
 
@@ -288,15 +286,28 @@ details.how li b{font-weight:800}
     $('dwarum').textContent = s.warum;
     $('deinf').textContent = s.einfuehren;
     $('dstolp').textContent = s.stolpersteine;
-    var ds = $('dsit'); ds.textContent = '';
-    s.situationen.forEach(function(x){ var t = sit(x); if (t) ds.appendChild(el('span', 'tag', t.titel)); });
-    var list = items.length && items.some(function(x){ return x.id === id; }) ? items : data.strategien;
-    var i = list.map(function(x){ return x.id; }).indexOf(id);
-    $('dcount').textContent = (i + 1) + ' / ' + list.length;
-    $('prev').disabled = i <= 0; $('next').disabled = i >= list.length - 1;
+    var ds = $('dsim'); ds.textContent = '';
+    similar(s).forEach(function(x){
+      var b = el('button', 'sim'); b.type = 'button'; b.dataset.id = x.id;
+      b.appendChild(el('span', 'num', two(nrOf[x.id])));
+      b.appendChild(el('span', 'sname', x.name));
+      b.appendChild(el('span', 'stag', rich(x.richtung).titel));
+      ds.appendChild(b);
+    });
+    $('secSim').hidden = !ds.children.length;
     $('detail').scrollTop = 0;
     var st = document.querySelector('.stage'); st.classList.remove('rise'); void st.offsetWidth; st.classList.add('rise');
     try { history.replaceState(null, '', '#' + id); } catch (e) {}
+  }
+
+  function similar(s){
+    return data.strategien.filter(function(x){ return x.id !== s.id; }).map(function(x){
+      var shared = x.situationen.filter(function(t){ return s.situationen.indexOf(t) >= 0; }).length;
+      var score = shared * 2 + (x.richtung === s.richtung ? 1 : 0);
+      return {x: x, score: score, nr: nrOf[x.id]};
+    }).filter(function(o){ return o.score > 0; })
+      .sort(function(p, q){ return q.score - p.score || p.nr - q.nr; })
+      .slice(0, 4).map(function(o){ return o.x; });
   }
 
   function showHome(){
@@ -304,12 +315,6 @@ details.how li b{font-weight:800}
     $('detail').hidden = true; $('home').hidden = false; $('band').hidden = false;
     homeTheme();
     try { history.replaceState(null, '', location.pathname + location.search); } catch (e) {}
-  }
-
-  function step(d){
-    var list = items.some(function(x){ return x.id === state.current; }) ? items : data.strategien;
-    var i = list.map(function(x){ return x.id; }).indexOf(state.current) + d;
-    if (i >= 0 && i < list.length) show(list[i].id);
   }
 
   function bind(){
@@ -325,13 +330,11 @@ details.how li b{font-weight:800}
     $('reset').addEventListener('click', function(){ state.richtung = ''; state.situation = ''; state.q = ''; $('search').value = ''; updateHome(); });
     $('list').addEventListener('click', function(e){ var b = e.target.closest('.row'); if (b) show(b.dataset.id); });
     $('back').addEventListener('click', function(e){ e.currentTarget.blur(); showHome(); });
-    $('prev').addEventListener('click', function(e){ e.currentTarget.blur(); step(-1); });
-    $('next').addEventListener('click', function(e){ e.currentTarget.blur(); step(1); });
+    $('back2').addEventListener('click', function(e){ e.currentTarget.blur(); showHome(); });
+    $('dsim').addEventListener('click', function(e){ var b = e.target.closest('.sim'); if (b) show(b.dataset.id); });
     document.addEventListener('keydown', function(e){
       if (!state.current) return;
-      if (e.key === 'ArrowRight') step(1);
-      else if (e.key === 'ArrowLeft') step(-1);
-      else if (e.key === 'Escape') showHome();
+      if (e.key === 'Escape') showHome();
     });
     window.addEventListener('hashchange', function(){
       var h = location.hash.replace('#', '');
