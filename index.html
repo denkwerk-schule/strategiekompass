@@ -139,9 +139,20 @@ details.how .more{margin:0;padding-left:1.2rem;display:flex;flex-direction:colum
   background:transparent;border:.14em solid var(--fg);border-radius:.6rem;transition:background .2s ease,color .2s ease,border-color .55s ease}
 .sim:hover{background:var(--fg);color:var(--bg)}
 .sim:hover .num{border-color:var(--bg)}
-.sim .sname{flex:1;font-weight:800;text-transform:uppercase;letter-spacing:.02em;font-size:clamp(.92rem,3.5vw,1.05rem);line-height:1.15}
-.sim .stag{font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;opacity:.7}
+.sim{min-width:0;max-width:100%}
+.sim .sname{flex:1;min-width:0;overflow-wrap:anywhere;font-weight:800;text-transform:uppercase;letter-spacing:.02em;font-size:clamp(.92rem,3.5vw,1.05rem);line-height:1.15}
+.sim .stag{max-width:34%;text-align:right;overflow-wrap:anywhere;font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;opacity:.7}
 .foot2{display:flex;margin-top:1.4rem}
+.src{display:inline-flex;align-items:center;gap:.5em;font-size:.7rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;opacity:.85}
+.src::before{content:"";width:.85em;height:.85em;border-radius:50%;border:.14em solid currentColor;flex:none;box-sizing:border-box}
+.src.buch::before{background:currentColor}
+.src.teils::before{background:linear-gradient(90deg,currentColor 50%,transparent 50%)}
+.khead{display:flex;flex-direction:column;align-items:flex-start;gap:.4rem}
+.srcline{font-size:.85rem;font-weight:700;opacity:.85;display:flex;align-items:center;gap:.7rem;flex-wrap:wrap}
+.kurzrow{display:flex;flex-direction:column;gap:.6rem}
+.legend{display:flex;flex-wrap:wrap;gap:.6rem 1.4rem;align-items:center;margin:1.1rem 0 0;font-size:.85rem}
+.legend .lt{font-weight:800;text-transform:uppercase;letter-spacing:.12em;font-size:.72rem;opacity:.85}
+.legend .src{text-transform:none;letter-spacing:.01em;font-weight:600;font-size:.85rem;white-space:normal}
 @media (min-width:760px){.sec{grid-template-columns:12rem 1fr}.sec .kicker{padding-top:.35rem}}
 @media (min-width:900px) and (min-aspect-ratio:5/4){
   .dtitle{font-size:min(3.8vw,7vh)}
@@ -253,14 +264,22 @@ details.how .more{margin:0;padding-left:1.2rem;display:flex;flex-direction:colum
     </div>
     <div class="accent"></div>
     <h2 class="dtitle" id="dtitle"></h2>
-    <p class="dkurz serif" id="dkurz"></p>
+    <div class="srcline" id="dbuch"></div>
+    <div class="kurzrow">
+      <p class="dkurz serif" id="dkurz"></p>
+      <span class="src" data-f="kurz"></span>
+    </div>
     <div class="sections">
-      <div class="sec"><div class="kicker">Wann sie hilft</div><p id="dwann"></p></div>
-      <div class="sec"><div class="kicker">Warum sie wirkt</div><p id="dwarum"></p></div>
-      <div class="sec"><div class="kicker">So führst du sie ein</div><p id="deinf"></p></div>
-      <div class="sec"><div class="kicker">Stolpersteine</div><p id="dstolp"></p></div>
+      <div class="sec"><div class="khead"><div class="kicker">Wann sie hilft</div><span class="src" data-f="wann"></span></div><p id="dwann"></p></div>
+      <div class="sec"><div class="khead"><div class="kicker">Warum sie wirkt</div><span class="src" data-f="warum"></span></div><p id="dwarum"></p></div>
+      <div class="sec"><div class="khead"><div class="kicker">So führst du sie ein</div><span class="src" data-f="einfuehren"></span></div><p id="deinf"></p></div>
+      <div class="sec"><div class="khead"><div class="kicker">Stolpersteine</div><span class="src" data-f="stolpersteine"></span></div><p id="dstolp"></p></div>
       <div class="sec" id="secSim"><div class="kicker">Ähnliche Strategien</div><div class="similar" id="dsim"></div></div>
     </div>
+    <p class="legend"><span class="lt">Quelle der Texte</span>
+      <span class="src buch">Aus dem Buch (gekürzt)</span>
+      <span class="src teils">Teils aus dem Buch</span>
+      <span class="src">Ergänzung</span></p>
     <div class="foot2"><button id="back2" class="btn alt" type="button">← Übersicht</button></div>
     <footer class="foot">
       <p><b>Grundlage:</b> Eberli, T. D. &amp; Jud, J. (2026). Selbstreguliertes Lernen fördern. In Y. Karlen (Hrsg.), <i>Gewusst wie! Selbstreguliertes Lernen im Schulalltag verankern</i> (S. 110–142). hep Verlag. ISBN 978-3-0355-3116-9. Ergänzt mit weiteren gängigen Strategien.</p>
@@ -353,6 +372,14 @@ details.how .more{margin:0;padding-left:1.2rem;display:flex;flex-direction:colum
     $('dkicker').textContent = r.titel;
     $('dtitle').textContent = s.name;
     $('dkurz').textContent = s.kurz;
+    var LBL = {buch: 'Buch', teils: 'Teils Buch', ergaenzung: 'Ergänzung'};
+    document.querySelectorAll('#detail [data-f]').forEach(function(e){
+      var q = (s.quelle || {})[e.dataset.f] || 'ergaenzung';
+      e.className = 'src ' + (q === 'ergaenzung' ? '' : q); e.textContent = LBL[q];
+    });
+    var bl = $('dbuch'); bl.textContent = '';
+    var bs = el('span', 'src ' + (s.buch ? 'buch' : ''), s.buch ? 'Im Buch: ' + s.buch : 'Nicht als Strategie im Buch genannt');
+    bl.appendChild(bs);
     $('dwann').textContent = s.wann;
     $('dwarum').textContent = s.warum;
     $('deinf').textContent = s.einfuehren;

@@ -102,7 +102,15 @@
    "situationen": [
     "start",
     "stecken"
-   ]
+   ],
+   "buch": "",
+   "quelle": {
+    "kurz": "ergaenzung",
+    "wann": "teils",
+    "warum": "ergaenzung",
+    "einfuehren": "ergaenzung",
+    "stolpersteine": "ergaenzung"
+   }
   },
   {
    "id": "lernziel-formulieren",
@@ -116,7 +124,15 @@
    "situationen": [
     "start",
     "standort"
-   ]
+   ],
+   "buch": "Tab. 2.4 · Kap. 4.5",
+   "quelle": {
+    "kurz": "teils",
+    "wann": "ergaenzung",
+    "warum": "ergaenzung",
+    "einfuehren": "ergaenzung",
+    "stolpersteine": "ergaenzung"
+   }
   },
   {
    "id": "vorwissen-aktivieren",
@@ -130,7 +146,15 @@
    "situationen": [
     "start",
     "verstehen"
-   ]
+   ],
+   "buch": "Tab. 2.4 · Kap. 4.4",
+   "quelle": {
+    "kurz": "buch",
+    "wann": "ergaenzung",
+    "warum": "teils",
+    "einfuehren": "ergaenzung",
+    "stolpersteine": "ergaenzung"
+   }
   },
   {
    "id": "arbeitsplan",
@@ -144,7 +168,15 @@
    "situationen": [
     "ueberblick",
     "start"
-   ]
+   ],
+   "buch": "Tab. 2.4 · Kap. 4.5",
+   "quelle": {
+    "kurz": "teils",
+    "wann": "ergaenzung",
+    "warum": "teils",
+    "einfuehren": "ergaenzung",
+    "stolpersteine": "ergaenzung"
+   }
   },
   {
    "id": "wenn-dann-plan",
@@ -158,7 +190,15 @@
    "situationen": [
     "stecken",
     "ablenkung"
-   ]
+   ],
+   "buch": "",
+   "quelle": {
+    "kurz": "ergaenzung",
+    "wann": "ergaenzung",
+    "warum": "ergaenzung",
+    "einfuehren": "ergaenzung",
+    "stolpersteine": "ergaenzung"
+   }
   },
   {
    "id": "arbeitsplatz-vorbereiten",
@@ -172,7 +212,15 @@
    "situationen": [
     "ablenkung",
     "start"
-   ]
+   ],
+   "buch": "Tab. 2.4 · Kap. 4.4",
+   "quelle": {
+    "kurz": "buch",
+    "wann": "ergaenzung",
+    "warum": "ergaenzung",
+    "einfuehren": "ergaenzung",
+    "stolpersteine": "ergaenzung"
+   }
   },
   {
    "id": "strategie-waehlen",
@@ -186,7 +234,15 @@
    "situationen": [
     "stecken",
     "verstehen"
-   ]
+   ],
+   "buch": "Kap. 4.2",
+   "quelle": {
+    "kurz": "ergaenzung",
+    "wann": "teils",
+    "warum": "teils",
+    "einfuehren": "teils",
+    "stolpersteine": "ergaenzung"
+   }
   },
   {
    "id": "erfolgskriterien",
@@ -200,7 +256,15 @@
    "situationen": [
     "standort",
     "start"
-   ]
+   ],
+   "buch": "Kap. 4.4",
+   "quelle": {
+    "kurz": "teils",
+    "wann": "ergaenzung",
+    "warum": "teils",
+    "einfuehren": "teils",
+    "stolpersteine": "ergaenzung"
+   }
   },
   {
    "id": "informationen-priorisieren",
@@ -214,7 +278,15 @@
    "situationen": [
     "ueberblick",
     "start"
-   ]
+   ],
+   "buch": "Tab. 2.4",
+   "quelle": {
+    "kurz": "teils",
+    "wann": "ergaenzung",
+    "warum": "ergaenzung",
+    "einfuehren": "ergaenzung",
+    "stolpersteine": "ergaenzung"
+   }
   },
   {
    "id": "zeitmanagement",
@@ -228,21 +300,37 @@
    "situationen": [
     "ueberblick",
     "start"
-   ]
+   ],
+   "buch": "Tab. 2.4",
+   "quelle": {
+    "kurz": "buch",
+    "wann": "ergaenzung",
+    "warum": "buch",
+    "einfuehren": "ergaenzung",
+    "stolpersteine": "ergaenzung"
+   }
   },
   {
    "id": "sq3r",
    "richtung": "verarbeiten",
    "name": "SQ3R-Lesemethode",
-   "kurz": "Fünfschrittige Lesestrategie: Überblick gewinnen, Fragen stellen, gründlich lesen, Wichtiges wiedergeben, Gelesenes wiederholen.",
+   "kurz": "Eine Lesestrategie aus mehreren Schritten, mit der Lernende die Zusammenhänge eines Textes selbstständig erarbeiten.",
    "wann": "Beim Erarbeiten längerer Sachtexte, wenn Lernende bloss durchlesen und danach wenig behalten.",
    "warum": "Die Methode macht aus passivem Lesen aktives Verarbeiten: Vorwissen und Fragen werden eingebunden und das Gelesene wird abgerufen.",
    "einfuehren": "Kündige die Strategie an (was, wann, wie, warum). Zeige an einem kurzen Text jeden Schritt laut denkend vor. Die Lernenden üben ihn dann an einem ähnlichen Text mit einer Schrittkarte.",
-   "stolpersteine": "Fünf Schritte wirken am Anfang aufwendig. Plane Zeit zum Üben ein und erkläre, dass es zuerst anstrengend ist.",
+   "stolpersteine": "Mehrere Schritte wirken am Anfang aufwendig. Plane Zeit zum Üben ein und erkläre, dass es zuerst anstrengend ist.",
    "situationen": [
     "verstehen",
     "behalten"
-   ]
+   ],
+   "buch": "Kap. 4.2",
+   "quelle": {
+    "kurz": "buch",
+    "wann": "teils",
+    "warum": "ergaenzung",
+    "einfuehren": "teils",
+    "stolpersteine": "ergaenzung"
+   }
   },
   {
    "id": "gezielt-markieren",
@@ -256,7 +344,15 @@
    "situationen": [
     "verstehen",
     "ueberblick"
-   ]
+   ],
+   "buch": "Kap. 2 (Beispiel Mediationsdefizit)",
+   "quelle": {
+    "kurz": "ergaenzung",
+    "wann": "ergaenzung",
+    "warum": "ergaenzung",
+    "einfuehren": "ergaenzung",
+    "stolpersteine": "ergaenzung"
+   }
   },
   {
    "id": "zusammenfassen",
@@ -270,7 +366,15 @@
    "situationen": [
     "verstehen",
     "ueberblick"
-   ]
+   ],
+   "buch": "Tab. 2.4",
+   "quelle": {
+    "kurz": "teils",
+    "wann": "ergaenzung",
+    "warum": "ergaenzung",
+    "einfuehren": "ergaenzung",
+    "stolpersteine": "ergaenzung"
+   }
   },
   {
    "id": "concept-map",
@@ -284,7 +388,15 @@
    "situationen": [
     "verstehen",
     "ueberblick"
-   ]
+   ],
+   "buch": "Kap. 4.2",
+   "quelle": {
+    "kurz": "ergaenzung",
+    "wann": "teils",
+    "warum": "ergaenzung",
+    "einfuehren": "teils",
+    "stolpersteine": "ergaenzung"
+   }
   },
   {
    "id": "mindmap",
@@ -298,7 +410,15 @@
    "situationen": [
     "ueberblick",
     "start"
-   ]
+   ],
+   "buch": "Tab. 2.4 · Kap. 4.3",
+   "quelle": {
+    "kurz": "ergaenzung",
+    "wann": "ergaenzung",
+    "warum": "ergaenzung",
+    "einfuehren": "ergaenzung",
+    "stolpersteine": "ergaenzung"
+   }
   },
   {
    "id": "gliedern",
@@ -312,7 +432,15 @@
    "situationen": [
     "ueberblick",
     "verstehen"
-   ]
+   ],
+   "buch": "Tab. 2.4",
+   "quelle": {
+    "kurz": "teils",
+    "wann": "ergaenzung",
+    "warum": "teils",
+    "einfuehren": "ergaenzung",
+    "stolpersteine": "ergaenzung"
+   }
   },
   {
    "id": "notizzettel-ordnen",
@@ -326,7 +454,15 @@
    "situationen": [
     "ueberblick",
     "start"
-   ]
+   ],
+   "buch": "Kap. 4.2 (Schüler:innenbeispiel)",
+   "quelle": {
+    "kurz": "ergaenzung",
+    "wann": "ergaenzung",
+    "warum": "ergaenzung",
+    "einfuehren": "ergaenzung",
+    "stolpersteine": "ergaenzung"
+   }
   },
   {
    "id": "sich-selbst-erklaeren",
@@ -340,7 +476,15 @@
    "situationen": [
     "verstehen",
     "behalten"
-   ]
+   ],
+   "buch": "Kap. 2 (Beispiel Produktionsdefizit)",
+   "quelle": {
+    "kurz": "ergaenzung",
+    "wann": "ergaenzung",
+    "warum": "ergaenzung",
+    "einfuehren": "ergaenzung",
+    "stolpersteine": "ergaenzung"
+   }
   },
   {
    "id": "warum-fragen",
@@ -353,7 +497,15 @@
    "stolpersteine": "Ohne passendes Vorwissen laufen Warum-Fragen ins Leere. Stelle Material bereit, in dem Antworten zu finden sind.",
    "situationen": [
     "verstehen"
-   ]
+   ],
+   "buch": "Tab. 2.4 · Kap. 2",
+   "quelle": {
+    "kurz": "ergaenzung",
+    "wann": "ergaenzung",
+    "warum": "teils",
+    "einfuehren": "ergaenzung",
+    "stolpersteine": "ergaenzung"
+   }
   },
   {
    "id": "beispiele-finden",
@@ -366,7 +518,15 @@
    "stolpersteine": "Beispiele nur aus dem Lehrmittel wiederholen Bekanntes. Verlange eigene.",
    "situationen": [
     "verstehen"
-   ]
+   ],
+   "buch": "Tab. 2.4",
+   "quelle": {
+    "kurz": "teils",
+    "wann": "ergaenzung",
+    "warum": "ergaenzung",
+    "einfuehren": "ergaenzung",
+    "stolpersteine": "ergaenzung"
+   }
   },
   {
    "id": "alltagsbezug",
@@ -380,7 +540,15 @@
    "situationen": [
     "start",
     "verstehen"
-   ]
+   ],
+   "buch": "Kap. 4.3 · Tab. 2.4",
+   "quelle": {
+    "kurz": "buch",
+    "wann": "teils",
+    "warum": "buch",
+    "einfuehren": "teils",
+    "stolpersteine": "ergaenzung"
+   }
   },
   {
    "id": "analogien-bilder",
@@ -393,7 +561,15 @@
    "stolpersteine": "Jede Analogie hinkt. Benenne ausdrücklich, wo das Bild nicht mehr stimmt.",
    "situationen": [
     "verstehen"
-   ]
+   ],
+   "buch": "",
+   "quelle": {
+    "kurz": "ergaenzung",
+    "wann": "ergaenzung",
+    "warum": "ergaenzung",
+    "einfuehren": "ergaenzung",
+    "stolpersteine": "ergaenzung"
+   }
   },
   {
    "id": "loesungsbeispiele",
@@ -407,7 +583,15 @@
    "situationen": [
     "verstehen",
     "stecken"
-   ]
+   ],
+   "buch": "",
+   "quelle": {
+    "kurz": "ergaenzung",
+    "wann": "ergaenzung",
+    "warum": "ergaenzung",
+    "einfuehren": "ergaenzung",
+    "stolpersteine": "ergaenzung"
+   }
   },
   {
    "id": "laut-denken",
@@ -421,7 +605,15 @@
    "situationen": [
     "verstehen",
     "stecken"
-   ]
+   ],
+   "buch": "Kap. 4.2",
+   "quelle": {
+    "kurz": "teils",
+    "wann": "ergaenzung",
+    "warum": "teils",
+    "einfuehren": "teils",
+    "stolpersteine": "teils"
+   }
   },
   {
    "id": "abrufen",
@@ -434,7 +626,15 @@
    "stolpersteine": "Abrufen fühlt sich schwerer an als Wiederlesen. Erkläre, dass genau diese Anstrengung nützt.",
    "situationen": [
     "behalten"
-   ]
+   ],
+   "buch": "",
+   "quelle": {
+    "kurz": "ergaenzung",
+    "wann": "ergaenzung",
+    "warum": "ergaenzung",
+    "einfuehren": "ergaenzung",
+    "stolpersteine": "ergaenzung"
+   }
   },
   {
    "id": "lernkaertchen",
@@ -447,7 +647,15 @@
    "stolpersteine": "Für das Verstehen von Zusammenhängen eignen sich Kärtchen weniger. Mache das mit den Lernenden bewusst zum Thema.",
    "situationen": [
     "behalten"
-   ]
+   ],
+   "buch": "Kap. 4.2",
+   "quelle": {
+    "kurz": "ergaenzung",
+    "wann": "teils",
+    "warum": "ergaenzung",
+    "einfuehren": "ergaenzung",
+    "stolpersteine": "teils"
+   }
   },
   {
    "id": "verteilt-lernen",
@@ -461,7 +669,15 @@
    "situationen": [
     "behalten",
     "ueberblick"
-   ]
+   ],
+   "buch": "",
+   "quelle": {
+    "kurz": "ergaenzung",
+    "wann": "ergaenzung",
+    "warum": "ergaenzung",
+    "einfuehren": "ergaenzung",
+    "stolpersteine": "ergaenzung"
+   }
   },
   {
    "id": "gemischt-ueben",
@@ -475,7 +691,15 @@
    "situationen": [
     "behalten",
     "stecken"
-   ]
+   ],
+   "buch": "",
+   "quelle": {
+    "kurz": "ergaenzung",
+    "wann": "ergaenzung",
+    "warum": "ergaenzung",
+    "einfuehren": "ergaenzung",
+    "stolpersteine": "ergaenzung"
+   }
   },
   {
    "id": "eselsbruecken",
@@ -488,7 +712,15 @@
    "stolpersteine": "Eselsbrücken ersetzen kein Verstehen. Setze sie nur dort ein, wo Auswendiglernen sinnvoll ist.",
    "situationen": [
     "behalten"
-   ]
+   ],
+   "buch": "",
+   "quelle": {
+    "kurz": "ergaenzung",
+    "wann": "ergaenzung",
+    "warum": "ergaenzung",
+    "einfuehren": "ergaenzung",
+    "stolpersteine": "ergaenzung"
+   }
   },
   {
    "id": "uebungsaufgaben-erstellen",
@@ -502,7 +734,15 @@
    "situationen": [
     "behalten",
     "verstehen"
-   ]
+   ],
+   "buch": "",
+   "quelle": {
+    "kurz": "ergaenzung",
+    "wann": "ergaenzung",
+    "warum": "ergaenzung",
+    "einfuehren": "ergaenzung",
+    "stolpersteine": "ergaenzung"
+   }
   },
   {
    "id": "fehleranalyse",
@@ -516,7 +756,15 @@
    "situationen": [
     "stecken",
     "behalten"
-   ]
+   ],
+   "buch": "Kap. 4.4 · Kap. 4.2",
+   "quelle": {
+    "kurz": "teils",
+    "wann": "ergaenzung",
+    "warum": "ergaenzung",
+    "einfuehren": "teils",
+    "stolpersteine": "teils"
+   }
   },
   {
    "id": "wiederholen",
@@ -529,7 +777,15 @@
    "stolpersteine": "Wiederholen vermittelt schnell das Gefühl, etwas zu können, auch wenn das Verständnis fehlt. Kombiniere es mit Abrufen oder Erklären.",
    "situationen": [
     "behalten"
-   ]
+   ],
+   "buch": "Tab. 2.4",
+   "quelle": {
+    "kurz": "buch",
+    "wann": "ergaenzung",
+    "warum": "buch",
+    "einfuehren": "ergaenzung",
+    "stolpersteine": "ergaenzung"
+   }
   },
   {
    "id": "zwischenkontrolle",
@@ -543,7 +799,15 @@
    "situationen": [
     "stecken",
     "standort"
-   ]
+   ],
+   "buch": "Kap. 4.2 · Tab. 2.4",
+   "quelle": {
+    "kurz": "buch",
+    "wann": "ergaenzung",
+    "warum": "buch",
+    "einfuehren": "ergaenzung",
+    "stolpersteine": "ergaenzung"
+   }
   },
   {
    "id": "pomodoro",
@@ -557,7 +821,15 @@
    "situationen": [
     "ablenkung",
     "stecken"
-   ]
+   ],
+   "buch": "Kap. 4.2 (Schüler:innenbeispiel)",
+   "quelle": {
+    "kurz": "ergaenzung",
+    "wann": "ergaenzung",
+    "warum": "ergaenzung",
+    "einfuehren": "ergaenzung",
+    "stolpersteine": "ergaenzung"
+   }
   },
   {
    "id": "ablenkung-reduzieren",
@@ -570,7 +842,15 @@
    "stolpersteine": "Ablenkung ist nicht nur äusserlich. Auch Gedanken und Gefühle können stören, daher ergänze Selbstgespräche und Emotionen benennen.",
    "situationen": [
     "ablenkung"
-   ]
+   ],
+   "buch": "Tab. 2.4",
+   "quelle": {
+    "kurz": "buch",
+    "wann": "ergaenzung",
+    "warum": "ergaenzung",
+    "einfuehren": "ergaenzung",
+    "stolpersteine": "ergaenzung"
+   }
   },
   {
    "id": "pausen-bewegung",
@@ -584,7 +864,15 @@
    "situationen": [
     "ablenkung",
     "stecken"
-   ]
+   ],
+   "buch": "",
+   "quelle": {
+    "kurz": "ergaenzung",
+    "wann": "ergaenzung",
+    "warum": "ergaenzung",
+    "einfuehren": "ergaenzung",
+    "stolpersteine": "ergaenzung"
+   }
   },
   {
    "id": "hilfe-holen",
@@ -598,7 +886,15 @@
    "situationen": [
     "stecken",
     "standort"
-   ]
+   ],
+   "buch": "Tab. 2.4 · Kap. 4.4",
+   "quelle": {
+    "kurz": "buch",
+    "wann": "ergaenzung",
+    "warum": "buch",
+    "einfuehren": "teils",
+    "stolpersteine": "teils"
+   }
   },
   {
    "id": "strategie-wechseln",
@@ -611,7 +907,15 @@
    "stolpersteine": "Zu schnelles Wechseln verhindert, dass Strategien eingeübt werden. Erst genügend ausprobieren, dann wechseln.",
    "situationen": [
     "stecken"
-   ]
+   ],
+   "buch": "",
+   "quelle": {
+    "kurz": "ergaenzung",
+    "wann": "ergaenzung",
+    "warum": "ergaenzung",
+    "einfuehren": "ergaenzung",
+    "stolpersteine": "ergaenzung"
+   }
   },
   {
    "id": "zwischenergebnisse-pruefen",
@@ -625,7 +929,15 @@
    "situationen": [
     "stecken",
     "standort"
-   ]
+   ],
+   "buch": "Tab. 2.4",
+   "quelle": {
+    "kurz": "teils",
+    "wann": "ergaenzung",
+    "warum": "buch",
+    "einfuehren": "ergaenzung",
+    "stolpersteine": "ergaenzung"
+   }
   },
   {
    "id": "aufmerksamkeit-zuruecklenken",
@@ -638,7 +950,15 @@
    "stolpersteine": "Wer sich über das Abschweifen ärgert, verliert noch mehr Konzentration. Betone, dass schon das Bemerken ein Erfolg ist.",
    "situationen": [
     "ablenkung"
-   ]
+   ],
+   "buch": "Tab. 2.4",
+   "quelle": {
+    "kurz": "buch",
+    "wann": "ergaenzung",
+    "warum": "ergaenzung",
+    "einfuehren": "ergaenzung",
+    "stolpersteine": "ergaenzung"
+   }
   },
   {
    "id": "selbstgespraeche",
@@ -653,7 +973,15 @@
     "stecken",
     "start",
     "motivation"
-   ]
+   ],
+   "buch": "Tab. 2.4 · Kap. 4.2",
+   "quelle": {
+    "kurz": "buch",
+    "wann": "teils",
+    "warum": "teils",
+    "einfuehren": "ergaenzung",
+    "stolpersteine": "ergaenzung"
+   }
   },
   {
    "id": "kleine-schritte",
@@ -668,7 +996,15 @@
     "start",
     "ueberblick",
     "motivation"
-   ]
+   ],
+   "buch": "Tab. 2.4",
+   "quelle": {
+    "kurz": "teils",
+    "wann": "ergaenzung",
+    "warum": "teils",
+    "einfuehren": "ergaenzung",
+    "stolpersteine": "ergaenzung"
+   }
   },
   {
    "id": "belohnung",
@@ -683,7 +1019,15 @@
     "stecken",
     "start",
     "motivation"
-   ]
+   ],
+   "buch": "Tab. 2.4",
+   "quelle": {
+    "kurz": "teils",
+    "wann": "ergaenzung",
+    "warum": "teils",
+    "einfuehren": "ergaenzung",
+    "stolpersteine": "ergaenzung"
+   }
   },
   {
    "id": "emotionen-benennen",
@@ -698,7 +1042,15 @@
     "ablenkung",
     "stecken",
     "motivation"
-   ]
+   ],
+   "buch": "Kap. 4.4 · Tab. 2.4",
+   "quelle": {
+    "kurz": "ergaenzung",
+    "wann": "teils",
+    "warum": "ergaenzung",
+    "einfuehren": "teils",
+    "stolpersteine": "ergaenzung"
+   }
   },
   {
    "id": "nutzen-bewusst-machen",
@@ -712,7 +1064,15 @@
    "situationen": [
     "start",
     "motivation"
-   ]
+   ],
+   "buch": "Tab. 2.4 · Kap. 4.3",
+   "quelle": {
+    "kurz": "buch",
+    "wann": "ergaenzung",
+    "warum": "buch",
+    "einfuehren": "ergaenzung",
+    "stolpersteine": "ergaenzung"
+   }
   },
   {
    "id": "gedanken-umdeuten",
@@ -726,7 +1086,15 @@
    "situationen": [
     "stecken",
     "motivation"
-   ]
+   ],
+   "buch": "Tab. 2.4",
+   "quelle": {
+    "kurz": "buch",
+    "wann": "teils",
+    "warum": "teils",
+    "einfuehren": "ergaenzung",
+    "stolpersteine": "ergaenzung"
+   }
   },
   {
    "id": "entspannungspause",
@@ -740,7 +1108,15 @@
    "situationen": [
     "motivation",
     "ablenkung"
-   ]
+   ],
+   "buch": "Tab. 2.4",
+   "quelle": {
+    "kurz": "teils",
+    "wann": "teils",
+    "warum": "teils",
+    "einfuehren": "ergaenzung",
+    "stolpersteine": "ergaenzung"
+   }
   },
   {
    "id": "erfolge-erinnern",
@@ -754,7 +1130,15 @@
    "situationen": [
     "motivation",
     "stecken"
-   ]
+   ],
+   "buch": "Tab. 2.4",
+   "quelle": {
+    "kurz": "buch",
+    "wann": "ergaenzung",
+    "warum": "teils",
+    "einfuehren": "ergaenzung",
+    "stolpersteine": "ergaenzung"
+   }
   },
   {
    "id": "wachstumsdenken",
@@ -768,7 +1152,15 @@
    "situationen": [
     "motivation",
     "stecken"
-   ]
+   ],
+   "buch": "Tab. 2.4 · Kap. 4.4",
+   "quelle": {
+    "kurz": "buch",
+    "wann": "teils",
+    "warum": "buch",
+    "einfuehren": "teils",
+    "stolpersteine": "ergaenzung"
+   }
   },
   {
    "id": "selbsteinschaetzung",
@@ -781,7 +1173,15 @@
    "stolpersteine": "Einschätzungen sind anfangs oft ungenau. Das ist normal. Das Ziel ist das Gespräch darüber.",
    "situationen": [
     "standort"
-   ]
+   ],
+   "buch": "Kap. 4.3",
+   "quelle": {
+    "kurz": "teils",
+    "wann": "ergaenzung",
+    "warum": "teils",
+    "einfuehren": "ergaenzung",
+    "stolpersteine": "teils"
+   }
   },
   {
    "id": "lernjournal",
@@ -795,7 +1195,15 @@
    "situationen": [
     "standort",
     "stecken"
-   ]
+   ],
+   "buch": "Kap. 4.2 · Kap. 4.4",
+   "quelle": {
+    "kurz": "teils",
+    "wann": "ergaenzung",
+    "warum": "ergaenzung",
+    "einfuehren": "teils",
+    "stolpersteine": "ergaenzung"
+   }
   },
   {
    "id": "reflexionsfragen",
@@ -809,7 +1217,15 @@
    "situationen": [
     "standort",
     "stecken"
-   ]
+   ],
+   "buch": "Kap. 4.2 · Tab. 2.4",
+   "quelle": {
+    "kurz": "buch",
+    "wann": "teils",
+    "warum": "buch",
+    "einfuehren": "buch",
+    "stolpersteine": "ergaenzung"
+   }
   },
   {
    "id": "wochenrueckblick",
@@ -822,7 +1238,15 @@
    "stolpersteine": "Wenn der Rückblick oft ausfällt, wird er nicht zur Routine. Plane ihn fest ein.",
    "situationen": [
     "standort"
-   ]
+   ],
+   "buch": "Kap. 4.4",
+   "quelle": {
+    "kurz": "teils",
+    "wann": "teils",
+    "warum": "ergaenzung",
+    "einfuehren": "teils",
+    "stolpersteine": "ergaenzung"
+   }
   },
   {
    "id": "vorher-nachher",
@@ -835,7 +1259,15 @@
    "stolpersteine": "Der Vergleich gilt dem eigenen früheren Stand, nicht den Mitlernenden.",
    "situationen": [
     "standort"
-   ]
+   ],
+   "buch": "Kap. 4.4",
+   "quelle": {
+    "kurz": "buch",
+    "wann": "ergaenzung",
+    "warum": "buch",
+    "einfuehren": "ergaenzung",
+    "stolpersteine": "buch"
+   }
   },
   {
    "id": "lernmoment",
@@ -848,7 +1280,15 @@
    "stolpersteine": "Zwinge niemanden zu grossen Momenten. Auch Kleines zählt.",
    "situationen": [
     "standort"
-   ]
+   ],
+   "buch": "Kap. 4.4",
+   "quelle": {
+    "kurz": "buch",
+    "wann": "ergaenzung",
+    "warum": "teils",
+    "einfuehren": "ergaenzung",
+    "stolpersteine": "ergaenzung"
+   }
   },
   {
    "id": "ziel-anpassen",
@@ -862,7 +1302,15 @@
    "situationen": [
     "standort",
     "start"
-   ]
+   ],
+   "buch": "Kap. 4.4 · Tab. 2.4",
+   "quelle": {
+    "kurz": "teils",
+    "wann": "ergaenzung",
+    "warum": "teils",
+    "einfuehren": "ergaenzung",
+    "stolpersteine": "ergaenzung"
+   }
   },
   {
    "id": "lerntandem",
@@ -876,7 +1324,15 @@
    "situationen": [
     "mitlernen",
     "verstehen"
-   ]
+   ],
+   "buch": "Kap. 4.4",
+   "quelle": {
+    "kurz": "buch",
+    "wann": "ergaenzung",
+    "warum": "teils",
+    "einfuehren": "ergaenzung",
+    "stolpersteine": "ergaenzung"
+   }
   },
   {
    "id": "strategieinterview",
@@ -890,7 +1346,15 @@
    "situationen": [
     "mitlernen",
     "standort"
-   ]
+   ],
+   "buch": "Kap. 4.4",
+   "quelle": {
+    "kurz": "buch",
+    "wann": "teils",
+    "warum": "buch",
+    "einfuehren": "ergaenzung",
+    "stolpersteine": "ergaenzung"
+   }
   },
   {
    "id": "peer-feedback",
@@ -904,7 +1368,15 @@
    "situationen": [
     "mitlernen",
     "standort"
-   ]
+   ],
+   "buch": "Kap. 4.3",
+   "quelle": {
+    "kurz": "buch",
+    "wann": "ergaenzung",
+    "warum": "teils",
+    "einfuehren": "ergaenzung",
+    "stolpersteine": "ergaenzung"
+   }
   },
   {
    "id": "vergleichen",
@@ -918,7 +1390,15 @@
    "situationen": [
     "mitlernen",
     "verstehen"
-   ]
+   ],
+   "buch": "Kap. 4.2",
+   "quelle": {
+    "kurz": "buch",
+    "wann": "buch",
+    "warum": "teils",
+    "einfuehren": "ergaenzung",
+    "stolpersteine": "ergaenzung"
+   }
   },
   {
    "id": "lerngruppe",
@@ -932,7 +1412,15 @@
    "situationen": [
     "mitlernen",
     "behalten"
-   ]
+   ],
+   "buch": "Tab. 2.4 · Kap. 4.4",
+   "quelle": {
+    "kurz": "ergaenzung",
+    "wann": "ergaenzung",
+    "warum": "teils",
+    "einfuehren": "ergaenzung",
+    "stolpersteine": "ergaenzung"
+   }
   }
  ]
 }
