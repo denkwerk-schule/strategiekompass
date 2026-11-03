@@ -98,7 +98,8 @@ details.how li b{font-weight:800}
 .row .rname{flex:1;font-weight:800;text-transform:uppercase;letter-spacing:.02em;font-size:clamp(1rem,3.8vw,1.25rem);line-height:1.15;overflow-wrap:anywhere}
 .row .rtag{font-weight:700;opacity:.7;font-size:.78rem;text-transform:uppercase;letter-spacing:.1em;text-align:right}
 .empty{padding:2rem 0;font-size:1.2rem}
-.foot{font-size:.9rem;opacity:.8;margin:0}
+.foot{font-size:.85rem;line-height:1.5;opacity:.85;margin:1rem 0 0;padding-top:1rem;border-top:2px solid var(--line);max-width:42rem;display:flex;flex-direction:column;gap:.5rem}
+.foot p{margin:0}
 .filenote{background:#fff;color:#1c1c1c;border-radius:.6rem;padding:1rem 1.2rem;border:.14em solid #1c1c1c;font-size:1rem;line-height:1.4}
 .filenote code{background:#eee;padding:.1em .4em;border-radius:.3em}
 
@@ -171,7 +172,11 @@ details.how li b{font-weight:800}
 
     <p class="count"><span id="count"></span><button id="reset" class="linkbtn" type="button" hidden>Filter zurücksetzen</button></p>
     <div id="list" class="list"></div>
-    <p class="foot serif">Eine Auswahl möglicher Strategien, die auf dem Kapitel «Selbstreguliertes Lernen fördern» (Eberli &amp; Jud) aufbaut und mit weiteren gängigen Strategien ergänzt ist.</p>
+    <footer class="foot">
+      <p><b>Grundlage:</b> Eberli, T. D. &amp; Jud, J. (2026). Selbstreguliertes Lernen fördern. In Y. Karlen (Hrsg.), <i>Gewusst wie! Selbstreguliertes Lernen im Schulalltag verankern</i> (S. 110–142). hep Verlag. ISBN 978-3-0355-3116-9. Ergänzt mit weiteren gängigen Strategien.</p>
+      <p><b>Konzept und Zusammenstellung:</b> David Halser, gemeinsam mit Claude (Anthropic) als Co-Autor.</p>
+    </footer>
+
   </div>
 </section>
 
@@ -195,6 +200,10 @@ details.how li b{font-weight:800}
       <div class="sec" id="secSim"><div class="kicker">Ähnliche Strategien</div><div class="similar" id="dsim"></div></div>
     </div>
     <div class="foot2"><button id="back2" class="btn alt" type="button">← Übersicht</button></div>
+    <footer class="foot">
+      <p><b>Grundlage:</b> Eberli, T. D. &amp; Jud, J. (2026). Selbstreguliertes Lernen fördern. In Y. Karlen (Hrsg.), <i>Gewusst wie! Selbstreguliertes Lernen im Schulalltag verankern</i> (S. 110–142). hep Verlag. ISBN 978-3-0355-3116-9. Ergänzt mit weiteren gängigen Strategien.</p>
+      <p><b>Konzept und Zusammenstellung:</b> David Halser, gemeinsam mit Claude (Anthropic) als Co-Autor.</p>
+    </footer>
   </div>
 </section>
 
