@@ -239,6 +239,10 @@ details.how .more{margin:0;padding-left:1.2rem;display:flex;flex-direction:colum
       <div class="chips" id="chipsSituation" role="group" aria-label="Situation wählen"></div>
     </div>
     <div class="field">
+      <div class="kicker">Quelle</div>
+      <div class="chips"><button id="tglBuch" class="chip sit" type="button" aria-pressed="false">Nur Strategien aus dem Buch</button></div>
+    </div>
+    <div class="field">
       <label class="kicker" for="search">Suche</label>
       <input id="search" class="search" type="search" placeholder="Zum Beispiel «Text» oder «Pause»" autocomplete="off">
     </div>
@@ -295,7 +299,7 @@ details.how .more{margin:0;padding-left:1.2rem;display:flex;flex-direction:colum
   'use strict';
   var HOME = {bg:'#c7d200', fg:'#2b2b2b'};
   var data = null, items = [], nrOf = {};
-  var state = {richtung:'', situation:'', q:'', current:null};
+  var state = {richtung:'', situation:'', q:'', nurBuch:false, current:null};
   var $ = function(id){ return document.getElementById(id); };
   var metaTheme = document.querySelector('meta[name="theme-color"]');
 
@@ -315,6 +319,7 @@ details.how .more{margin:0;padding-left:1.2rem;display:flex;flex-direction:colum
     return data.strategien.filter(function(s){
       if (state.richtung && s.richtung !== state.richtung) return false;
       if (state.situation && s.situationen.indexOf(state.situation) < 0) return false;
+      if (state.nurBuch && !s.buch) return false;
       if (q) {
         var hay = norm([s.name, s.kurz, s.wann, s.warum, s.einfuehren, s.stolpersteine].join(' '));
         if (hay.indexOf(q) < 0) return false;
@@ -333,6 +338,9 @@ details.how .more{margin:0;padding-left:1.2rem;display:flex;flex-direction:colum
       b.title = r.untertitel;
       cr.appendChild(b);
     });
+    var tb = $('tglBuch');
+    tb.setAttribute('aria-pressed', state.nurBuch ? 'true' : 'false');
+    tb.textContent = 'Nur Strategien aus dem Buch (' + data.strategien.filter(function(x){ return x.buch; }).length + ')';
     var cs = $('chipsSituation'); cs.textContent = '';
     data.situationen.forEach(function(s){
       var b = el('button', 'chip sit', s.titel); b.type = 'button'; b.dataset.id = s.id;
@@ -354,7 +362,7 @@ details.how .more{margin:0;padding-left:1.2rem;display:flex;flex-direction:colum
     if (!items.length) list.appendChild(el('p', 'empty serif', 'Dazu gibt es keine Strategie. Lockere einen Filter oder ändere die Suche.'));
     var n = items.length;
     $('count').textContent = n + (n === 1 ? ' Strategie' : ' Strategien');
-    $('reset').hidden = !(state.richtung || state.situation || state.q);
+    $('reset').hidden = !(state.richtung || state.situation || state.q || state.nurBuch);
   }
 
   function homeTheme(){ var r = state.richtung && rich(state.richtung); theme(r ? r : HOME); }
@@ -399,7 +407,7 @@ details.how .more{margin:0;padding-left:1.2rem;display:flex;flex-direction:colum
   }
 
   function similar(s){
-    return data.strategien.filter(function(x){ return x.id !== s.id; }).map(function(x){
+    return data.strategien.filter(function(x){ return x.id !== s.id && (!state.nurBuch || x.buch); }).map(function(x){
       var shared = x.situationen.filter(function(t){ return s.situationen.indexOf(t) >= 0; }).length;
       var score = shared * 2 + (x.richtung === s.richtung ? 1 : 0);
       return {x: x, score: score, nr: nrOf[x.id]};
@@ -424,8 +432,9 @@ details.how .more{margin:0;padding-left:1.2rem;display:flex;flex-direction:colum
       var b = e.target.closest('.chip'); if (!b) return;
       state.situation = state.situation === b.dataset.id ? '' : b.dataset.id; b.blur(); updateHome();
     });
+    $('tglBuch').addEventListener('click', function(e){ state.nurBuch = !state.nurBuch; e.currentTarget.blur(); updateHome(); });
     $('search').addEventListener('input', function(e){ state.q = e.target.value; renderList(); });
-    $('reset').addEventListener('click', function(){ state.richtung = ''; state.situation = ''; state.q = ''; $('search').value = ''; updateHome(); });
+    $('reset').addEventListener('click', function(){ state.richtung = ''; state.situation = ''; state.q = ''; state.nurBuch = false; $('search').value = ''; updateHome(); });
     $('list').addEventListener('click', function(e){ var b = e.target.closest('.row'); if (b) show(b.dataset.id); });
     $('back').addEventListener('click', function(e){ e.currentTarget.blur(); showHome(); });
     $('back2').addEventListener('click', function(e){ e.currentTarget.blur(); showHome(); });
