@@ -1,52 +1,45 @@
 {
  "titel": "Strategiekompass",
- "richtungen": [
+ "kategorien": [
   {
-   "id": "vorbereiten",
-   "titel": "Vorbereiten",
-   "untertitel": "Aufgabe verstehen, Ziele setzen, planen",
+   "id": "kognitiv",
+   "titel": "Kognitive Strategien",
+   "untertitel": "Informationen verarbeiten und behalten",
    "bg": "#23b2c6",
    "fg": "#1c1c1c"
   },
   {
-   "id": "verarbeiten",
-   "titel": "Verarbeiten",
-   "untertitel": "Inhalte aufnehmen, ordnen und verstehen",
-   "bg": "#fbb900",
-   "fg": "#1c1c1c"
-  },
-  {
-   "id": "festigen",
-   "titel": "Festigen",
-   "untertitel": "Einprägen, üben, abrufen",
+   "id": "metakognitiv",
+   "titel": "Metakognitive Strategien",
+   "untertitel": "Das eigene Lernen planen, überwachen und steuern",
    "bg": "#6169af",
    "fg": "#ffffff"
   },
   {
-   "id": "steuern",
-   "titel": "Steuern",
-   "untertitel": "Konzentration, Zeit und Durchhalten",
+   "id": "motivational",
+   "titel": "Motivationale Regulationsstrategien",
+   "untertitel": "Motivation aktivieren und aufrechterhalten",
+   "bg": "#fbb900",
+   "fg": "#1c1c1c"
+  },
+  {
+   "id": "emotional",
+   "titel": "Emotionale Regulationsstrategien",
+   "untertitel": "Mit Gefühlen umgehen",
    "bg": "#ed6a69",
    "fg": "#1c1c1c"
   },
   {
-   "id": "motivation",
-   "titel": "Motivation und Gefühle",
-   "untertitel": "Dranbleiben, Zuversicht, mit Frust umgehen",
-   "bg": "#c6c6c6",
-   "fg": "#1c1c1c"
-  },
-  {
-   "id": "reflektieren",
-   "titel": "Reflektieren",
-   "untertitel": "Rückblick, Einschätzen, nächste Schritte",
+   "id": "ressourcen",
+   "titel": "Ressourcenbezogene Strategien",
+   "untertitel": "Internes und externes Umfeld regulieren",
    "bg": "#167a8c",
    "fg": "#ffffff"
   },
   {
-   "id": "zusammenarbeiten",
-   "titel": "Zusammenarbeiten",
-   "untertitel": "Voneinander lernen, sich austauschen",
+   "id": "mindset",
+   "titel": "Mindsetbezogene Strategien",
+   "untertitel": "Fehler als Lernchance deuten, Fortschritt bewusst wahrnehmen",
    "bg": "#3a3a3a",
    "fg": "#ffffff"
   }
@@ -91,52 +84,7 @@
  ],
  "strategien": [
   {
-   "id": "auftrag-wiedergeben",
-   "richtung": "vorbereiten",
-   "name": "Auftrag in eigenen Worten wiedergeben",
-   "kurz": "Die Lernenden sagen mit eigenen Worten, was das Ziel ist, welches Produkt entstehen soll und was dafür gefragt ist.",
-   "wann": "Wenn Lernende losarbeiten, ohne den Auftrag verstanden zu haben, oder wenn Sätze fallen wie «Ich weiss nicht, was ich machen soll».",
-   "warum": "Wer den Auftrag in eigene Worte fasst, merkt früh, was unklar ist, und kann passende Strategien und Ziele wählen.",
-   "einfuehren": "Fasse einen Auftrag laut denkend in zwei, drei Sätzen zusammen (Ziel, Produkt, Hilfsmittel). Lass danach zu zweit einen neuen Auftrag wiedergeben, bevor gestartet wird.",
-   "stolpersteine": "Prüfe zuerst deine Aufgabenstellung: Ist sie selbst klar? Sonst hilft auch die beste Strategie nicht.",
-   "situationen": [
-    "start",
-    "stecken"
-   ],
-   "buch": "",
-   "quelle": {
-    "kurz": "ergaenzung",
-    "wann": "teils",
-    "warum": "ergaenzung",
-    "einfuehren": "ergaenzung",
-    "stolpersteine": "ergaenzung"
-   }
-  },
-  {
-   "id": "lernziel-formulieren",
-   "richtung": "vorbereiten",
-   "name": "Eigenes Lernziel formulieren",
-   "kurz": "Die Lernenden schreiben ein klares, realistisches und erreichbares Ziel auf, zum Beispiel «Bis Freitag kann ich ...».",
-   "wann": "Wenn Ziele vage bleiben («Ich will besser werden») oder Lernende das Ziel der Lehrperson nur übernehmen.",
-   "warum": "Ein klares eigenes Ziel gibt Richtung und macht später sichtbar, ob das Lernen gelungen ist.",
-   "einfuehren": "Zeige an einem Beispiel, wie ein vages Ziel («besser rechnen») zu einem konkreten wird («Ich löse fünf Textaufgaben ohne Hilfe»). Lass jede Person ein Ziel zur kommenden Einheit notieren.",
-   "stolpersteine": "Zu grosse oder zu viele Ziele überfordern. Starte mit einem einzigen Ziel pro Einheit.",
-   "situationen": [
-    "start",
-    "standort"
-   ],
-   "buch": "Tab. 2.4 · Kap. 4.5",
-   "quelle": {
-    "kurz": "teils",
-    "wann": "ergaenzung",
-    "warum": "ergaenzung",
-    "einfuehren": "ergaenzung",
-    "stolpersteine": "ergaenzung"
-   }
-  },
-  {
    "id": "vorwissen-aktivieren",
-   "richtung": "vorbereiten",
    "name": "Vorwissen aktivieren",
    "kurz": "Vor einem neuen Thema notieren die Lernenden, was sie schon wissen, was sie interessiert und was sie herausfinden möchten.",
    "wann": "Zu Beginn eines neuen Themas, besonders wenn Lernende Mühe haben, Neues an Bekanntes anzuknüpfen.",
@@ -154,121 +102,11 @@
     "warum": "teils",
     "einfuehren": "ergaenzung",
     "stolpersteine": "ergaenzung"
-   }
-  },
-  {
-   "id": "arbeitsplan",
-   "richtung": "vorbereiten",
-   "name": "Arbeitsplan erstellen",
-   "kurz": "Eine grössere Aufgabe wird in Teilschritte zerlegt, in eine Reihenfolge gebracht und mit Zeitangaben versehen.",
-   "wann": "Bei mehrteiligen Aufgaben, Projekten und Wochenplänen, wenn Lernende den Überblick verlieren oder zu spät beginnen.",
-   "warum": "Ein Plan macht den Weg überschaubar und hilft, die Zeit einzuteilen und den Fortschritt zu prüfen.",
-   "einfuehren": "Plane vor der Klasse eine Aufgabe laut denkend: Was muss alles getan werden? Was zuerst? Wie lange etwa? Danach erstellen die Lernenden ihren eigenen Plan und dürfen ihn später anpassen.",
-   "stolpersteine": "Pläne scheitern oft an unrealistischen Zeitschätzungen. Plane gemeinsam Pufferzeit ein und erlaube Änderungen.",
-   "situationen": [
-    "ueberblick",
-    "start"
-   ],
-   "buch": "Tab. 2.4 · Kap. 4.5",
-   "quelle": {
-    "kurz": "teils",
-    "wann": "ergaenzung",
-    "warum": "teils",
-    "einfuehren": "ergaenzung",
-    "stolpersteine": "ergaenzung"
-   }
-  },
-  {
-   "id": "wenn-dann-plan",
-   "richtung": "vorbereiten",
-   "name": "Wenn-dann-Plan",
-   "kurz": "Die Lernenden legen im Voraus fest, was sie tun, wenn ein bestimmtes Problem auftritt: «Wenn ich nicht weiterkomme, dann ...».",
-   "wann": "Wenn Lernende bei Schwierigkeiten sofort stecken bleiben oder sich ablenken lassen.",
-   "warum": "Ein vorab gefasster Plan nimmt die Entscheidung im schwierigen Moment ab und macht ein Handeln wahrscheinlicher.",
-   "einfuehren": "Sammle mit der Klasse typische Hürden und mögliche Reaktionen (Strategiekarte lesen, Partner fragen, Aufgabe überspringen). Die Lernenden formulieren dazu eigene Wenn-dann-Sätze.",
-   "stolpersteine": "Allgemeine Sätze («Dann konzentriere ich mich») nützen wenig. Der Plan muss konkret und machbar sein.",
-   "situationen": [
-    "stecken",
-    "ablenkung"
-   ],
-   "buch": "",
-   "quelle": {
-    "kurz": "ergaenzung",
-    "wann": "ergaenzung",
-    "warum": "ergaenzung",
-    "einfuehren": "ergaenzung",
-    "stolpersteine": "ergaenzung"
-   }
-  },
-  {
-   "id": "arbeitsplatz-vorbereiten",
-   "richtung": "vorbereiten",
-   "name": "Lernumgebung und Lernort gestalten",
-   "kurz": "Die Lernenden richten ihre Umgebung so ein, dass sie ungestört arbeiten können, und überlegen, welcher Lernort für sie passt, zum Beispiel Bibliothek, ruhiges Zimmer oder Gruppe.",
-   "wann": "Wenn Lärm, Unordnung oder ein ungeeigneter Platz die Arbeit stören, oder wenn Zeit mit Suchen verloren geht.",
-   "warum": "Wer gut vorbereitet startet, verliert weniger Konzentration durch Unterbrechungen.",
-   "einfuehren": "Erstelle mit der Klasse eine Checkliste (Material bereit, Handy weg, Ordnung auf dem Tisch). Lass die Lernenden verschiedene Lernorte ausprobieren und festhalten, wo sie am besten arbeiten.",
-   "stolpersteine": "Der Ablauf darf nicht zum Selbstzweck werden. Halte die Checkliste kurz.",
-   "situationen": [
-    "ablenkung",
-    "start"
-   ],
-   "buch": "Tab. 2.4 · Kap. 4.4",
-   "quelle": {
-    "kurz": "buch",
-    "wann": "ergaenzung",
-    "warum": "ergaenzung",
-    "einfuehren": "ergaenzung",
-    "stolpersteine": "ergaenzung"
-   }
-  },
-  {
-   "id": "strategie-waehlen",
-   "richtung": "vorbereiten",
-   "name": "Passende Strategie auswählen",
-   "kurz": "Vor einer Aufgabe überlegen die Lernenden, welche Strategie passt und warum.",
-   "wann": "Wenn mehrere Strategien bekannt sind, aber immer die gleiche oder keine eingesetzt wird.",
-   "warum": "Wer Strategien bewusst auswählt, baut Strategiewissen auf und merkt, dass nicht jede Strategie überall gleich gut passt.",
-   "einfuehren": "Zeige an zwei verschiedenen Aufgaben, welche Strategie du wählst und warum. Die Lernenden begründen anschliessend ihre eigene Wahl mit den Fragen: Was, wann, wie, warum?",
-   "stolpersteine": "Die Wahl soll begründet werden. «Das mache ich immer so» genügt noch nicht.",
-   "situationen": [
-    "stecken",
-    "verstehen"
-   ],
-   "buch": "Kap. 4.2",
-   "quelle": {
-    "kurz": "ergaenzung",
-    "wann": "teils",
-    "warum": "teils",
-    "einfuehren": "teils",
-    "stolpersteine": "ergaenzung"
-   }
-  },
-  {
-   "id": "erfolgskriterien",
-   "richtung": "vorbereiten",
-   "name": "Erfolgskriterien klären",
-   "kurz": "Die Lernenden halten vorab fest, woran sie erkennen, dass die Aufgabe gelungen ist. Idealerweise legen sie die Kriterien mit fest.",
-   "wann": "Wenn unklar ist, was gute Arbeit ausmacht, oder Lernende ihr Produkt kaum einschätzen können.",
-   "warum": "Klare Kriterien machen Erwartungen transparent und erleichtern die Einschätzung des eigenen Lernens.",
-   "einfuehren": "Sammle gemeinsam Merkmale eines guten Produkts, zum Beispiel auf einer Kriterienkarte. Nach der Arbeit schätzen die Lernenden ihr Ergebnis mit denselben Kriterien ein.",
-   "stolpersteine": "Zu viele Kriterien verwässern. Drei bis vier gut formulierte Kriterien reichen.",
-   "situationen": [
-    "standort",
-    "start"
-   ],
-   "buch": "Kap. 4.4",
-   "quelle": {
-    "kurz": "teils",
-    "wann": "ergaenzung",
-    "warum": "teils",
-    "einfuehren": "teils",
-    "stolpersteine": "ergaenzung"
-   }
+   },
+   "kategorie": "kognitiv"
   },
   {
    "id": "informationen-priorisieren",
-   "richtung": "vorbereiten",
    "name": "Wichtiges von Unwichtigem unterscheiden",
    "kurz": "Die Lernenden identifizieren die wichtigsten Inhalte oder Aufgaben und legen fest, womit sie beginnen.",
    "wann": "Bei viel Stoff oder mehreren Aufgaben, wenn Lernende nicht wissen, wo sie anfangen sollen.",
@@ -286,33 +124,11 @@
     "warum": "ergaenzung",
     "einfuehren": "ergaenzung",
     "stolpersteine": "ergaenzung"
-   }
-  },
-  {
-   "id": "zeitmanagement",
-   "richtung": "vorbereiten",
-   "name": "Zeit realistisch einteilen",
-   "kurz": "Die Lernenden schätzen den Aufwand für Aufgaben ein, teilen ihre Zeit ein (feste Lernzeiten, eingeplante Pausen) und prüfen regelmässig, ob die Planung stimmt.",
-   "wann": "Bei Wochenplänen, Projekten und vor Prüfungen, oder wenn Lernende regelmässig unter Zeitdruck geraten.",
-   "warum": "Eine realistische Zeitplanung hilft, Zeitdruck zu vermeiden und sich an den Plan zu halten.",
-   "einfuehren": "Schätze vor der Klasse den Aufwand für eine Aufgabe, miss die tatsächliche Zeit und vergleiche. Die Lernenden tun dasselbe mit einer eigenen Aufgabe und passen ihren Plan an.",
-   "stolpersteine": "Zeitschätzungen fallen anfangs oft zu optimistisch aus. Bespreche Abweichungen ohne Wertung.",
-   "situationen": [
-    "ueberblick",
-    "start"
-   ],
-   "buch": "Tab. 2.4",
-   "quelle": {
-    "kurz": "buch",
-    "wann": "ergaenzung",
-    "warum": "buch",
-    "einfuehren": "ergaenzung",
-    "stolpersteine": "ergaenzung"
-   }
+   },
+   "kategorie": "kognitiv"
   },
   {
    "id": "sq3r",
-   "richtung": "verarbeiten",
    "name": "SQ3R-Lesemethode",
    "kurz": "Eine Lesestrategie aus mehreren Schritten, mit der Lernende die Zusammenhänge eines Textes selbstständig erarbeiten.",
    "wann": "Beim Erarbeiten längerer Sachtexte, wenn Lernende bloss durchlesen und danach wenig behalten.",
@@ -330,11 +146,11 @@
     "warum": "ergaenzung",
     "einfuehren": "teils",
     "stolpersteine": "ergaenzung"
-   }
+   },
+   "kategorie": "kognitiv"
   },
   {
    "id": "gezielt-markieren",
-   "richtung": "verarbeiten",
    "name": "Gezielt markieren",
    "kurz": "Nur Schlüsselstellen werden markiert, danach in eigenen Worten festgehalten.",
    "wann": "Wenn Lernende ganze Seiten bunt anmalen, ohne das Wesentliche zu erfassen.",
@@ -352,11 +168,11 @@
     "warum": "ergaenzung",
     "einfuehren": "ergaenzung",
     "stolpersteine": "ergaenzung"
-   }
+   },
+   "kategorie": "kognitiv"
   },
   {
    "id": "zusammenfassen",
-   "richtung": "verarbeiten",
    "name": "In eigenen Worten zusammenfassen",
    "kurz": "Kernaussagen werden kurz und in eigenen Worten festgehalten.",
    "wann": "Wenn Inhalte verdichtet werden sollen oder Lernende lange Passagen abschreiben.",
@@ -374,11 +190,11 @@
     "warum": "ergaenzung",
     "einfuehren": "ergaenzung",
     "stolpersteine": "ergaenzung"
-   }
+   },
+   "kategorie": "kognitiv"
   },
   {
    "id": "concept-map",
-   "richtung": "verarbeiten",
    "name": "Concept-Map",
    "kurz": "Begriffe werden als Netz dargestellt: Pfeile mit Beschriftung zeigen, wie die Begriffe zusammenhängen.",
    "wann": "Wenn Zusammenhänge im Fach wichtig sind, zum Beispiel in Biologie, Geschichte oder Geografie.",
@@ -396,11 +212,11 @@
     "warum": "ergaenzung",
     "einfuehren": "teils",
     "stolpersteine": "ergaenzung"
-   }
+   },
+   "kategorie": "kognitiv"
   },
   {
    "id": "mindmap",
-   "richtung": "verarbeiten",
    "name": "Mindmap",
    "kurz": "Ein Thema steht in der Mitte, Hauptäste und Unteräste gliedern die Gedanken.",
    "wann": "Beim Sammeln von Ideen oder wenn ein Thema in Teilbereiche gegliedert werden soll.",
@@ -418,11 +234,11 @@
     "warum": "ergaenzung",
     "einfuehren": "ergaenzung",
     "stolpersteine": "ergaenzung"
-   }
+   },
+   "kategorie": "kognitiv"
   },
   {
    "id": "gliedern",
-   "richtung": "verarbeiten",
    "name": "Gliedern und Strukturieren",
    "kurz": "Inhalte werden in Oberbegriffe und Unterpunkte geordnet, als Tabelle, Schema oder Gliederung.",
    "wann": "Wenn viel Stoff ungeordnet vorliegt und Lernende den roten Faden nicht erkennen.",
@@ -440,11 +256,11 @@
     "warum": "teils",
     "einfuehren": "ergaenzung",
     "stolpersteine": "ergaenzung"
-   }
+   },
+   "kategorie": "kognitiv"
   },
   {
    "id": "notizzettel-ordnen",
-   "richtung": "verarbeiten",
    "name": "Notizzettel ordnen",
    "kurz": "Einzelne Gedanken werden auf Zettel geschrieben und auf dem Tisch oder an der Wand zu einer Ordnung gelegt.",
    "wann": "Beim Vorbereiten eines Textes oder Vortrags, wenn die Gedanken noch durcheinander sind.",
@@ -462,11 +278,11 @@
     "warum": "ergaenzung",
     "einfuehren": "ergaenzung",
     "stolpersteine": "ergaenzung"
-   }
+   },
+   "kategorie": "kognitiv"
   },
   {
    "id": "sich-selbst-erklaeren",
-   "richtung": "verarbeiten",
    "name": "Sich selbst erklären",
    "kurz": "Ein Inhalt wird laut oder schriftlich erklärt, als würde man ihn jemandem beibringen.",
    "wann": "Wenn geprüft werden soll, ob etwas wirklich verstanden wurde.",
@@ -484,11 +300,11 @@
     "warum": "ergaenzung",
     "einfuehren": "ergaenzung",
     "stolpersteine": "ergaenzung"
-   }
+   },
+   "kategorie": "kognitiv"
   },
   {
    "id": "warum-fragen",
-   "richtung": "verarbeiten",
    "name": "Warum-Fragen stellen",
    "kurz": "Bei jeder Aussage wird gefragt: Warum stimmt das? Warum gilt das hier, aber nicht dort?",
    "wann": "Wenn Fakten nur auswendig gelernt werden und das Verständnis fehlt.",
@@ -505,11 +321,11 @@
     "warum": "teils",
     "einfuehren": "ergaenzung",
     "stolpersteine": "ergaenzung"
-   }
+   },
+   "kategorie": "kognitiv"
   },
   {
    "id": "beispiele-finden",
-   "richtung": "verarbeiten",
    "name": "Beispiele und Gegenbeispiele suchen",
    "kurz": "Zu einem Begriff werden eigene Beispiele gesucht, ebenso Fälle, die nicht dazu passen.",
    "wann": "Bei abstrakten Begriffen und Regeln.",
@@ -526,11 +342,11 @@
     "warum": "ergaenzung",
     "einfuehren": "ergaenzung",
     "stolpersteine": "ergaenzung"
-   }
+   },
+   "kategorie": "kognitiv"
   },
   {
    "id": "alltagsbezug",
-   "richtung": "verarbeiten",
    "name": "Verbindung zum Alltag herstellen",
    "kurz": "Die Lernenden fragen sich: Was hat das mit mir zu tun? Wo begegne ich dem Thema im Alltag?",
    "wann": "Wenn ein Thema als fern oder uninteressant erlebt wird.",
@@ -548,11 +364,11 @@
     "warum": "buch",
     "einfuehren": "teils",
     "stolpersteine": "ergaenzung"
-   }
+   },
+   "kategorie": "kognitiv"
   },
   {
    "id": "analogien-bilder",
-   "richtung": "verarbeiten",
    "name": "Analogien und Bilder nutzen",
    "kurz": "Etwas Neues wird mit Bekanntem verglichen oder gezeichnet.",
    "wann": "Wenn ein Konzept schwer vorstellbar ist.",
@@ -569,11 +385,11 @@
     "warum": "ergaenzung",
     "einfuehren": "ergaenzung",
     "stolpersteine": "ergaenzung"
-   }
+   },
+   "kategorie": "kognitiv"
   },
   {
    "id": "loesungsbeispiele",
-   "richtung": "verarbeiten",
    "name": "Gelöste Beispiele studieren",
    "kurz": "Ein ausgearbeitetes Lösungsbeispiel wird Schritt für Schritt nachvollzogen, danach folgt eine ähnliche Aufgabe.",
    "wann": "Beim Einführen neuer Verfahren, etwa in Mathematik oder Naturwissenschaften.",
@@ -591,33 +407,11 @@
     "warum": "ergaenzung",
     "einfuehren": "ergaenzung",
     "stolpersteine": "ergaenzung"
-   }
-  },
-  {
-   "id": "laut-denken",
-   "richtung": "verarbeiten",
-   "name": "Laut denken",
-   "kurz": "Das eigene Vorgehen beim Lösen einer Aufgabe wird Schritt für Schritt ausgesprochen.",
-   "wann": "Wenn Denkwege sichtbar gemacht werden sollen oder Lernende nicht erklären können, wie sie vorgegangen sind.",
-   "warum": "Das Aussprechen macht Entscheidungen und Fehler greifbar und lässt sich von anderen nachvollziehen.",
-   "einfuehren": "Mache es zuerst selbst vor, auch mit Zögern, Umwegen und Korrekturen. Dann denken die Lernenden zu zweit abwechselnd laut, während die andere Person zuhört.",
-   "stolpersteine": "Wenn du nur fehlerfreie Lösungen vorführst, lernen die Lernenden Rezepte. Zeige auch, wie du dich verbesserst.",
-   "situationen": [
-    "verstehen",
-    "stecken"
-   ],
-   "buch": "Kap. 4.2",
-   "quelle": {
-    "kurz": "teils",
-    "wann": "ergaenzung",
-    "warum": "teils",
-    "einfuehren": "teils",
-    "stolpersteine": "teils"
-   }
+   },
+   "kategorie": "kognitiv"
   },
   {
    "id": "abrufen",
-   "richtung": "festigen",
    "name": "Abrufen statt Wiederlesen",
    "kurz": "Die Lernenden fragen sich selbst ab, ohne ins Material zu schauen, und vergleichen danach mit der Vorlage.",
    "wann": "Bei Vorbereitung auf Tests und wenn Lernende viel Zeit mit Durchlesen verbringen.",
@@ -634,11 +428,11 @@
     "warum": "ergaenzung",
     "einfuehren": "ergaenzung",
     "stolpersteine": "ergaenzung"
-   }
+   },
+   "kategorie": "kognitiv"
   },
   {
    "id": "lernkaertchen",
-   "richtung": "festigen",
    "name": "Lernkärtchen",
    "kurz": "Die Frage steht auf der Vorderseite, die Antwort auf der Rückseite. Die Kärtchen werden wiederholt abgefragt.",
    "wann": "Bei Vokabeln, Begriffen, Formeln und Jahreszahlen.",
@@ -655,11 +449,11 @@
     "warum": "ergaenzung",
     "einfuehren": "ergaenzung",
     "stolpersteine": "teils"
-   }
+   },
+   "kategorie": "kognitiv"
   },
   {
    "id": "verteilt-lernen",
-   "richtung": "festigen",
    "name": "Verteilt lernen",
    "kurz": "Das Üben wird auf mehrere Tage verteilt, statt alles kurz vor dem Test zu lernen.",
    "wann": "Vor Prüfungen und bei Stoff, der langfristig behalten werden soll.",
@@ -677,11 +471,11 @@
     "warum": "ergaenzung",
     "einfuehren": "ergaenzung",
     "stolpersteine": "ergaenzung"
-   }
+   },
+   "kategorie": "kognitiv"
   },
   {
    "id": "gemischt-ueben",
-   "richtung": "festigen",
    "name": "Gemischt üben",
    "kurz": "Aufgabentypen werden abgewechselt, statt einen Typ nach dem anderen zu üben.",
    "wann": "Wenn Lernende ein Verfahren in einer Übungsreihe können, es in einer Mischung aber nicht mehr erkennen.",
@@ -699,11 +493,11 @@
     "warum": "ergaenzung",
     "einfuehren": "ergaenzung",
     "stolpersteine": "ergaenzung"
-   }
+   },
+   "kategorie": "kognitiv"
   },
   {
    "id": "eselsbruecken",
-   "richtung": "festigen",
    "name": "Eselsbrücken",
    "kurz": "Merkhilfen, Reime oder Bilder helfen, Reihenfolgen oder Listen zu behalten.",
    "wann": "Bei Listen, Reihenfolgen und Regeln, die sich nicht herleiten lassen.",
@@ -720,11 +514,11 @@
     "warum": "ergaenzung",
     "einfuehren": "ergaenzung",
     "stolpersteine": "ergaenzung"
-   }
+   },
+   "kategorie": "kognitiv"
   },
   {
    "id": "uebungsaufgaben-erstellen",
-   "richtung": "festigen",
    "name": "Übungsaufgaben selbst erstellen",
    "kurz": "Die Lernenden formulieren eigene Test- oder Prüfungsfragen und beantworten sie.",
    "wann": "Bei der Prüfungsvorbereitung und beim Wiederholen.",
@@ -742,33 +536,11 @@
     "warum": "ergaenzung",
     "einfuehren": "ergaenzung",
     "stolpersteine": "ergaenzung"
-   }
-  },
-  {
-   "id": "fehleranalyse",
-   "richtung": "festigen",
-   "name": "Fehleranalyse",
-   "kurz": "Fehler werden gesammelt, die Ursache wird benannt und der nächste Schritt festgelegt.",
-   "wann": "Wenn dieselben Fehler wiederholt auftreten.",
-   "warum": "Fehler liefern Informationen über das eigene Lernen. Wer die Ursache kennt, kann gezielt üben.",
-   "einfuehren": "Analysiere einen eigenen Fehler vor der Klasse mit den Fragen: Was ist passiert? Warum? Was mache ich nächstes Mal anders? Lass die Lernenden das an einem eigenen Fehler tun.",
-   "stolpersteine": "Ohne eine sichere Fehlerkultur zeigt niemand gern Fehler. Gehe selbst mit gutem Beispiel voran.",
-   "situationen": [
-    "stecken",
-    "behalten"
-   ],
-   "buch": "Kap. 4.4 · Kap. 4.2",
-   "quelle": {
-    "kurz": "teils",
-    "wann": "ergaenzung",
-    "warum": "ergaenzung",
-    "einfuehren": "teils",
-    "stolpersteine": "teils"
-   }
+   },
+   "kategorie": "kognitiv"
   },
   {
    "id": "wiederholen",
-   "richtung": "festigen",
    "name": "Wiederholen",
    "kurz": "Wissen wird durch gezielte Wiederholung im Gedächtnis verankert, zum Beispiel durch mehrmaliges Lesen von Notizen oder Auswendiglernen von Schlüsselbegriffen.",
    "wann": "Wenn Grundwissen wie Begriffe, Fakten oder Formeln sicher verfügbar sein soll.",
@@ -785,11 +557,165 @@
     "warum": "buch",
     "einfuehren": "ergaenzung",
     "stolpersteine": "ergaenzung"
-   }
+   },
+   "kategorie": "kognitiv"
+  },
+  {
+   "id": "auftrag-wiedergeben",
+   "name": "Auftrag in eigenen Worten wiedergeben",
+   "kurz": "Die Lernenden sagen mit eigenen Worten, was das Ziel ist, welches Produkt entstehen soll und was dafür gefragt ist.",
+   "wann": "Wenn Lernende losarbeiten, ohne den Auftrag verstanden zu haben, oder wenn Sätze fallen wie «Ich weiss nicht, was ich machen soll».",
+   "warum": "Wer den Auftrag in eigene Worte fasst, merkt früh, was unklar ist, und kann passende Strategien und Ziele wählen.",
+   "einfuehren": "Fasse einen Auftrag laut denkend in zwei, drei Sätzen zusammen (Ziel, Produkt, Hilfsmittel). Lass danach zu zweit einen neuen Auftrag wiedergeben, bevor gestartet wird.",
+   "stolpersteine": "Prüfe zuerst deine Aufgabenstellung: Ist sie selbst klar? Sonst hilft auch die beste Strategie nicht.",
+   "situationen": [
+    "start",
+    "stecken"
+   ],
+   "buch": "",
+   "quelle": {
+    "kurz": "ergaenzung",
+    "wann": "teils",
+    "warum": "ergaenzung",
+    "einfuehren": "ergaenzung",
+    "stolpersteine": "ergaenzung"
+   },
+   "kategorie": "metakognitiv"
+  },
+  {
+   "id": "lernziel-formulieren",
+   "name": "Eigenes Lernziel formulieren",
+   "kurz": "Die Lernenden schreiben ein klares, realistisches und erreichbares Ziel auf, zum Beispiel «Bis Freitag kann ich ...».",
+   "wann": "Wenn Ziele vage bleiben («Ich will besser werden») oder Lernende das Ziel der Lehrperson nur übernehmen.",
+   "warum": "Ein klares eigenes Ziel gibt Richtung und macht später sichtbar, ob das Lernen gelungen ist.",
+   "einfuehren": "Zeige an einem Beispiel, wie ein vages Ziel («besser rechnen») zu einem konkreten wird («Ich löse fünf Textaufgaben ohne Hilfe»). Lass jede Person ein Ziel zur kommenden Einheit notieren.",
+   "stolpersteine": "Zu grosse oder zu viele Ziele überfordern. Starte mit einem einzigen Ziel pro Einheit.",
+   "situationen": [
+    "start",
+    "standort"
+   ],
+   "buch": "Tab. 2.4 · Kap. 4.5",
+   "quelle": {
+    "kurz": "teils",
+    "wann": "ergaenzung",
+    "warum": "ergaenzung",
+    "einfuehren": "ergaenzung",
+    "stolpersteine": "ergaenzung"
+   },
+   "kategorie": "metakognitiv"
+  },
+  {
+   "id": "arbeitsplan",
+   "name": "Arbeitsplan erstellen",
+   "kurz": "Eine grössere Aufgabe wird in Teilschritte zerlegt, in eine Reihenfolge gebracht und mit Zeitangaben versehen.",
+   "wann": "Bei mehrteiligen Aufgaben, Projekten und Wochenplänen, wenn Lernende den Überblick verlieren oder zu spät beginnen.",
+   "warum": "Ein Plan macht den Weg überschaubar und hilft, die Zeit einzuteilen und den Fortschritt zu prüfen.",
+   "einfuehren": "Plane vor der Klasse eine Aufgabe laut denkend: Was muss alles getan werden? Was zuerst? Wie lange etwa? Danach erstellen die Lernenden ihren eigenen Plan und dürfen ihn später anpassen.",
+   "stolpersteine": "Pläne scheitern oft an unrealistischen Zeitschätzungen. Plane gemeinsam Pufferzeit ein und erlaube Änderungen.",
+   "situationen": [
+    "ueberblick",
+    "start"
+   ],
+   "buch": "Tab. 2.4 · Kap. 4.5",
+   "quelle": {
+    "kurz": "teils",
+    "wann": "ergaenzung",
+    "warum": "teils",
+    "einfuehren": "ergaenzung",
+    "stolpersteine": "ergaenzung"
+   },
+   "kategorie": "metakognitiv"
+  },
+  {
+   "id": "wenn-dann-plan",
+   "name": "Wenn-dann-Plan",
+   "kurz": "Die Lernenden legen im Voraus fest, was sie tun, wenn ein bestimmtes Problem auftritt: «Wenn ich nicht weiterkomme, dann ...».",
+   "wann": "Wenn Lernende bei Schwierigkeiten sofort stecken bleiben oder sich ablenken lassen.",
+   "warum": "Ein vorab gefasster Plan nimmt die Entscheidung im schwierigen Moment ab und macht ein Handeln wahrscheinlicher.",
+   "einfuehren": "Sammle mit der Klasse typische Hürden und mögliche Reaktionen (Strategiekarte lesen, Partner fragen, Aufgabe überspringen). Die Lernenden formulieren dazu eigene Wenn-dann-Sätze.",
+   "stolpersteine": "Allgemeine Sätze («Dann konzentriere ich mich») nützen wenig. Der Plan muss konkret und machbar sein.",
+   "situationen": [
+    "stecken",
+    "ablenkung"
+   ],
+   "buch": "",
+   "quelle": {
+    "kurz": "ergaenzung",
+    "wann": "ergaenzung",
+    "warum": "ergaenzung",
+    "einfuehren": "ergaenzung",
+    "stolpersteine": "ergaenzung"
+   },
+   "kategorie": "metakognitiv"
+  },
+  {
+   "id": "strategie-waehlen",
+   "name": "Passende Strategie auswählen",
+   "kurz": "Vor einer Aufgabe überlegen die Lernenden, welche Strategie passt und warum.",
+   "wann": "Wenn mehrere Strategien bekannt sind, aber immer die gleiche oder keine eingesetzt wird.",
+   "warum": "Wer Strategien bewusst auswählt, baut Strategiewissen auf und merkt, dass nicht jede Strategie überall gleich gut passt.",
+   "einfuehren": "Zeige an zwei verschiedenen Aufgaben, welche Strategie du wählst und warum. Die Lernenden begründen anschliessend ihre eigene Wahl mit den Fragen: Was, wann, wie, warum?",
+   "stolpersteine": "Die Wahl soll begründet werden. «Das mache ich immer so» genügt noch nicht.",
+   "situationen": [
+    "stecken",
+    "verstehen"
+   ],
+   "buch": "Kap. 4.2",
+   "quelle": {
+    "kurz": "ergaenzung",
+    "wann": "teils",
+    "warum": "teils",
+    "einfuehren": "teils",
+    "stolpersteine": "ergaenzung"
+   },
+   "kategorie": "metakognitiv"
+  },
+  {
+   "id": "erfolgskriterien",
+   "name": "Erfolgskriterien klären",
+   "kurz": "Die Lernenden halten vorab fest, woran sie erkennen, dass die Aufgabe gelungen ist. Idealerweise legen sie die Kriterien mit fest.",
+   "wann": "Wenn unklar ist, was gute Arbeit ausmacht, oder Lernende ihr Produkt kaum einschätzen können.",
+   "warum": "Klare Kriterien machen Erwartungen transparent und erleichtern die Einschätzung des eigenen Lernens.",
+   "einfuehren": "Sammle gemeinsam Merkmale eines guten Produkts, zum Beispiel auf einer Kriterienkarte. Nach der Arbeit schätzen die Lernenden ihr Ergebnis mit denselben Kriterien ein.",
+   "stolpersteine": "Zu viele Kriterien verwässern. Drei bis vier gut formulierte Kriterien reichen.",
+   "situationen": [
+    "standort",
+    "start"
+   ],
+   "buch": "Kap. 4.4",
+   "quelle": {
+    "kurz": "teils",
+    "wann": "ergaenzung",
+    "warum": "teils",
+    "einfuehren": "teils",
+    "stolpersteine": "ergaenzung"
+   },
+   "kategorie": "metakognitiv"
+  },
+  {
+   "id": "laut-denken",
+   "name": "Laut denken",
+   "kurz": "Das eigene Vorgehen beim Lösen einer Aufgabe wird Schritt für Schritt ausgesprochen.",
+   "wann": "Wenn Denkwege sichtbar gemacht werden sollen oder Lernende nicht erklären können, wie sie vorgegangen sind.",
+   "warum": "Das Aussprechen macht Entscheidungen und Fehler greifbar und lässt sich von anderen nachvollziehen.",
+   "einfuehren": "Mache es zuerst selbst vor, auch mit Zögern, Umwegen und Korrekturen. Dann denken die Lernenden zu zweit abwechselnd laut, während die andere Person zuhört.",
+   "stolpersteine": "Wenn du nur fehlerfreie Lösungen vorführst, lernen die Lernenden Rezepte. Zeige auch, wie du dich verbesserst.",
+   "situationen": [
+    "verstehen",
+    "stecken"
+   ],
+   "buch": "Kap. 4.2",
+   "quelle": {
+    "kurz": "teils",
+    "wann": "ergaenzung",
+    "warum": "teils",
+    "einfuehren": "teils",
+    "stolpersteine": "teils"
+   },
+   "kategorie": "metakognitiv"
   },
   {
    "id": "zwischenkontrolle",
-   "richtung": "steuern",
    "name": "Zwischenkontrolle (Monitoring)",
    "kurz": "Während der Arbeit halten die Lernenden an und fragen sich: Bin ich noch auf dem richtigen Weg?",
    "wann": "Wenn Lernende lange am Falschen arbeiten oder vom Ziel abkommen.",
@@ -807,98 +733,11 @@
     "warum": "buch",
     "einfuehren": "ergaenzung",
     "stolpersteine": "ergaenzung"
-   }
-  },
-  {
-   "id": "pomodoro",
-   "richtung": "steuern",
-   "name": "Pomodoro-Technik",
-   "kurz": "In kurzen Blöcken wird konzentriert gearbeitet, zum Beispiel 25 Minuten, danach folgt eine kurze Pause.",
-   "wann": "Wenn Lernende bei längeren Arbeitsphasen die Konzentration verlieren.",
-   "warum": "Ein überschaubarer Zeitblock und regelmässige Pausen erleichtern es, am Ball zu bleiben.",
-   "einfuehren": "Probiere die Technik gemeinsam in der Klasse mit einem Timer aus. Lass die Lernenden danach beurteilen, ob sie ihnen hilft, und die Blocklänge anpassen.",
-   "stolpersteine": "Die ideale Blocklänge hängt von Alter und Aufgabe ab. Beginne eher kürzer.",
-   "situationen": [
-    "ablenkung",
-    "stecken"
-   ],
-   "buch": "Kap. 4.2 (Schüler:innenbeispiel)",
-   "quelle": {
-    "kurz": "ergaenzung",
-    "wann": "ergaenzung",
-    "warum": "ergaenzung",
-    "einfuehren": "ergaenzung",
-    "stolpersteine": "ergaenzung"
-   }
-  },
-  {
-   "id": "ablenkung-reduzieren",
-   "richtung": "steuern",
-   "name": "Ablenkungen reduzieren",
-   "kurz": "Störquellen wie Handy oder Lärm werden bewusst ausgeschaltet oder ferngehalten, ein ruhiger Arbeitsplatz wird gewählt.",
-   "wann": "Wenn äussere Reize die Arbeit immer wieder unterbrechen.",
-   "warum": "Weniger Ablenkung bedeutet mehr Kapazität für die eigentliche Aufgabe.",
-   "einfuehren": "Sammle gemeinsam Ablenkungen und Gegenmittel. Lass die Lernenden eine Massnahme wählen, ausprobieren und später berichten, ob sie gewirkt hat.",
-   "stolpersteine": "Ablenkung ist nicht nur äusserlich. Auch Gedanken und Gefühle können stören, daher ergänze Selbstgespräche und Emotionen benennen.",
-   "situationen": [
-    "ablenkung"
-   ],
-   "buch": "Tab. 2.4",
-   "quelle": {
-    "kurz": "buch",
-    "wann": "ergaenzung",
-    "warum": "ergaenzung",
-    "einfuehren": "ergaenzung",
-    "stolpersteine": "ergaenzung"
-   }
-  },
-  {
-   "id": "pausen-bewegung",
-   "richtung": "steuern",
-   "name": "Pausen und Bewegung",
-   "kurz": "Kurze, bewusst gestaltete Pausen mit Bewegung, Trinken oder frischer Luft.",
-   "wann": "Bei Müdigkeit, Unruhe oder nachlassender Konzentration.",
-   "warum": "Erholung hilft, die Aufmerksamkeit wieder aufzubauen.",
-   "einfuehren": "Mache die Pause gemeinsam vor und beschreibe, was du in der Pause tust und was du vermeidest. Die Lernenden probieren verschiedene Pausen aus und vergleichen.",
-   "stolpersteine": "Eine Pause am Handy erholt oft nicht. Besprich Pausen, die tatsächlich erholen.",
-   "situationen": [
-    "ablenkung",
-    "stecken"
-   ],
-   "buch": "",
-   "quelle": {
-    "kurz": "ergaenzung",
-    "wann": "ergaenzung",
-    "warum": "ergaenzung",
-    "einfuehren": "ergaenzung",
-    "stolpersteine": "ergaenzung"
-   }
-  },
-  {
-   "id": "hilfe-holen",
-   "richtung": "steuern",
-   "name": "Hilfe holen",
-   "kurz": "Die Lernenden holen gezielt Unterstützung (Lehrperson, Mitlernende, Eltern, Strategiebox) und nutzen Feedback, zum Beispiel indem sie einen Text gegenlesen lassen.",
-   "wann": "Wenn Lernende nicht mehr weiterkommen und warten oder aufgeben.",
-   "warum": "Wer weiss, wann welche Unterstützung sinnvoll ist, arbeitet effizienter und bewältigt Herausforderungen souveräner. Klare Abläufe machen das Fragen leichter.",
-   "einfuehren": "Etabliere einen Ablauf (zuerst Aufgabe nochmals lesen, dann Hilfekarte, dann Partner, dann Lehrperson). Betone, dass Hilfeholen eine Stärke ist, und zeige es an dir selbst.",
-   "stolpersteine": "Wenn Hilfeholen als Schwäche gilt, fragt niemand. Das Klima in der Klasse ist entscheidend.",
-   "situationen": [
-    "stecken",
-    "standort"
-   ],
-   "buch": "Tab. 2.4 · Kap. 4.4",
-   "quelle": {
-    "kurz": "buch",
-    "wann": "ergaenzung",
-    "warum": "buch",
-    "einfuehren": "teils",
-    "stolpersteine": "teils"
-   }
+   },
+   "kategorie": "metakognitiv"
   },
   {
    "id": "strategie-wechseln",
-   "richtung": "steuern",
    "name": "Strategie wechseln",
    "kurz": "Wenn etwas nicht funktioniert, probieren die Lernenden bewusst eine andere Strategie aus.",
    "wann": "Wenn Lernende bei der gleichen Methode bleiben, obwohl sie nicht zum Ziel führt.",
@@ -915,11 +754,11 @@
     "warum": "ergaenzung",
     "einfuehren": "ergaenzung",
     "stolpersteine": "ergaenzung"
-   }
+   },
+   "kategorie": "metakognitiv"
   },
   {
    "id": "zwischenergebnisse-pruefen",
-   "richtung": "steuern",
    "name": "Zwischenergebnisse prüfen (Fehlerkontrolle)",
    "kurz": "Die Lernenden überprüfen Teilschritte und Zwischenergebnisse systematisch, bevor sie weiterarbeiten.",
    "wann": "Bei mehrschrittigen Aufgaben, etwa im Rechnen oder Schreiben, wenn Fehler erst spät auffallen.",
@@ -937,11 +776,11 @@
     "warum": "buch",
     "einfuehren": "ergaenzung",
     "stolpersteine": "ergaenzung"
-   }
+   },
+   "kategorie": "metakognitiv"
   },
   {
    "id": "aufmerksamkeit-zuruecklenken",
-   "richtung": "steuern",
    "name": "Aufmerksamkeit zurücklenken",
    "kurz": "Die Lernenden erkennen eigene Aufmerksamkeitsprobleme und lenken ihre Aufmerksamkeit gezielt wieder zur Aufgabe zurück.",
    "wann": "Wenn die Gedanken abschweifen oder Lernende sich immer wieder verlieren.",
@@ -958,11 +797,140 @@
     "warum": "ergaenzung",
     "einfuehren": "ergaenzung",
     "stolpersteine": "ergaenzung"
-   }
+   },
+   "kategorie": "metakognitiv"
+  },
+  {
+   "id": "selbsteinschaetzung",
+   "name": "Selbsteinschätzung",
+   "kurz": "Die Lernenden schätzen ein, was sie schon können und was noch nicht, zum Beispiel mit einer Skala oder Ampel.",
+   "wann": "Wenn Lernende ihren Stand schlecht kennen oder über- bzw. unterschätzen.",
+   "warum": "Wer seinen Stand kennt, kann das Lernen gezielt anpassen.",
+   "einfuehren": "Zeige, wie du dich selbst einschätzt, und begründe deine Einschätzung mit einem Beleg. Vergleiche später Selbst- und Fremdeinschätzung im Gespräch.",
+   "stolpersteine": "Einschätzungen sind anfangs oft ungenau. Das ist normal. Das Ziel ist das Gespräch darüber.",
+   "situationen": [
+    "standort"
+   ],
+   "buch": "Kap. 4.3",
+   "quelle": {
+    "kurz": "teils",
+    "wann": "ergaenzung",
+    "warum": "teils",
+    "einfuehren": "ergaenzung",
+    "stolpersteine": "teils"
+   },
+   "kategorie": "metakognitiv"
+  },
+  {
+   "id": "lernjournal",
+   "name": "Lernjournal",
+   "kurz": "Die Lernenden halten regelmässig fest, was gelungen ist, was schwierig war und was als Nächstes folgt.",
+   "wann": "Wenn Lernwege sichtbar gemacht und über längere Zeit verfolgt werden sollen.",
+   "warum": "Schreiben macht Gedanken fassbar und zeigt Entwicklung über die Zeit.",
+   "einfuehren": "Gib eine feste Struktur mit wenigen Leitfragen vor. Schreibe zu Beginn einige Einträge gemeinsam und gib Rückmeldungen auf die Einträge.",
+   "stolpersteine": "Ohne Rückmeldung verliert das Journal an Reiz. Plane Zeit ein, es zu lesen oder darüber zu sprechen.",
+   "situationen": [
+    "standort",
+    "stecken"
+   ],
+   "buch": "Kap. 4.2 · Kap. 4.4",
+   "quelle": {
+    "kurz": "teils",
+    "wann": "ergaenzung",
+    "warum": "ergaenzung",
+    "einfuehren": "teils",
+    "stolpersteine": "ergaenzung"
+   },
+   "kategorie": "metakognitiv"
+  },
+  {
+   "id": "reflexionsfragen",
+   "name": "Reflexionsfragen",
+   "kurz": "Leitfragen regen dazu an, über Vorgehen und Strategieeinsatz nachzudenken, zum Beispiel: War die Strategie effektiv? Was hätte ich besser machen können?",
+   "wann": "Nach Aufgaben, bei Fehlern oder wenn Lernende ihr Vorgehen nicht erklären können.",
+   "warum": "Gezielte Fragen führen zum Nachdenken über das eigene Lernen und stärken das Strategiewissen.",
+   "einfuehren": "Nutze zuerst Fragen wie: War die Strategie effektiv? Was hätte ich besser machen können? Welche Erkenntnisse nutze ich für künftige Lernprozesse? Mit der Zeit formulierst du offener.",
+   "stolpersteine": "Oberflächliche Antworten («Gut») zeigen, dass Fragen zu allgemein sind oder die Zeit fehlt. Formuliere konkreter.",
+   "situationen": [
+    "standort",
+    "stecken"
+   ],
+   "buch": "Kap. 4.2 · Tab. 2.4",
+   "quelle": {
+    "kurz": "buch",
+    "wann": "teils",
+    "warum": "buch",
+    "einfuehren": "buch",
+    "stolpersteine": "ergaenzung"
+   },
+   "kategorie": "metakognitiv"
+  },
+  {
+   "id": "wochenrueckblick",
+   "name": "Wochenrückblick",
+   "kurz": "Eine feste Zeit pro Woche dient dem Rückblick: Highlight, Erfolge, Schwierigkeiten, Ziel für die nächste Woche.",
+   "wann": "Wenn Reflexion zur Routine werden soll.",
+   "warum": "Regelmässigkeit macht aus einmaligen Gedanken eine Gewohnheit.",
+   "einfuehren": "Lege einen festen Zeitpunkt fest (zum Beispiel Freitag, letzte Lektion) und gib eine einfache Vorlage. Mache die ersten Wochen vor.",
+   "stolpersteine": "Wenn der Rückblick oft ausfällt, wird er nicht zur Routine. Plane ihn fest ein.",
+   "situationen": [
+    "standort"
+   ],
+   "buch": "Kap. 4.4",
+   "quelle": {
+    "kurz": "teils",
+    "wann": "teils",
+    "warum": "ergaenzung",
+    "einfuehren": "teils",
+    "stolpersteine": "ergaenzung"
+   },
+   "kategorie": "metakognitiv"
+  },
+  {
+   "id": "lernmoment",
+   "name": "Lernmoment der Woche",
+   "kurz": "Die Lernenden notieren einen Moment, in dem sie durch eigenes Handeln etwas geschafft haben.",
+   "wann": "Wenn Erfolgserlebnisse im Alltag untergehen.",
+   "warum": "Wer Erfolge benennt, erkennt den Zusammenhang zwischen eigenem Handeln und Ergebnis.",
+   "einfuehren": "Schreibe selbst deinen Lernmoment auf und teile ihn. Die Lernenden notieren jede Woche einen Moment und tauschen sich darüber aus.",
+   "stolpersteine": "Zwinge niemanden zu grossen Momenten. Auch Kleines zählt.",
+   "situationen": [
+    "standort"
+   ],
+   "buch": "Kap. 4.4",
+   "quelle": {
+    "kurz": "buch",
+    "wann": "ergaenzung",
+    "warum": "teils",
+    "einfuehren": "ergaenzung",
+    "stolpersteine": "ergaenzung"
+   },
+   "kategorie": "metakognitiv"
+  },
+  {
+   "id": "ziel-anpassen",
+   "name": "Nächsten Schritt ableiten",
+   "kurz": "Aus der Reflexion folgt ein konkreter nächster Schritt oder ein angepasstes Ziel.",
+   "wann": "Wenn Reflexion folgenlos bleibt.",
+   "warum": "Erst die Verbindung zur nächsten Handlung macht Reflexion wirksam.",
+   "einfuehren": "Beende jede Reflexion mit der Frage: Was mache ich nächstes Mal anders oder gleich? Zeige selbst, wie du aus einer Reflexion einen Vorsatz machst.",
+   "stolpersteine": "Zu viele Vorsätze werden nicht umgesetzt. Beschränke dich auf einen.",
+   "situationen": [
+    "standort",
+    "start"
+   ],
+   "buch": "Kap. 4.4 · Tab. 2.4",
+   "quelle": {
+    "kurz": "teils",
+    "wann": "ergaenzung",
+    "warum": "teils",
+    "einfuehren": "ergaenzung",
+    "stolpersteine": "ergaenzung"
+   },
+   "kategorie": "metakognitiv"
   },
   {
    "id": "selbstgespraeche",
-   "richtung": "motivation",
    "name": "Selbstgespräche",
    "kurz": "Die Lernenden sprechen sich selbst Mut zu und leiten sich mit inneren Sätzen an, zum Beispiel «Ich schaffe das, wenn ich dranbleibe!».",
    "wann": "Bei Zweifeln, Frust oder Nervosität vor einer Aufgabe.",
@@ -981,11 +949,11 @@
     "warum": "teils",
     "einfuehren": "ergaenzung",
     "stolpersteine": "ergaenzung"
-   }
+   },
+   "kategorie": "motivational"
   },
   {
    "id": "kleine-schritte",
-   "richtung": "motivation",
    "name": "In kleine Schritte teilen",
    "kurz": "Es wird nur der nächste Schritt in den Blick genommen, statt die ganze Aufgabe zu überschauen.",
    "wann": "Wenn eine Aufgabe zu gross wirkt und Lernende nicht anfangen.",
@@ -1004,11 +972,11 @@
     "warum": "teils",
     "einfuehren": "ergaenzung",
     "stolpersteine": "ergaenzung"
-   }
+   },
+   "kategorie": "motivational"
   },
   {
    "id": "belohnung",
-   "richtung": "motivation",
    "name": "Belohnung einplanen",
    "kurz": "Nach einem Etappenziel gönnen sich die Lernenden etwas Angenehmes.",
    "wann": "Wenn das Dranbleiben schwerfällt.",
@@ -1027,11 +995,33 @@
     "warum": "teils",
     "einfuehren": "ergaenzung",
     "stolpersteine": "ergaenzung"
-   }
+   },
+   "kategorie": "motivational"
+  },
+  {
+   "id": "nutzen-bewusst-machen",
+   "name": "Nutzen bewusst machen",
+   "kurz": "Die Lernenden fragen sich: Wofür brauche ich das später? Was daran finde ich spannend? Sie machen sich Vorteile und persönliche Bezüge bewusst.",
+   "wann": "Wenn Lernende eine Aufgabe als sinnlos oder langweilig erleben.",
+   "warum": "Interesse und wahrgenommene Bedeutsamkeit steigern das Engagement.",
+   "einfuehren": "Beginne mit der Frage «Wofür könntest du das später brauchen?» und sammle die Antworten. Die Lernenden notieren zu einem Thema einen persönlichen Bezug und einen spannenden Aspekt.",
+   "stolpersteine": "Behauptete Vorteile («Das brauchst du später») überzeugen kaum. Die Lernenden sollen den Nutzen selbst benennen.",
+   "situationen": [
+    "start",
+    "motivation"
+   ],
+   "buch": "Tab. 2.4 · Kap. 4.3",
+   "quelle": {
+    "kurz": "buch",
+    "wann": "ergaenzung",
+    "warum": "buch",
+    "einfuehren": "ergaenzung",
+    "stolpersteine": "ergaenzung"
+   },
+   "kategorie": "motivational"
   },
   {
    "id": "emotionen-benennen",
-   "richtung": "motivation",
    "name": "Emotionen wahrnehmen und benennen",
    "kurz": "Die Lernenden benennen, wie es ihnen geht, und überlegen, was jetzt helfen könnte.",
    "wann": "Bei Stress, Prüfungsangst oder Frust, wenn Gefühle das Arbeiten blockieren.",
@@ -1050,33 +1040,11 @@
     "warum": "ergaenzung",
     "einfuehren": "teils",
     "stolpersteine": "ergaenzung"
-   }
-  },
-  {
-   "id": "nutzen-bewusst-machen",
-   "richtung": "motivation",
-   "name": "Nutzen bewusst machen",
-   "kurz": "Die Lernenden fragen sich: Wofür brauche ich das später? Was daran finde ich spannend? Sie machen sich Vorteile und persönliche Bezüge bewusst.",
-   "wann": "Wenn Lernende eine Aufgabe als sinnlos oder langweilig erleben.",
-   "warum": "Interesse und wahrgenommene Bedeutsamkeit steigern das Engagement.",
-   "einfuehren": "Beginne mit der Frage «Wofür könntest du das später brauchen?» und sammle die Antworten. Die Lernenden notieren zu einem Thema einen persönlichen Bezug und einen spannenden Aspekt.",
-   "stolpersteine": "Behauptete Vorteile («Das brauchst du später») überzeugen kaum. Die Lernenden sollen den Nutzen selbst benennen.",
-   "situationen": [
-    "start",
-    "motivation"
-   ],
-   "buch": "Tab. 2.4 · Kap. 4.3",
-   "quelle": {
-    "kurz": "buch",
-    "wann": "ergaenzung",
-    "warum": "buch",
-    "einfuehren": "ergaenzung",
-    "stolpersteine": "ergaenzung"
-   }
+   },
+   "kategorie": "emotional"
   },
   {
    "id": "gedanken-umdeuten",
-   "richtung": "motivation",
    "name": "Negative Gedanken umdeuten",
    "kurz": "Hemmende Gedanken wie «Ich kann das nie» werden bewusst hinterfragt und durch konstruktive ersetzt, zum Beispiel «Fehler gehören zum Lernen dazu».",
    "wann": "Bei Angst, Frust oder Unsicherheit, etwa bei Sätzen wie «Ich bin sowieso schlecht in Mathe».",
@@ -1094,11 +1062,11 @@
     "warum": "teils",
     "einfuehren": "ergaenzung",
     "stolpersteine": "ergaenzung"
-   }
+   },
+   "kategorie": "emotional"
   },
   {
    "id": "entspannungspause",
-   "richtung": "motivation",
    "name": "Kurze Entspannungspause",
    "kurz": "Bei Stress legen die Lernenden eine kurze Pause ein und entspannen sich bewusst, zum Beispiel durch ruhiges Atmen.",
    "wann": "Bei Stress, Prüfungsangst oder Anspannung.",
@@ -1116,205 +1084,142 @@
     "warum": "teils",
     "einfuehren": "ergaenzung",
     "stolpersteine": "ergaenzung"
-   }
+   },
+   "kategorie": "emotional"
   },
   {
-   "id": "erfolge-erinnern",
-   "richtung": "motivation",
-   "name": "Auf Erfolge zurückblicken",
-   "kurz": "Die Lernenden lenken ihre Aufmerksamkeit bewusst auf positive Aspekte der Aufgabe oder auf frühere Erfolge.",
-   "wann": "Wenn Misserfolge entmutigen oder vor einer schwierigen Aufgabe.",
-   "warum": "Der Blick auf Gelungenes stärkt das Selbstvertrauen und hilft, auch in herausfordernden Situationen motiviert und konzentriert zu bleiben.",
-   "einfuehren": "Frage vor einer schwierigen Aufgabe: «Wann hast du etwas Ähnliches schon geschafft? Was hat dir geholfen?» Zeige zuerst ein eigenes Beispiel.",
-   "stolpersteine": "Die Erfolge müssen echt sein. Wenn Lernende keine finden, beginne mit kleinen.",
+   "id": "arbeitsplatz-vorbereiten",
+   "name": "Lernumgebung und Lernort gestalten",
+   "kurz": "Die Lernenden richten ihre Umgebung so ein, dass sie ungestört arbeiten können, und überlegen, welcher Lernort für sie passt, zum Beispiel Bibliothek, ruhiges Zimmer oder Gruppe.",
+   "wann": "Wenn Lärm, Unordnung oder ein ungeeigneter Platz die Arbeit stören, oder wenn Zeit mit Suchen verloren geht.",
+   "warum": "Wer gut vorbereitet startet, verliert weniger Konzentration durch Unterbrechungen.",
+   "einfuehren": "Erstelle mit der Klasse eine Checkliste (Material bereit, Handy weg, Ordnung auf dem Tisch). Lass die Lernenden verschiedene Lernorte ausprobieren und festhalten, wo sie am besten arbeiten.",
+   "stolpersteine": "Der Ablauf darf nicht zum Selbstzweck werden. Halte die Checkliste kurz.",
    "situationen": [
-    "motivation",
-    "stecken"
+    "ablenkung",
+    "start"
+   ],
+   "buch": "Tab. 2.4 · Kap. 4.4",
+   "quelle": {
+    "kurz": "buch",
+    "wann": "ergaenzung",
+    "warum": "ergaenzung",
+    "einfuehren": "ergaenzung",
+    "stolpersteine": "ergaenzung"
+   },
+   "kategorie": "ressourcen"
+  },
+  {
+   "id": "zeitmanagement",
+   "name": "Zeit realistisch einteilen",
+   "kurz": "Die Lernenden schätzen den Aufwand für Aufgaben ein, teilen ihre Zeit ein (feste Lernzeiten, eingeplante Pausen) und prüfen regelmässig, ob die Planung stimmt.",
+   "wann": "Bei Wochenplänen, Projekten und vor Prüfungen, oder wenn Lernende regelmässig unter Zeitdruck geraten.",
+   "warum": "Eine realistische Zeitplanung hilft, Zeitdruck zu vermeiden und sich an den Plan zu halten.",
+   "einfuehren": "Schätze vor der Klasse den Aufwand für eine Aufgabe, miss die tatsächliche Zeit und vergleiche. Die Lernenden tun dasselbe mit einer eigenen Aufgabe und passen ihren Plan an.",
+   "stolpersteine": "Zeitschätzungen fallen anfangs oft zu optimistisch aus. Bespreche Abweichungen ohne Wertung.",
+   "situationen": [
+    "ueberblick",
+    "start"
    ],
    "buch": "Tab. 2.4",
    "quelle": {
     "kurz": "buch",
     "wann": "ergaenzung",
-    "warum": "teils",
+    "warum": "buch",
     "einfuehren": "ergaenzung",
     "stolpersteine": "ergaenzung"
-   }
+   },
+   "kategorie": "ressourcen"
   },
   {
-   "id": "wachstumsdenken",
-   "richtung": "motivation",
-   "name": "Wachstumsdenken (Mindset)",
-   "kurz": "Die Lernenden entwickeln die Haltung «Ich kann mich durch Übung verbessern», sehen Fehler als Lernchance und fragen sich «Was kann ich daraus lernen?».",
-   "wann": "Bei Sätzen wie «Ich kann das nicht» oder wenn Rückschläge schnell entmutigen.",
-   "warum": "Eine wachstumsorientierte Haltung hilft, Rückschläge konstruktiv zu verarbeiten und sich als aktive Gestalter:in des eigenen Lernens zu erleben.",
-   "einfuehren": "Ergänze ein «noch» («Ich kann das noch nicht»), würdige Anstrengung und Fortschritt im Feedback und sprich über eigene Lernwege. Die Lernenden halten fest, was sie früher nicht konnten und heute können.",
-   "stolpersteine": "Mindset-Sprüche allein ändern wenig. Es braucht erlebte Fortschritte und eine Lernkultur, die Fehler zulässt.",
+   "id": "pomodoro",
+   "name": "Pomodoro-Technik",
+   "kurz": "In kurzen Blöcken wird konzentriert gearbeitet, zum Beispiel 25 Minuten, danach folgt eine kurze Pause.",
+   "wann": "Wenn Lernende bei längeren Arbeitsphasen die Konzentration verlieren.",
+   "warum": "Ein überschaubarer Zeitblock und regelmässige Pausen erleichtern es, am Ball zu bleiben.",
+   "einfuehren": "Probiere die Technik gemeinsam in der Klasse mit einem Timer aus. Lass die Lernenden danach beurteilen, ob sie ihnen hilft, und die Blocklänge anpassen.",
+   "stolpersteine": "Die ideale Blocklänge hängt von Alter und Aufgabe ab. Beginne eher kürzer.",
    "situationen": [
-    "motivation",
+    "ablenkung",
     "stecken"
+   ],
+   "buch": "Kap. 4.2 (Schüler:innenbeispiel)",
+   "quelle": {
+    "kurz": "ergaenzung",
+    "wann": "ergaenzung",
+    "warum": "ergaenzung",
+    "einfuehren": "ergaenzung",
+    "stolpersteine": "ergaenzung"
+   },
+   "kategorie": "ressourcen"
+  },
+  {
+   "id": "ablenkung-reduzieren",
+   "name": "Ablenkungen reduzieren",
+   "kurz": "Störquellen wie Handy oder Lärm werden bewusst ausgeschaltet oder ferngehalten, ein ruhiger Arbeitsplatz wird gewählt.",
+   "wann": "Wenn äussere Reize die Arbeit immer wieder unterbrechen.",
+   "warum": "Weniger Ablenkung bedeutet mehr Kapazität für die eigentliche Aufgabe.",
+   "einfuehren": "Sammle gemeinsam Ablenkungen und Gegenmittel. Lass die Lernenden eine Massnahme wählen, ausprobieren und später berichten, ob sie gewirkt hat.",
+   "stolpersteine": "Ablenkung ist nicht nur äusserlich. Auch Gedanken und Gefühle können stören, daher ergänze Selbstgespräche und Emotionen benennen.",
+   "situationen": [
+    "ablenkung"
+   ],
+   "buch": "Tab. 2.4",
+   "quelle": {
+    "kurz": "buch",
+    "wann": "ergaenzung",
+    "warum": "ergaenzung",
+    "einfuehren": "ergaenzung",
+    "stolpersteine": "ergaenzung"
+   },
+   "kategorie": "ressourcen"
+  },
+  {
+   "id": "pausen-bewegung",
+   "name": "Pausen und Bewegung",
+   "kurz": "Kurze, bewusst gestaltete Pausen mit Bewegung, Trinken oder frischer Luft.",
+   "wann": "Bei Müdigkeit, Unruhe oder nachlassender Konzentration.",
+   "warum": "Erholung hilft, die Aufmerksamkeit wieder aufzubauen.",
+   "einfuehren": "Mache die Pause gemeinsam vor und beschreibe, was du in der Pause tust und was du vermeidest. Die Lernenden probieren verschiedene Pausen aus und vergleichen.",
+   "stolpersteine": "Eine Pause am Handy erholt oft nicht. Besprich Pausen, die tatsächlich erholen.",
+   "situationen": [
+    "ablenkung",
+    "stecken"
+   ],
+   "buch": "",
+   "quelle": {
+    "kurz": "ergaenzung",
+    "wann": "ergaenzung",
+    "warum": "ergaenzung",
+    "einfuehren": "ergaenzung",
+    "stolpersteine": "ergaenzung"
+   },
+   "kategorie": "ressourcen"
+  },
+  {
+   "id": "hilfe-holen",
+   "name": "Hilfe holen",
+   "kurz": "Die Lernenden holen gezielt Unterstützung (Lehrperson, Mitlernende, Eltern, Strategiebox) und nutzen Feedback, zum Beispiel indem sie einen Text gegenlesen lassen.",
+   "wann": "Wenn Lernende nicht mehr weiterkommen und warten oder aufgeben.",
+   "warum": "Wer weiss, wann welche Unterstützung sinnvoll ist, arbeitet effizienter und bewältigt Herausforderungen souveräner. Klare Abläufe machen das Fragen leichter.",
+   "einfuehren": "Etabliere einen Ablauf (zuerst Aufgabe nochmals lesen, dann Hilfekarte, dann Partner, dann Lehrperson). Betone, dass Hilfeholen eine Stärke ist, und zeige es an dir selbst.",
+   "stolpersteine": "Wenn Hilfeholen als Schwäche gilt, fragt niemand. Das Klima in der Klasse ist entscheidend.",
+   "situationen": [
+    "stecken",
+    "standort"
    ],
    "buch": "Tab. 2.4 · Kap. 4.4",
    "quelle": {
     "kurz": "buch",
-    "wann": "teils",
+    "wann": "ergaenzung",
     "warum": "buch",
     "einfuehren": "teils",
-    "stolpersteine": "ergaenzung"
-   }
-  },
-  {
-   "id": "selbsteinschaetzung",
-   "richtung": "reflektieren",
-   "name": "Selbsteinschätzung",
-   "kurz": "Die Lernenden schätzen ein, was sie schon können und was noch nicht, zum Beispiel mit einer Skala oder Ampel.",
-   "wann": "Wenn Lernende ihren Stand schlecht kennen oder über- bzw. unterschätzen.",
-   "warum": "Wer seinen Stand kennt, kann das Lernen gezielt anpassen.",
-   "einfuehren": "Zeige, wie du dich selbst einschätzt, und begründe deine Einschätzung mit einem Beleg. Vergleiche später Selbst- und Fremdeinschätzung im Gespräch.",
-   "stolpersteine": "Einschätzungen sind anfangs oft ungenau. Das ist normal. Das Ziel ist das Gespräch darüber.",
-   "situationen": [
-    "standort"
-   ],
-   "buch": "Kap. 4.3",
-   "quelle": {
-    "kurz": "teils",
-    "wann": "ergaenzung",
-    "warum": "teils",
-    "einfuehren": "ergaenzung",
     "stolpersteine": "teils"
-   }
-  },
-  {
-   "id": "lernjournal",
-   "richtung": "reflektieren",
-   "name": "Lernjournal",
-   "kurz": "Die Lernenden halten regelmässig fest, was gelungen ist, was schwierig war und was als Nächstes folgt.",
-   "wann": "Wenn Lernwege sichtbar gemacht und über längere Zeit verfolgt werden sollen.",
-   "warum": "Schreiben macht Gedanken fassbar und zeigt Entwicklung über die Zeit.",
-   "einfuehren": "Gib eine feste Struktur mit wenigen Leitfragen vor. Schreibe zu Beginn einige Einträge gemeinsam und gib Rückmeldungen auf die Einträge.",
-   "stolpersteine": "Ohne Rückmeldung verliert das Journal an Reiz. Plane Zeit ein, es zu lesen oder darüber zu sprechen.",
-   "situationen": [
-    "standort",
-    "stecken"
-   ],
-   "buch": "Kap. 4.2 · Kap. 4.4",
-   "quelle": {
-    "kurz": "teils",
-    "wann": "ergaenzung",
-    "warum": "ergaenzung",
-    "einfuehren": "teils",
-    "stolpersteine": "ergaenzung"
-   }
-  },
-  {
-   "id": "reflexionsfragen",
-   "richtung": "reflektieren",
-   "name": "Reflexionsfragen",
-   "kurz": "Leitfragen regen dazu an, über Vorgehen und Strategieeinsatz nachzudenken, zum Beispiel: War die Strategie effektiv? Was hätte ich besser machen können?",
-   "wann": "Nach Aufgaben, bei Fehlern oder wenn Lernende ihr Vorgehen nicht erklären können.",
-   "warum": "Gezielte Fragen führen zum Nachdenken über das eigene Lernen und stärken das Strategiewissen.",
-   "einfuehren": "Nutze zuerst Fragen wie: War die Strategie effektiv? Was hätte ich besser machen können? Welche Erkenntnisse nutze ich für künftige Lernprozesse? Mit der Zeit formulierst du offener.",
-   "stolpersteine": "Oberflächliche Antworten («Gut») zeigen, dass Fragen zu allgemein sind oder die Zeit fehlt. Formuliere konkreter.",
-   "situationen": [
-    "standort",
-    "stecken"
-   ],
-   "buch": "Kap. 4.2 · Tab. 2.4",
-   "quelle": {
-    "kurz": "buch",
-    "wann": "teils",
-    "warum": "buch",
-    "einfuehren": "buch",
-    "stolpersteine": "ergaenzung"
-   }
-  },
-  {
-   "id": "wochenrueckblick",
-   "richtung": "reflektieren",
-   "name": "Wochenrückblick",
-   "kurz": "Eine feste Zeit pro Woche dient dem Rückblick: Highlight, Erfolge, Schwierigkeiten, Ziel für die nächste Woche.",
-   "wann": "Wenn Reflexion zur Routine werden soll.",
-   "warum": "Regelmässigkeit macht aus einmaligen Gedanken eine Gewohnheit.",
-   "einfuehren": "Lege einen festen Zeitpunkt fest (zum Beispiel Freitag, letzte Lektion) und gib eine einfache Vorlage. Mache die ersten Wochen vor.",
-   "stolpersteine": "Wenn der Rückblick oft ausfällt, wird er nicht zur Routine. Plane ihn fest ein.",
-   "situationen": [
-    "standort"
-   ],
-   "buch": "Kap. 4.4",
-   "quelle": {
-    "kurz": "teils",
-    "wann": "teils",
-    "warum": "ergaenzung",
-    "einfuehren": "teils",
-    "stolpersteine": "ergaenzung"
-   }
-  },
-  {
-   "id": "vorher-nachher",
-   "richtung": "reflektieren",
-   "name": "Vorher-nachher-Vergleich",
-   "kurz": "Der eigene Stand wird mit einem früheren verglichen, etwa mit einer Lernfortschrittslinie.",
-   "wann": "Wenn Lernende ihre Fortschritte nicht sehen oder sich mit anderen vergleichen.",
-   "warum": "Der Blick auf die eigene Entwicklung stärkt die Selbstwirksamkeit.",
-   "einfuehren": "Sammle Arbeiten aus verschiedenen Zeitpunkten und zeige, woran man Fortschritte erkennt. Lass die Lernenden eine Linie zeichnen.",
-   "stolpersteine": "Der Vergleich gilt dem eigenen früheren Stand, nicht den Mitlernenden.",
-   "situationen": [
-    "standort"
-   ],
-   "buch": "Kap. 4.4",
-   "quelle": {
-    "kurz": "buch",
-    "wann": "ergaenzung",
-    "warum": "buch",
-    "einfuehren": "ergaenzung",
-    "stolpersteine": "buch"
-   }
-  },
-  {
-   "id": "lernmoment",
-   "richtung": "reflektieren",
-   "name": "Lernmoment der Woche",
-   "kurz": "Die Lernenden notieren einen Moment, in dem sie durch eigenes Handeln etwas geschafft haben.",
-   "wann": "Wenn Erfolgserlebnisse im Alltag untergehen.",
-   "warum": "Wer Erfolge benennt, erkennt den Zusammenhang zwischen eigenem Handeln und Ergebnis.",
-   "einfuehren": "Schreibe selbst deinen Lernmoment auf und teile ihn. Die Lernenden notieren jede Woche einen Moment und tauschen sich darüber aus.",
-   "stolpersteine": "Zwinge niemanden zu grossen Momenten. Auch Kleines zählt.",
-   "situationen": [
-    "standort"
-   ],
-   "buch": "Kap. 4.4",
-   "quelle": {
-    "kurz": "buch",
-    "wann": "ergaenzung",
-    "warum": "teils",
-    "einfuehren": "ergaenzung",
-    "stolpersteine": "ergaenzung"
-   }
-  },
-  {
-   "id": "ziel-anpassen",
-   "richtung": "reflektieren",
-   "name": "Nächsten Schritt ableiten",
-   "kurz": "Aus der Reflexion folgt ein konkreter nächster Schritt oder ein angepasstes Ziel.",
-   "wann": "Wenn Reflexion folgenlos bleibt.",
-   "warum": "Erst die Verbindung zur nächsten Handlung macht Reflexion wirksam.",
-   "einfuehren": "Beende jede Reflexion mit der Frage: Was mache ich nächstes Mal anders oder gleich? Zeige selbst, wie du aus einer Reflexion einen Vorsatz machst.",
-   "stolpersteine": "Zu viele Vorsätze werden nicht umgesetzt. Beschränke dich auf einen.",
-   "situationen": [
-    "standort",
-    "start"
-   ],
-   "buch": "Kap. 4.4 · Tab. 2.4",
-   "quelle": {
-    "kurz": "teils",
-    "wann": "ergaenzung",
-    "warum": "teils",
-    "einfuehren": "ergaenzung",
-    "stolpersteine": "ergaenzung"
-   }
+   },
+   "kategorie": "ressourcen"
   },
   {
    "id": "lerntandem",
-   "richtung": "zusammenarbeiten",
    "name": "Lerntandem",
    "kurz": "Zu zweit arbeiten, mit klarer Rollenverteilung, zum Beispiel Erklärer:in und Frager:in.",
    "wann": "Wenn Verständnis geprüft und Strategien ausgetauscht werden sollen.",
@@ -1332,11 +1237,11 @@
     "warum": "teils",
     "einfuehren": "ergaenzung",
     "stolpersteine": "ergaenzung"
-   }
+   },
+   "kategorie": "ressourcen"
   },
   {
    "id": "strategieinterview",
-   "richtung": "zusammenarbeiten",
    "name": "Strategieinterview",
    "kurz": "Die Lernenden befragen sich gegenseitig zu Vorgehen und Strategien: Wie bereitest du dich vor? Was hilft dir beim Verstehen?",
    "wann": "Wenn Lernende von den Strategien anderer lernen sollen.",
@@ -1354,11 +1259,11 @@
     "warum": "buch",
     "einfuehren": "ergaenzung",
     "stolpersteine": "ergaenzung"
-   }
+   },
+   "kategorie": "ressourcen"
   },
   {
    "id": "peer-feedback",
-   "richtung": "zusammenarbeiten",
    "name": "Peer-Feedback",
    "kurz": "Die Lernenden geben sich gegenseitig Rückmeldung zu Vorgehen, Strategieeinsatz oder Ergebnis.",
    "wann": "Wenn Kriterien bekannt sind und der Blick von aussen weiterhelfen soll.",
@@ -1376,11 +1281,11 @@
     "warum": "teils",
     "einfuehren": "ergaenzung",
     "stolpersteine": "ergaenzung"
-   }
+   },
+   "kategorie": "ressourcen"
   },
   {
    "id": "vergleichen",
-   "richtung": "zusammenarbeiten",
    "name": "Gemeinsam vergleichen",
    "kurz": "Lösungen, Maps oder Zusammenfassungen werden miteinander oder mit einer Musterlösung verglichen.",
    "wann": "Wenn die Anwendung einer Strategie überprüft werden soll.",
@@ -1398,11 +1303,11 @@
     "warum": "teils",
     "einfuehren": "ergaenzung",
     "stolpersteine": "ergaenzung"
-   }
+   },
+   "kategorie": "ressourcen"
   },
   {
    "id": "lerngruppe",
-   "richtung": "zusammenarbeiten",
    "name": "Lerngruppe bilden",
    "kurz": "Mehrere Lernende erklären sich regelmässig Inhalte und fragen sich gegenseitig ab.",
    "wann": "Bei grösseren Stoffgebieten und Prüfungsvorbereitung.",
@@ -1420,7 +1325,95 @@
     "warum": "teils",
     "einfuehren": "ergaenzung",
     "stolpersteine": "ergaenzung"
-   }
+   },
+   "kategorie": "ressourcen"
+  },
+  {
+   "id": "fehleranalyse",
+   "name": "Fehleranalyse",
+   "kurz": "Fehler werden gesammelt, die Ursache wird benannt und der nächste Schritt festgelegt.",
+   "wann": "Wenn dieselben Fehler wiederholt auftreten.",
+   "warum": "Fehler liefern Informationen über das eigene Lernen. Wer die Ursache kennt, kann gezielt üben.",
+   "einfuehren": "Analysiere einen eigenen Fehler vor der Klasse mit den Fragen: Was ist passiert? Warum? Was mache ich nächstes Mal anders? Lass die Lernenden das an einem eigenen Fehler tun.",
+   "stolpersteine": "Ohne eine sichere Fehlerkultur zeigt niemand gern Fehler. Gehe selbst mit gutem Beispiel voran.",
+   "situationen": [
+    "stecken",
+    "behalten"
+   ],
+   "buch": "Kap. 4.4 · Kap. 4.2",
+   "quelle": {
+    "kurz": "teils",
+    "wann": "ergaenzung",
+    "warum": "ergaenzung",
+    "einfuehren": "teils",
+    "stolpersteine": "teils"
+   },
+   "kategorie": "mindset"
+  },
+  {
+   "id": "erfolge-erinnern",
+   "name": "Auf Erfolge zurückblicken",
+   "kurz": "Die Lernenden lenken ihre Aufmerksamkeit bewusst auf positive Aspekte der Aufgabe oder auf frühere Erfolge.",
+   "wann": "Wenn Misserfolge entmutigen oder vor einer schwierigen Aufgabe.",
+   "warum": "Der Blick auf Gelungenes stärkt das Selbstvertrauen und hilft, auch in herausfordernden Situationen motiviert und konzentriert zu bleiben.",
+   "einfuehren": "Frage vor einer schwierigen Aufgabe: «Wann hast du etwas Ähnliches schon geschafft? Was hat dir geholfen?» Zeige zuerst ein eigenes Beispiel.",
+   "stolpersteine": "Die Erfolge müssen echt sein. Wenn Lernende keine finden, beginne mit kleinen.",
+   "situationen": [
+    "motivation",
+    "stecken"
+   ],
+   "buch": "Tab. 2.4",
+   "quelle": {
+    "kurz": "buch",
+    "wann": "ergaenzung",
+    "warum": "teils",
+    "einfuehren": "ergaenzung",
+    "stolpersteine": "ergaenzung"
+   },
+   "kategorie": "mindset"
+  },
+  {
+   "id": "wachstumsdenken",
+   "name": "Wachstumsdenken (Mindset)",
+   "kurz": "Die Lernenden entwickeln die Haltung «Ich kann mich durch Übung verbessern», sehen Fehler als Lernchance und fragen sich «Was kann ich daraus lernen?».",
+   "wann": "Bei Sätzen wie «Ich kann das nicht» oder wenn Rückschläge schnell entmutigen.",
+   "warum": "Eine wachstumsorientierte Haltung hilft, Rückschläge konstruktiv zu verarbeiten und sich als aktive Gestalter:in des eigenen Lernens zu erleben.",
+   "einfuehren": "Ergänze ein «noch» («Ich kann das noch nicht»), würdige Anstrengung und Fortschritt im Feedback und sprich über eigene Lernwege. Die Lernenden halten fest, was sie früher nicht konnten und heute können.",
+   "stolpersteine": "Mindset-Sprüche allein ändern wenig. Es braucht erlebte Fortschritte und eine Lernkultur, die Fehler zulässt.",
+   "situationen": [
+    "motivation",
+    "stecken"
+   ],
+   "buch": "Tab. 2.4 · Kap. 4.4",
+   "quelle": {
+    "kurz": "buch",
+    "wann": "teils",
+    "warum": "buch",
+    "einfuehren": "teils",
+    "stolpersteine": "ergaenzung"
+   },
+   "kategorie": "mindset"
+  },
+  {
+   "id": "vorher-nachher",
+   "name": "Vorher-nachher-Vergleich",
+   "kurz": "Der eigene Stand wird mit einem früheren verglichen, etwa mit einer Lernfortschrittslinie.",
+   "wann": "Wenn Lernende ihre Fortschritte nicht sehen oder sich mit anderen vergleichen.",
+   "warum": "Der Blick auf die eigene Entwicklung stärkt die Selbstwirksamkeit.",
+   "einfuehren": "Sammle Arbeiten aus verschiedenen Zeitpunkten und zeige, woran man Fortschritte erkennt. Lass die Lernenden eine Linie zeichnen.",
+   "stolpersteine": "Der Vergleich gilt dem eigenen früheren Stand, nicht den Mitlernenden.",
+   "situationen": [
+    "standort"
+   ],
+   "buch": "Kap. 4.4",
+   "quelle": {
+    "kurz": "buch",
+    "wann": "ergaenzung",
+    "warum": "buch",
+    "einfuehren": "ergaenzung",
+    "stolpersteine": "buch"
+   },
+   "kategorie": "mindset"
   }
  ]
 }

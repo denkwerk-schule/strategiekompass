@@ -97,6 +97,8 @@ details.how li b{font-weight:800}
 .defizit dt{font-weight:800;text-transform:uppercase;letter-spacing:.1em;font-size:.72rem;opacity:.85;margin-top:.5rem}
 .defizit dd{margin:0;font-size:1rem;line-height:1.5}
 @media (min-width:760px){.defizit dl{grid-template-columns:11rem 1fr;gap:.55rem 1.5rem}.defizit dt{margin-top:.25rem}}
+details.how.fold .fbody{gap:.8rem;padding-top:1rem}
+details.how.fold .intro{margin:0;font-family:var(--serif);font-style:italic}
 details.how .more{margin:0;padding-left:1.2rem;display:flex;flex-direction:column;gap:.45rem;font-size:1rem;line-height:1.5;max-width:42rem}
 .field{display:flex;flex-direction:column;gap:.7rem}
 .field .head{display:flex;align-items:center;gap:.8rem}
@@ -230,14 +232,26 @@ details.how .more{margin:0;padding-left:1.2rem;display:flex;flex-direction:colum
       Diese Seite lädt ihre Inhalte aus einer Datei und funktioniert deshalb nicht, wenn sie direkt per Doppelklick geöffnet wird. Starte im Ordner einen kleinen Server, zum Beispiel mit <code>python3 -m http.server 8000</code>, und öffne <code>http://localhost:8000</code>.
     </div>
 
-    <div class="field" id="fRichtung">
-      <div class="kicker">Richtung</div>
-      <div class="chips" id="chipsRichtung" role="group" aria-label="Richtung wählen"></div>
-    </div>
-    <div class="field" id="fSituation">
-      <div class="kicker">Situation in der Klasse</div>
-      <div class="chips" id="chipsSituation" role="group" aria-label="Situation wählen"></div>
-    </div>
+    <details class="how fold" id="fKat" open>
+      <summary>
+        <span class="stitle"><b>Nach Kategorie filtern</b><span id="sumKat">Alle sechs Kategorien</span></span>
+        <span class="toggle" aria-hidden="true"></span>
+      </summary>
+      <div class="body fbody">
+        <p class="intro">Die sechs Kategorien von Strategien aus dem Buch.</p>
+        <div class="chips" id="chipsKategorie" role="group" aria-label="Kategorie wählen"></div>
+      </div>
+    </details>
+    <details class="how fold" id="fSit" open>
+      <summary>
+        <span class="stitle"><b>Nach Situation filtern</b><span id="sumSit">Alle Situationen</span></span>
+        <span class="toggle" aria-hidden="true"></span>
+      </summary>
+      <div class="body fbody">
+        <p class="intro">Was beobachtest du gerade in deiner Klasse?</p>
+        <div class="chips" id="chipsSituation" role="group" aria-label="Situation wählen"></div>
+      </div>
+    </details>
     <div class="field">
       <div class="kicker">Quelle</div>
       <div class="chips"><button id="tglBuch" class="chip sit" type="button" aria-pressed="false">Nur Strategien aus dem Buch</button></div>
@@ -299,7 +313,7 @@ details.how .more{margin:0;padding-left:1.2rem;display:flex;flex-direction:colum
   'use strict';
   var HOME = {bg:'#c7d200', fg:'#2b2b2b'};
   var data = null, items = [], nrOf = {};
-  var state = {richtung:'', situation:'', q:'', nurBuch:false, current:null};
+  var state = {kategorie:'', situation:'', q:'', nurBuch:false, current:null};
   var $ = function(id){ return document.getElementById(id); };
   var metaTheme = document.querySelector('meta[name="theme-color"]');
 
@@ -308,7 +322,7 @@ details.how .more{margin:0;padding-left:1.2rem;display:flex;flex-direction:colum
     r.setProperty('--bg', c.bg); r.setProperty('--fg', c.fg);
     if (metaTheme) metaTheme.setAttribute('content', c.bg);
   }
-  function rich(id){ return data.richtungen.filter(function(r){ return r.id === id; })[0]; }
+  function rich(id){ return data.kategorien.filter(function(r){ return r.id === id; })[0]; }
   function sit(id){ return data.situationen.filter(function(s){ return s.id === id; })[0]; }
   function two(n){ return (n < 10 ? '0' : '') + n; }
   function el(tag, cls, text){ var e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
@@ -317,7 +331,7 @@ details.how .more{margin:0;padding-left:1.2rem;display:flex;flex-direction:colum
   function filtered(){
     var q = norm(state.q).trim();
     return data.strategien.filter(function(s){
-      if (state.richtung && s.richtung !== state.richtung) return false;
+      if (state.kategorie && s.kategorie !== state.kategorie) return false;
       if (state.situation && s.situationen.indexOf(state.situation) < 0) return false;
       if (state.nurBuch && !s.buch) return false;
       if (q) {
@@ -329,10 +343,10 @@ details.how .more{margin:0;padding-left:1.2rem;display:flex;flex-direction:colum
   }
 
   function renderChips(){
-    var cr = $('chipsRichtung'); cr.textContent = '';
-    data.richtungen.forEach(function(r){
+    var cr = $('chipsKategorie'); cr.textContent = '';
+    data.kategorien.forEach(function(r){
       var b = el('button', 'chip'); b.type = 'button'; b.dataset.id = r.id;
-      b.setAttribute('aria-pressed', state.richtung === r.id ? 'true' : 'false');
+      b.setAttribute('aria-pressed', state.kategorie === r.id ? 'true' : 'false');
       var d = el('span', 'dot'); d.style.background = r.bg;
       b.appendChild(d); b.appendChild(document.createTextNode(r.titel));
       b.title = r.untertitel;
@@ -347,6 +361,8 @@ details.how .more{margin:0;padding-left:1.2rem;display:flex;flex-direction:colum
       b.setAttribute('aria-pressed', state.situation === s.id ? 'true' : 'false');
       cs.appendChild(b);
     });
+    $('sumKat').textContent = state.kategorie ? rich(state.kategorie).titel : 'Alle sechs Kategorien';
+    $('sumSit').textContent = state.situation ? sit(state.situation).titel : 'Alle Situationen';
   }
 
   function renderList(){
@@ -356,16 +372,16 @@ details.how .more{margin:0;padding-left:1.2rem;display:flex;flex-direction:colum
       var b = el('button', 'row'); b.type = 'button'; b.dataset.id = s.id;
       b.appendChild(el('span', 'num', two(nrOf[s.id])));
       b.appendChild(el('span', 'rname', s.name));
-      b.appendChild(el('span', 'rtag', rich(s.richtung).titel));
+      b.appendChild(el('span', 'rtag', rich(s.kategorie).titel));
       list.appendChild(b);
     });
     if (!items.length) list.appendChild(el('p', 'empty serif', 'Dazu gibt es keine Strategie. Lockere einen Filter oder ändere die Suche.'));
     var n = items.length;
     $('count').textContent = n + (n === 1 ? ' Strategie' : ' Strategien');
-    $('reset').hidden = !(state.richtung || state.situation || state.q || state.nurBuch);
+    $('reset').hidden = !(state.kategorie || state.situation || state.q || state.nurBuch);
   }
 
-  function homeTheme(){ var r = state.richtung && rich(state.richtung); theme(r ? r : HOME); }
+  function homeTheme(){ var r = state.kategorie && rich(state.kategorie); theme(r ? r : HOME); }
 
   function updateHome(){ renderChips(); renderList(); homeTheme(); }
 
@@ -373,7 +389,7 @@ details.how .more{margin:0;padding-left:1.2rem;display:flex;flex-direction:colum
     state.current = id;
     var s = data.strategien.filter(function(x){ return x.id === id; })[0];
     if (!s) { showHome(); return; }
-    var r = rich(s.richtung);
+    var r = rich(s.kategorie);
     $('home').hidden = true; $('detail').hidden = false; $('band').hidden = true;
     theme(r);
     $('dnum').textContent = two(nrOf[s.id]);
@@ -397,7 +413,7 @@ details.how .more{margin:0;padding-left:1.2rem;display:flex;flex-direction:colum
       var b = el('button', 'sim'); b.type = 'button'; b.dataset.id = x.id;
       b.appendChild(el('span', 'num', two(nrOf[x.id])));
       b.appendChild(el('span', 'sname', x.name));
-      b.appendChild(el('span', 'stag', rich(x.richtung).titel));
+      b.appendChild(el('span', 'stag', rich(x.kategorie).titel));
       ds.appendChild(b);
     });
     $('secSim').hidden = !ds.children.length;
@@ -409,7 +425,7 @@ details.how .more{margin:0;padding-left:1.2rem;display:flex;flex-direction:colum
   function similar(s){
     return data.strategien.filter(function(x){ return x.id !== s.id && (!state.nurBuch || x.buch); }).map(function(x){
       var shared = x.situationen.filter(function(t){ return s.situationen.indexOf(t) >= 0; }).length;
-      var score = shared * 2 + (x.richtung === s.richtung ? 1 : 0);
+      var score = shared * 2 + (x.kategorie === s.kategorie ? 1 : 0);
       return {x: x, score: score, nr: nrOf[x.id]};
     }).filter(function(o){ return o.score > 0; })
       .sort(function(p, q){ return q.score - p.score || p.nr - q.nr; })
@@ -424,9 +440,9 @@ details.how .more{margin:0;padding-left:1.2rem;display:flex;flex-direction:colum
   }
 
   function bind(){
-    $('chipsRichtung').addEventListener('click', function(e){
+    $('chipsKategorie').addEventListener('click', function(e){
       var b = e.target.closest('.chip'); if (!b) return;
-      state.richtung = state.richtung === b.dataset.id ? '' : b.dataset.id; b.blur(); updateHome();
+      state.kategorie = state.kategorie === b.dataset.id ? '' : b.dataset.id; b.blur(); updateHome();
     });
     $('chipsSituation').addEventListener('click', function(e){
       var b = e.target.closest('.chip'); if (!b) return;
@@ -434,7 +450,7 @@ details.how .more{margin:0;padding-left:1.2rem;display:flex;flex-direction:colum
     });
     $('tglBuch').addEventListener('click', function(e){ state.nurBuch = !state.nurBuch; e.currentTarget.blur(); updateHome(); });
     $('search').addEventListener('input', function(e){ state.q = e.target.value; renderList(); });
-    $('reset').addEventListener('click', function(){ state.richtung = ''; state.situation = ''; state.q = ''; state.nurBuch = false; $('search').value = ''; updateHome(); });
+    $('reset').addEventListener('click', function(){ state.kategorie = ''; state.situation = ''; state.q = ''; state.nurBuch = false; $('search').value = ''; updateHome(); });
     $('list').addEventListener('click', function(e){ var b = e.target.closest('.row'); if (b) show(b.dataset.id); });
     $('back').addEventListener('click', function(e){ e.currentTarget.blur(); showHome(); });
     $('back2').addEventListener('click', function(e){ e.currentTarget.blur(); showHome(); });
@@ -451,7 +467,7 @@ details.how .more{margin:0;padding-left:1.2rem;display:flex;flex-direction:colum
 
   function band(){
     var b = $('band'); b.textContent = '';
-    data.richtungen.forEach(function(r){ var i = document.createElement('i'); i.style.background = r.bg; b.appendChild(i); });
+    data.kategorien.forEach(function(r){ var i = document.createElement('i'); i.style.background = r.bg; b.appendChild(i); });
   }
 
   function init(){
