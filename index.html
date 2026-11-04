@@ -118,6 +118,14 @@ details.how .more{margin:0;padding-left:1.2rem;display:flex;flex-direction:colum
 .row:hover .rname{text-decoration:underline;text-underline-offset:.25em;text-decoration-thickness:.1em}
 .row .rname{flex:1;font-weight:800;text-transform:uppercase;letter-spacing:.02em;font-size:clamp(1rem,3.8vw,1.25rem);line-height:1.15;overflow-wrap:anywhere}
 .row .rtag{font-weight:700;opacity:.7;font-size:.78rem;text-transform:uppercase;letter-spacing:.1em;text-align:right}
+.row .rname{min-width:0}
+@media (max-width:640px){
+  .row{display:grid;grid-template-columns:auto minmax(0,1fr);grid-template-areas:"num name" ". tag";column-gap:.9rem;row-gap:.3rem;align-items:center}
+  .row .num{grid-area:num;align-self:start}
+  .row .rname{grid-area:name}
+  .row .rtag{grid-area:tag;text-align:left;font-size:.68rem;letter-spacing:.08em}
+}
+}
 .empty{padding:2rem 0;font-size:1.2rem}
 .foot{font-size:.85rem;line-height:1.5;opacity:.85;margin:1rem 0 0;padding-top:1rem;border-top:2px solid var(--line);max-width:42rem;display:flex;flex-direction:column;gap:.5rem}
 .foot p{margin:0}
@@ -160,6 +168,11 @@ details.how .more{margin:0;padding-left:1.2rem;display:flex;flex-direction:colum
   .dtitle{font-size:min(3.8vw,7vh)}
   .btn{font-size:clamp(.9rem,1.2vw,1.2rem)}
 }
+@media (max-width:640px){
+  .sim{display:grid;grid-template-columns:auto minmax(0,1fr);grid-template-areas:"num name" ". tag";column-gap:.9rem;row-gap:.25rem;align-items:center}
+  .sim .num{grid-area:num;align-self:start}
+  .sim .sname{grid-area:name}
+  .sim .stag{grid-area:tag;max-width:none;text-align:left;font-size:.66rem}
 </style>
 </head>
 <body>
