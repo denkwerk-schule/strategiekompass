@@ -1021,6 +1021,72 @@
    "kategorie": "motivational"
   },
   {
+   "id": "interesse-finden",
+   "name": "Eigenes Interesse finden",
+   "kurz": "Die Lernenden suchen im Thema einen Aspekt, der sie persönlich interessiert, und formulieren dazu eine eigene Frage.",
+   "wann": "Wenn ein Thema langweilig oder weit weg wirkt und niemand richtig in Gang kommt.",
+   "warum": "Wer eine eigene Frage hat, lernt mit mehr Neugier und bleibt eher dran.",
+   "einfuehren": "Gib vor dem Einstieg zwei Minuten Zeit für die Frage «Was möchte ich dazu wissen?». Sammle die Fragen sichtbar und greife einige davon im Unterricht auf.",
+   "stolpersteine": "Nicht jedes Thema lässt sich spannend machen. Wichtig ist, dass die Fragen ernst genommen werden und nicht nur Pflichtübung bleiben.",
+   "situationen": [
+    "start",
+    "motivation"
+   ],
+   "buch": "",
+   "quelle": {
+    "kurz": "ergaenzung",
+    "wann": "ergaenzung",
+    "warum": "ergaenzung",
+    "einfuehren": "ergaenzung",
+    "stolpersteine": "ergaenzung"
+   },
+   "kategorie": "motivational"
+  },
+  {
+   "id": "wahl-treffen",
+   "name": "Selbst wählen",
+   "kurz": "Die Lernenden entscheiden mit, zum Beispiel über Reihenfolge, Hilfsmittel oder Darstellungsform.",
+   "wann": "Wenn Lernende nur auf Anweisung arbeiten oder sich fremdbestimmt fühlen.",
+   "warum": "Wer mitbestimmen kann, erlebt die Arbeit eher als eigene und investiert mehr.",
+   "einfuehren": "Biete bei einer Aufgabe zwei, drei echte Wahlmöglichkeiten an und lass die Lernenden begründen, warum sie sich so entschieden haben.",
+   "stolpersteine": "Zu viel Auswahl überfordert. Alle Optionen müssen zum Ziel führen, sonst ist es nur Scheinwahl.",
+   "situationen": [
+    "start",
+    "motivation"
+   ],
+   "buch": "",
+   "quelle": {
+    "kurz": "ergaenzung",
+    "wann": "ergaenzung",
+    "warum": "ergaenzung",
+    "einfuehren": "ergaenzung",
+    "stolpersteine": "ergaenzung"
+   },
+   "kategorie": "motivational"
+  },
+  {
+   "id": "bestleistung-schlagen",
+   "name": "Gegen die eigene Bestleistung antreten",
+   "kurz": "Die Lernenden vergleichen ihr Ergebnis mit ihrem eigenen früheren Stand und setzen sich das Ziel, ihn zu verbessern.",
+   "wann": "Wenn der Vergleich mit anderen entmutigt oder wenn Lernende nach dem eigenen Fortschritt fragen.",
+   "warum": "Der Bezug auf den eigenen Stand zeigt Fortschritt und macht Ziele erreichbar.",
+   "einfuehren": "Halte bei einer wiederkehrenden Übung das Ergebnis fest und lass die Lernenden beim nächsten Mal eine realistische Verbesserung anpeilen.",
+   "stolpersteine": "Lässt sich Leistung nicht messen oder vergleichen, passt die Strategie nicht. Verbesserungen immer an der eigenen Person messen, nie an anderen.",
+   "situationen": [
+    "motivation",
+    "stecken"
+   ],
+   "buch": "",
+   "quelle": {
+    "kurz": "ergaenzung",
+    "wann": "ergaenzung",
+    "warum": "ergaenzung",
+    "einfuehren": "ergaenzung",
+    "stolpersteine": "ergaenzung"
+   },
+   "kategorie": "motivational"
+  },
+  {
    "id": "emotionen-benennen",
    "name": "Emotionen wahrnehmen und benennen",
    "kurz": "Die Lernenden benennen, wie es ihnen geht, und überlegen, was jetzt helfen könnte.",
@@ -1082,6 +1148,72 @@
     "kurz": "teils",
     "wann": "teils",
     "warum": "teils",
+    "einfuehren": "ergaenzung",
+    "stolpersteine": "ergaenzung"
+   },
+   "kategorie": "emotional"
+  },
+  {
+   "id": "sorgen-aufschreiben",
+   "name": "Sorgen aufschreiben",
+   "kurz": "Vor einer Aufgabe oder Prüfung schreiben die Lernenden ein paar Minuten auf, was sie beschäftigt oder besorgt.",
+   "wann": "Wenn Lernende vor einer Prüfung oder einer schwierigen Aufgabe blockiert wirken oder ständig grübeln.",
+   "warum": "Was aufgeschrieben ist, muss nicht mehr im Kopf behalten werden. Das schafft Raum für die eigentliche Aufgabe.",
+   "einfuehren": "Gib vor einer Arbeitsphase zwei, drei Minuten Zeit zum freien Aufschreiben. Die Notizen bleiben privat und werden nicht eingesammelt. Besprecht danach, ob es geholfen hat.",
+   "stolpersteine": "Zwang nimmt die Wirkung. Das Schreiben bleibt freiwillig und privat, und es ersetzt keine Hilfe bei starker Prüfungsangst.",
+   "situationen": [
+    "motivation",
+    "start"
+   ],
+   "buch": "",
+   "quelle": {
+    "kurz": "ergaenzung",
+    "wann": "ergaenzung",
+    "warum": "ergaenzung",
+    "einfuehren": "ergaenzung",
+    "stolpersteine": "ergaenzung"
+   },
+   "kategorie": "emotional"
+  },
+  {
+   "id": "stopp-regel",
+   "name": "Stopp-Regel bei Frust",
+   "kurz": "Bei aufkommendem Ärger oder Frust halten die Lernenden kurz inne, atmen durch und entscheiden dann, wie sie weitermachen.",
+   "wann": "Wenn Lernende bei Schwierigkeiten gereizt reagieren, Material wegwerfen oder abbrechen.",
+   "warum": "Eine kurze Unterbrechung verhindert impulsive Reaktionen und öffnet den Blick für andere Wege.",
+   "einfuehren": "Vereinbart ein einfaches Signal, zum Beispiel «Stopp – atmen – überlegen – weiter». Spielt es an einer typischen Frustsituation durch und lasst die Lernenden eigene Weitermach-Optionen sammeln.",
+   "stolpersteine": "Die Regel muss geübt sein, bevor der Ärger da ist. Im Moment des Frusts allein eingeführt, wirkt sie wie eine Zurechtweisung.",
+   "situationen": [
+    "stecken",
+    "motivation"
+   ],
+   "buch": "",
+   "quelle": {
+    "kurz": "ergaenzung",
+    "wann": "ergaenzung",
+    "warum": "ergaenzung",
+    "einfuehren": "ergaenzung",
+    "stolpersteine": "ergaenzung"
+   },
+   "kategorie": "emotional"
+  },
+  {
+   "id": "frust-notfallplan",
+   "name": "Frust-Notfallplan",
+   "kurz": "Die Lernenden legen vorab fest, was sie tun, wenn sie frustriert sind («Wenn ich frustriert bin, dann …»).",
+   "wann": "Wenn dieselben Lernenden bei Rückschlägen immer wieder aufgeben oder in Frust steckenbleiben.",
+   "warum": "Ein vorbereiteter Plan spart in der schwierigen Situation Entscheidungskraft und gibt Sicherheit.",
+   "einfuehren": "Sammelt gemeinsam mögliche Schritte (kurz Pause, Aufgabe anders anpacken, Hilfe holen, mit anderer Aufgabe starten). Jede:r schreibt einen persönlichen Wenn-dann-Satz auf und prüft ihn später.",
+   "stolpersteine": "Pläne, die andere vorgeben, werden selten genutzt. Der Plan soll von den Lernenden selbst kommen und realistisch sein.",
+   "situationen": [
+    "stecken",
+    "motivation"
+   ],
+   "buch": "",
+   "quelle": {
+    "kurz": "ergaenzung",
+    "wann": "ergaenzung",
+    "warum": "ergaenzung",
     "einfuehren": "ergaenzung",
     "stolpersteine": "ergaenzung"
    },
@@ -1412,6 +1544,72 @@
     "warum": "buch",
     "einfuehren": "ergaenzung",
     "stolpersteine": "buch"
+   },
+   "kategorie": "mindset"
+  },
+  {
+   "id": "ursachen-zuschreiben",
+   "name": "Ursachen für Erfolg und Misserfolg suchen",
+   "kurz": "Die Lernenden führen Ergebnisse auf Anstrengung und gewählte Strategien zurück, nicht auf Begabung oder Zufall.",
+   "wann": "Bei Sätzen wie «Ich bin einfach schlecht in Mathe» oder «Da hatte ich Glück».",
+   "warum": "Wer Ursachen beeinflussen kann, sieht Handlungsmöglichkeiten und bleibt eher dran.",
+   "einfuehren": "Frage nach einer Aufgabe: «Was hast du getan, das dazu geführt hat?» und «Was würdest du beim nächsten Mal anders machen?». Sammle gemeinsam Beispiele für beeinflussbare Ursachen.",
+   "stolpersteine": "Aussagen wie «Streng dich einfach mehr an» helfen nicht. Es geht um konkretes Tun und Strategien, nicht um Schuld.",
+   "situationen": [
+    "stecken",
+    "standort"
+   ],
+   "buch": "",
+   "quelle": {
+    "kurz": "ergaenzung",
+    "wann": "ergaenzung",
+    "warum": "ergaenzung",
+    "einfuehren": "ergaenzung",
+    "stolpersteine": "ergaenzung"
+   },
+   "kategorie": "mindset"
+  },
+  {
+   "id": "fehler-teilen",
+   "name": "Fehler teilen",
+   "kurz": "Die Lernenden zeigen und besprechen eigene Fehler und das, was sie daraus gelernt haben.",
+   "wann": "Wenn Lernende ihre Fehler verstecken oder Angst haben, falsche Antworten zu geben.",
+   "warum": "Wenn Fehler offen besprochen werden, verlieren sie ihren Schrecken und werden zur Lernquelle.",
+   "einfuehren": "Beginne mit einem eigenen Fehler und deinem Umgang damit. Richte danach eine feste Gelegenheit ein, zum Beispiel «Fehler der Woche», bei der freiwillig Fehler und Erkenntnisse gesammelt werden.",
+   "stolpersteine": "Ohne sicheres Klima wirkt es beschämend. Es bleibt freiwillig, und Reaktionen der Klasse müssen wertschätzend bleiben.",
+   "situationen": [
+    "stecken",
+    "standort"
+   ],
+   "buch": "",
+   "quelle": {
+    "kurz": "ergaenzung",
+    "wann": "ergaenzung",
+    "warum": "ergaenzung",
+    "einfuehren": "ergaenzung",
+    "stolpersteine": "ergaenzung"
+   },
+   "kategorie": "mindset"
+  },
+  {
+   "id": "fortschritt-sichtbar",
+   "name": "Fortschritt sichtbar machen",
+   "kurz": "Die Lernenden halten ihre Fortschritte fest, zum Beispiel mit einer Checkliste, einem Kompetenzraster oder einer Lernkurve.",
+   "wann": "Wenn Lernende das Gefühl haben, nicht voranzukommen.",
+   "warum": "Sichtbare Fortschritte zeigen, dass sich Lernen lohnt, und stärken das Vertrauen in die eigene Entwicklung.",
+   "einfuehren": "Lass die Lernenden zu Beginn und am Ende einer Einheit festhalten, was sie können, und beides vergleichen. Würdige konkrete Fortschritte im Gespräch.",
+   "stolpersteine": "Das Festhalten darf nicht zum Kontrollinstrument werden. Fortschritt wird auf die eigene Person bezogen, nicht auf andere.",
+   "situationen": [
+    "standort",
+    "motivation"
+   ],
+   "buch": "",
+   "quelle": {
+    "kurz": "ergaenzung",
+    "wann": "ergaenzung",
+    "warum": "ergaenzung",
+    "einfuehren": "ergaenzung",
+    "stolpersteine": "ergaenzung"
    },
    "kategorie": "mindset"
   }
