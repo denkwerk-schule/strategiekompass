@@ -404,6 +404,7 @@ details.how .more{margin:0;padding-left:1.2rem;display:flex;flex-direction:colum
     var bl = $('dbuch'); bl.textContent = '';
     var bs = el('span', 'src ' + (s.buch ? 'buch' : ''), s.buch ? 'Im Buch: ' + s.buch : 'Nicht als Strategie im Buch genannt');
     bl.appendChild(bs);
+    if (s.extern) bl.appendChild(el('span', 'src', 'Anregung: ' + s.extern));
     $('dwann').textContent = s.wann;
     $('dwarum').textContent = s.warum;
     $('deinf').textContent = s.einfuehren;

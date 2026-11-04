@@ -561,6 +561,74 @@
    "kategorie": "kognitiv"
   },
   {
+   "id": "vergleichen-kriterien",
+   "name": "Vergleichen nach Kriterien",
+   "kurz": "Zwei oder mehr Dinge werden nach selbst gewählten Merkmalen nebeneinandergehalten, um Gemeinsamkeiten und Unterschiede zu finden.",
+   "wann": "Wenn Lernende ähnliche Begriffe oder Sachverhalte verwechseln oder nur einzelne Informationen aneinanderreihen.",
+   "warum": "Wer nach klaren Merkmalen vergleicht, erkennt Zusammenhänge und versteht jeden Gegenstand genauer.",
+   "einfuehren": "Zeige an einem Beispiel die Schritte: klären, was verglichen wird, Merkmale (Kriterien) festlegen, Gemeinsamkeiten und Unterschiede beschreiben. Hilfreich sind eine Tabelle oder ein Venn-Diagramm sowie zwei Farben für Gemeinsamkeiten und Unterschiede.",
+   "stolpersteine": "Ohne gemeinsame Kriterien entsteht nur eine Liste. Lass die Kriterien zuerst festlegen und begründen.",
+   "situationen": [
+    "verstehen",
+    "behalten"
+   ],
+   "buch": "",
+   "extern": "IQSH (2018), Methode 5",
+   "quelle": {
+    "kurz": "ergaenzung",
+    "wann": "ergaenzung",
+    "warum": "ergaenzung",
+    "einfuehren": "ergaenzung",
+    "stolpersteine": "ergaenzung"
+   },
+   "kategorie": "kognitiv"
+  },
+  {
+   "id": "mehrere-sinne",
+   "name": "Mehrere Sinne nutzen",
+   "kurz": "Der Lernstoff wird nicht nur gelesen, sondern auch laut gesprochen, aufgeschrieben, bildlich vorgestellt oder aufgenommen.",
+   "wann": "Wenn Lernende nur still lesen und sich danach wenig merken.",
+   "warum": "Wer einen Stoff auf mehreren Wegen aufnimmt, verknüpft ihn vielfältiger und behält ihn besser.",
+   "einfuehren": "Lass die Lernenden denselben Stoff auf zwei, drei Arten bearbeiten: halblaut vortragen, Schlüsselwörter herausschreiben, sich ein Bild dazu vorstellen oder skizzieren, die eigene Stimme aufnehmen und anhören. Die Lernenden wählen, was für sie passt.",
+   "stolpersteine": "Nicht jede Art passt zu jedem Stoff oder jeder Person. Es geht ums Ausprobieren, nicht um «Lerntypen» festzulegen.",
+   "situationen": [
+    "behalten",
+    "verstehen"
+   ],
+   "buch": "",
+   "extern": "IQSH (2018), Methode 23",
+   "quelle": {
+    "kurz": "ergaenzung",
+    "wann": "ergaenzung",
+    "warum": "ergaenzung",
+    "einfuehren": "ergaenzung",
+    "stolpersteine": "ergaenzung"
+   },
+   "kategorie": "kognitiv"
+  },
+  {
+   "id": "abschreiben-portionen",
+   "name": "Abschreiben in Portionen",
+   "kurz": "Texte werden nicht Buchstabe für Buchstabe abgeschrieben: Wort oder Satzportion lesen, sprechen, merken und dann auswendig aufschreiben.",
+   "wann": "Wenn Lernende beim Abschreiben viele Fehler machen oder jeden Buchstaben einzeln kopieren.",
+   "warum": "Das Merken in sinnvollen Einheiten spart Zeit und schult zugleich das Lesen und die Rechtschreibung.",
+   "einfuehren": "Zeige die Schritte am Wort (lesen, sprechen, in Silben sprechen, merken, auswendig aufschreiben) und am Text (ganzen Text lesen, Satz lesen, in Portionen von zwei bis fünf Wörtern zerlegen, merken, aufschreiben). Am Schluss genau kontrollieren und Fehler verbessern.",
+   "stolpersteine": "Die Portionen dürfen nicht zu gross sein. Schwierige Stellen müssen vorher bewusst gemerkt werden.",
+   "situationen": [
+    "behalten"
+   ],
+   "buch": "",
+   "extern": "IQSH (2018), Methode 1",
+   "quelle": {
+    "kurz": "ergaenzung",
+    "wann": "ergaenzung",
+    "warum": "ergaenzung",
+    "einfuehren": "ergaenzung",
+    "stolpersteine": "ergaenzung"
+   },
+   "kategorie": "kognitiv"
+  },
+  {
    "id": "auftrag-wiedergeben",
    "name": "Auftrag in eigenen Worten wiedergeben",
    "kurz": "Die Lernenden sagen mit eigenen Worten, was das Ziel ist, welches Produkt entstehen soll und was dafür gefragt ist.",
@@ -1455,6 +1523,98 @@
     "kurz": "ergaenzung",
     "wann": "ergaenzung",
     "warum": "teils",
+    "einfuehren": "ergaenzung",
+    "stolpersteine": "ergaenzung"
+   },
+   "kategorie": "ressourcen"
+  },
+  {
+   "id": "denken-austauschen",
+   "name": "Denken – Austauschen – Besprechen",
+   "kurz": "Die Lernenden denken zuerst allein über eine Frage nach, tauschen sich dann zu zweit aus und bringen die Ergebnisse ins Klassengespräch ein.",
+   "wann": "Wenn im Plenum nur wenige antworten oder Lernende vor sich hin arbeiten, ohne sich zu äussern.",
+   "warum": "Erst Denkzeit, dann Austausch: So haben alle etwas beizutragen, und das eigene Wissen wird vertieft und erweitert.",
+   "einfuehren": "Gib eine Frage und eine feste Zeit vor. Die Lernenden notieren zuerst eigene Gedanken, besprechen sie dann zu zweit (zuhören, nachfragen, sich auf die Aussage der anderen beziehen) und beteiligen sich danach am Klassengespräch.",
+   "stolpersteine": "Achte auf die Zeit, auf genug Denkzeit für beide und darauf, dass beide ausreichend sprechen.",
+   "situationen": [
+    "mitlernen",
+    "verstehen"
+   ],
+   "buch": "",
+   "extern": "IQSH (2018), Methode 12",
+   "quelle": {
+    "kurz": "ergaenzung",
+    "wann": "ergaenzung",
+    "warum": "ergaenzung",
+    "einfuehren": "ergaenzung",
+    "stolpersteine": "ergaenzung"
+   },
+   "kategorie": "ressourcen"
+  },
+  {
+   "id": "kontrolle-im-tandem",
+   "name": "Kontrolle im Tandem",
+   "kurz": "Aufgaben werden zuerst allein gelöst, dann zu zweit verglichen. Unklare Ergebnisse gehen stufenweise an ein anderes Tandem und zuletzt an die Lehrperson.",
+   "wann": "Wenn Lernende bei Fehlern gleich auf die Lehrperson warten oder Lösungen nur abschreiben.",
+   "warum": "Wer Unterschiede gemeinsam klärt, lernt aus Fehlern und entscheidet selbst, was stimmt.",
+   "einfuehren": "Lege die Stufen fest: allein lösen, Ergebnisse im Tandem vergleichen, unterschiedliche Ergebnisse diskutieren, Rückfrage bei einem anderen Tandem, erst dann Lehrperson. Die eigene Lösung wird erst korrigiert, wenn klar ist, dass sie nicht stimmt.",
+   "stolpersteine": "Vorschnell korrigieren oder die Lösung einfach übernehmen nimmt den Lerneffekt. Die richtige Lösung gemeinsam und intensiv besprechen.",
+   "situationen": [
+    "standort",
+    "mitlernen"
+   ],
+   "buch": "",
+   "extern": "IQSH (2018), Methode 13",
+   "quelle": {
+    "kurz": "ergaenzung",
+    "wann": "ergaenzung",
+    "warum": "ergaenzung",
+    "einfuehren": "ergaenzung",
+    "stolpersteine": "ergaenzung"
+   },
+   "kategorie": "ressourcen"
+  },
+  {
+   "id": "gruppenpuzzle",
+   "name": "Gruppenpuzzle",
+   "kurz": "Ein umfangreicher Stoff wird in Teile aufgeteilt. Expertengruppen bearbeiten je einen Teil und erklären ihn danach der Stammgruppe.",
+   "wann": "Wenn ein grosser Stoff in kurzer Zeit erarbeitet werden soll und alle mitlernen müssen.",
+   "warum": "Alle tragen einen Teil bei und sind auf die anderen angewiesen. Wer erklären muss, verarbeitet den Stoff tiefer.",
+   "einfuehren": "Ablauf: Die Stammgruppe teilt die Aufgabe in so viele Teile, wie sie Mitglieder hat. In den Expertengruppen wird je ein Teil gelesen, besprochen und die Vermittlung vorbereitet. In der Stammgruppe erklären alle ihren Teil, hören zu, fragen nach und lösen am Ende die Aufgabe gemeinsam.",
+   "stolpersteine": "Das Ergebnis ist nur gut, wenn alle gut arbeiten. Prüfe in den Expertengruppen, dass alle ihren Teil wirklich erklären können (zum Beispiel mit einer Skizze).",
+   "situationen": [
+    "mitlernen",
+    "verstehen"
+   ],
+   "buch": "",
+   "extern": "IQSH (2018), Methode 28",
+   "quelle": {
+    "kurz": "ergaenzung",
+    "wann": "ergaenzung",
+    "warum": "ergaenzung",
+    "einfuehren": "ergaenzung",
+    "stolpersteine": "ergaenzung"
+   },
+   "kategorie": "ressourcen"
+  },
+  {
+   "id": "material-ordnen",
+   "name": "Material und Mappen ordnen",
+   "kurz": "Schultasche, Hefte und Mappen werden so geführt, dass man alles schnell findet: beschriftet, datiert, mit Überschrift, sofort richtig abgeheftet.",
+   "wann": "Wenn Lernende Material suchen, Arbeitsblätter verlieren oder Notizen nicht mehr zuordnen können.",
+   "warum": "Ordnung spart Zeit und Nerven und erleichtert das spätere Lernen und Wiederholen.",
+   "einfuehren": "Vereinbare gemeinsame Regeln und übe sie: Heft oder Mappe beschriften, Datum und Überschrift setzen, Wichtiges unterstreichen, Arbeitsblätter sofort abheften, die Tasche nach Stundenplan packen. Jüngere Lernende leeren und packen die Tasche gemeinsam.",
+   "stolpersteine": "Ordnungsregeln wirken nur, wenn sie über längere Zeit eingefordert und geübt werden. Bei älteren Lernenden eher beraten als kontrollieren.",
+   "situationen": [
+    "ueberblick",
+    "start"
+   ],
+   "buch": "",
+   "extern": "IQSH (2018), Methode 9 und 10",
+   "quelle": {
+    "kurz": "ergaenzung",
+    "wann": "ergaenzung",
+    "warum": "ergaenzung",
     "einfuehren": "ergaenzung",
     "stolpersteine": "ergaenzung"
    },
